@@ -20,6 +20,7 @@ globoplay_urls = [
     "https://g1.globo.com/sp/ribeirao-preto-franca/ao-vivo/eptv-2-ribeirao-e-franca-ao-vivo.ghtml",  # EPTV 2ª Edição - Ribeirão e Franca
     "https://g1.globo.com/pe/petrolina-regiao/ao-vivo/ao-vivo-assista-ao-gr2.ghtml",  # GR2 - Petrolina
     "https://g1.globo.com/ap/ao-vivo/assista-ao-bdap-desta-sexta-feira-7.ghtml",  # BDAP - Amapá
+    "https://globoplay.globo.com/v/1328766/",
     "https://globoplay.globo.com/v/1467373/",  # Globoplay - Transmissão ao vivo
     "https://globoplay.globo.com/v/4064559/",  # G1 ao vivo - Transmissão ao vivo
     "https://globoplay.globo.com/v/5472979/",
