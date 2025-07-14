@@ -1,7 +1,5 @@
 #EXTM3U
 
-#EXTGRP:
-
 #EXTINF:-1 tvg-chno="8" tvg-group="Noticias" tvg-id="CronicaTV.ar" tvg-logo="https://github.com/masterentertainment/listas/blob/main/logos/CRNCA.png?raw=true" tvg-name="" , Cronica
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
 #KODIPROP:inputstream.adaptive.license_key=745e7abcc90d41ab706b2ac2f4371da3:50acd9d19d1361cb4a8a13a867bdc352
