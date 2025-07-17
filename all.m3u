@@ -249,7 +249,7 @@ https://archive.org/download/WCAU_20141008_223000_NBC_Nightly_News/WCAU_20141008
 #EXTINF:-1 group-title="PORTUGAL" tvg-chno="915" tvg-id="UNIFÉ" , UNIFÉ
 https://view.dacast.com/24b61c472d976075ed46ad1eb530e6ae-live-fdc85437d7631afb59fe3767dcc464dd/f5a81ae3-05ce-24c6-1b16-2341fd51909d.m3u8
 
-#EXTINF:-1 group-title="PORTUGAL" tvg-chno="916" tvg-id="RTP1.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP1.png" , RTP 1
+#EXTINF:-1 group-title="PORTUGAL" tvg-chno="916" tvg-id="RTP1.pt" tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/RTP1.png" , RTP 1 BR
 #KODIPROP:http-user-agent=Firefox
 https://video09.logicahost.com.br/tvportuguesa/tvportuguesa/playlist.m3u8
 
