@@ -141,7 +141,7 @@ https://dsr.ride.com.ar/tvmia/an19/playlist.m3u8
 #EXTINF:-1 group-title="Argentina" tvg-chno="1049" tvg-id="CanalE.ar" tvg-logo="", CANAL E - VER TV ABIERTA ONLINE
 https://unlimited1-buenosaires.dps.live/.../perfiltv.smil
 
-#EXTINF:-1 group-title="Argentina" tvg-chno="1050" tvg-id="ElTrece.ar" tvg-logo="https://cdn.mitvstatic.com/channels/ar_el-trece_m.png", El Trece - TDA 13.1
+#EXTINF:-1 group-title="Argentina" tvg-chno="1050" tvg-id="Canal.13.de.Argentina.(El.Trece).ar" tvg-logo="https://cdn.mitvstatic.com/channels/ar_el-trece_m.png", El Trece - TDA 13.1
 http://181.13.173.86:8000/play/a06d/index.m3u8
 
 #EXTINF:-1 group-title="Argentina" tvg-chno="1051" tvg-id="ElTrece.ar" tvg-logo="...Eltrece_logotipo_2018.png", El Trece - TDA 13.1
