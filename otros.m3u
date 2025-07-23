@@ -3,7 +3,7 @@
 #EXTINF:-1 group-title="Mundo" tvg-chno="1176" tvg-id="Telesur.ve" tvg-logo="https://github.com/masterentertainment/listas/blob/main/logos/TLSUR.png?raw=true" , TeleSUR
 https://cdnesmain.telesur.ultrabase.net/mbliveMain/hd/chunklist.m3u8
 
-#EXTINF:-1 group-title="Mundo" tvg-chno="1177" tvg-id="NHKWorldJapan.jp" tvg-logo="https://github.com/masterentertainment/listas/blob/main/logos/NHKWJ.png?raw=true" , NHK World Japan
+#EXTINF:-1 group-title="Mundo" tvg-chno="1177" tvg-id="São.Paulo/SP..NHK.World.Premium.br" tvg-logo="https://github.com/masterentertainment/listas/blob/main/logos/NHKWJ.png?raw=true" , NHK World Japan
 https://cdn.nhkworld.jp/www11/nhkworld-tv/bmcc-live/es/playlist.m3u8
 
 #EXTINF:-1 group-title="Mundo" tvg-chno="1178" tvg-id="GaliciaTVAmerica.es" tvg-logo="https://static.flow.com.ar/images/729/CH_LOGO/350/500/0/0/778293230765.png" , Galicia TV America
