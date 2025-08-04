@@ -78,14 +78,12 @@ https://5b7f3c45ab7c2.streamlock.net/arapuan/ngrp:arapuan_all/playlist.m3u8
 http://wowza4.catve.com.br:1935/live/livestream/playlist.m3u8?ManoTV
 #EXTINF:-1 group-title="Canais Abertos" tvg-id="TVE" tvg-logo="https://i.imgur.com/qoQEi7z.png",TVE Bahia HD
 http://rtmp.irdeb.ba.gov.br/stream/hls/tvehd.m3u8
-#EXTINF:-1 group-title="Canais Abertos" tvg-id="RedeTV!" tvg-logo="https://imgur.com/2vYqKX5.png",RedeTV! PR HD
-https://tv02.zas.media:1936/redetvparana/redetvparana/playlist.m3u8?ManoTV
+#EXTINF:-1 tvg-logo="https://m.media-amazon.com/images/I/6158UlSOByL.png" group-title="TV ABERTA", REDETV PARANÁ
+https://tv01.zas.media:1936/redetvparana/redetvparana/playlist.m3u8
 #EXTINF:-1 group-title="Canais Abertos" tvg-id="RedeTV!" tvg-logo="https://imgur.com/2vYqKX5.png",RedeTV! PI SD
 https://59e4b6c1beddc.streamlock.net/tvodia/tvodia/chunklist_w157393531.m3u8?ManoTV
-#EXTINF:-1 group-title="Canais Abertos" tvg-logo="https://raw.githubusercontent.com/mariosanthos/arquivos/main/redetv.png",RedeTV! (PR)
-https://tv01.zas.media:1936/redetvparana/redetvparana/playlist.m3u8
 #EXTINF:-1 group-title="Canais Abertos" tvg-logo="https://raw.githubusercontent.com/mariosanthos/arquivos/main/redetv.png",RedeTV!
-https://tv01.zas.media:1936/redetvparana/redetvparana/chunklist_w1074634538.m3u8
+https://video04.logicahost.com.br/tvpampa/tvpampa/chunklist_w596414416.m3u8
 #EXTINF:-1 group-title="Canais Abertos" tvg-id="" tvg-logo="https://imgur.com/vSKVrvH.png",NEW BRASIL HD
 https://cc-7pakstinpyajo.akamaized.net/playlist720lp.m3u8
 #EXTINF:-1 group-title="Canais Abertos" tvg-id="" tvg-logo="https://imgur.com/vSKVrvH.png",NEW BRASIL FHD
