@@ -60,9 +60,7 @@ http://s1.1-cup.net:2095/solucao111hgfgh77hu78/xplus1111XXhjgyu87/46
 https://parecisfmlive.brasilstream.com.br/hls/parecisfmlive/index.m3u8
 #EXTINF:-1 group-title="Canais Abertos" tvg-id="RecordTV" tvg-name="RecordTV" tvg-logo="https://i.imgur.com/lyQ1v9M.png",RecordTV Conquista HD
 https://tvconquistalrv.duckdns.org:3334/hls/tvconquistalrv.m3u8?ManoTV
-
 #EXTINF:-1 group-title="Canais Abertos" tvg-logo="https://i.imgur.com/zdnMTtl.png",TV Tropical
-#EXTGRP:Canais Abertos
 https://video07.logicahost.com.br/portaldatropical/portaldatropical/chunklist_w1630150607.m3u8
 #EXTINF:-1 group-title="Canais Abertos" tvg-id="SBT" tvg-logo="https://i.imgur.com/oOhk9Gg.png",SBT Guajará
 https://video05.logicahost.com.br/tvguajara/tvguajara/playlist.m3u8
