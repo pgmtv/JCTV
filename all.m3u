@@ -1543,35 +1543,7 @@ https://tvchannels.worldtvlive.eu/tv/_dtt_kodi/live?channel=acisporttv&group=Spo
 #EXTINF:-1 group-title="Sport" tvg-chno="2265" tvg-id="laziostylechannel" tvg-logo="" tvg-name="Lazio Style Channel" , Lazio Style Channel
 https://tvchannels.worldtvlive.eu/tv/_dtt_kodi/live?channel=laziostylechannel&group=Sport
 
-#EXTINF:-1 group-title="Sport" tvg-chno="2266" tvg-id="mondocalcio" tvg-logo="" tvg-name="Mondo Calcio" , Mondo Calcio
-plugin://plugin.video.wltvhelper/play/yt/c/@QsvsTopCalcio24/TOP%20CALCIO
 
-#EXTINF:-1 group-title="Sport" tvg-chno="2267" tvg-id="mschannel" tvg-logo="" tvg-name="MS Channel" , MsChannel
-plugin://plugin.video.wltvhelper/play/mediasport/mschannel
-
-#EXTINF:-1 group-title="Sport" tvg-chno="2268" tvg-id="msmotortv" tvg-logo="" tvg-name="MS Motor TV" , MsMotorTV
-plugin://plugin.video.wltvhelper/play/mediasport/msmotor
-
-#EXTINF:-1 group-title="Sport" tvg-chno="2269" tvg-id="raiplaysport1" tvg-logo="" tvg-name="Rai Play Sport 1" , Rai Play Sport 1
-plugin://plugin.video.wltvhelper/play/rai/RaiPlay Sport 1
-
-#EXTINF:-1 group-title="Sport" tvg-chno="2270" tvg-id="raiplaysport2" tvg-logo="" tvg-name="Rai Play Sport 2" , Rai Play Sport 2
-plugin://plugin.video.wltvhelper/play/rai/RaiPlay Sport 2
-
-#EXTINF:-1 group-title="Sport" tvg-chno="2271" tvg-id="raiplaysport3" tvg-logo="" tvg-name="Rai Play Sport 3" , Rai Play Sport 3
-plugin://plugin.video.wltvhelper/play/rai/RaiPlay Sport 3
-
-#EXTINF:-1 group-title="Sport" tvg-chno="2272" tvg-id="redbulltv" tvg-logo="" tvg-name="RedBull TV" , RedBull TV
-plugin://plugin.video.wltvhelper/play/redbull/redbull
-
-#EXTINF:-1 group-title="Sport" tvg-chno="2273" tvg-id="sanmarinortvsport" tvg-logo="" tvg-name="San Marino Rtv Sport" , San Marino Rtv Sport
-plugin://plugin.video.wltvhelper/play/smtv/SMRTVS
-
-#EXTINF:-1 group-title="Sport" tvg-chno="2274" tvg-id="sportitalialive24" tvg-logo="" tvg-name="Sport Italia LIVE 24" , Primavera 1 Tv
-plugin://plugin.video.wltvhelper/play/sportitalia/primaveratv
-
-#EXTINF:-1 group-title="Sport" tvg-chno="2275" tvg-id="sportitaliasolocalcio" tvg-logo="" tvg-name="Sport Italia SOLO CALCIO" , Sport Italia SOLOCALCIO
-plugin://plugin.video.wltvhelper/play/sportitalia/calcio
 
 #EXTINF:-1 group-title="Sport" tvg-chno="2276" tvg-id="sportmediaset" tvg-logo="" tvg-name="Sport Mediaset" , Sport Mediaset
 #KODIPROP:inputstreamaddon=inputstream.adaptive
