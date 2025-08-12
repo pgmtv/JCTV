@@ -79,6 +79,8 @@ https://live.stream.al.ms.gov.br/memfs/936d09fa-2827-4002-a58f-085c1826aab9.m3u8
 
 #EXTINF:-1 tvg-logo="https://thumbs4.imagebam.com/f8/0e/e0/MEVJO99_t.png" group-title="Canais Abertos",TV ALRS
 https://ott01.al.rs.gov.br/meevaor/service3/index.m3u8
+#EXTINF:-1 group-title="Canais Abertos" tvg-logo="https://imgur.com/ehWOLXa.png",TV Oitava (São Gonçalo-RJ)
+https://video05.logicahost.com.br/tvoitava/tvoitava/chunklist_w1967152207.m3u8
 #EXTINF:-1 group-title="Canais Abertos" tvg-id="TVSerraDourada.br" tvg-logo="(logo SBT)",SBT Rede Massa (PR)
 https://cdn-cdn-iguacu.ciclano.io:1443/cdn-iguacu/cdn-iguacu/playlist.m3u8
 
