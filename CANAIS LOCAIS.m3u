@@ -30,9 +30,53 @@ https://video01.kshost.com.br:4443/inside2133/inside2133/playlist.m3u8
 #EXTINF:-1 group-title="Canais Abertos" tvg-id="62e010e6cd663f0007e57dc8" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcE3z-QtWvhdP1Ps_ZKQuYPahyJTKVrJqR1ZvpYC5wOSfKqCbJhtOUmkXmZaI&s",TV CULTURA SP HD
 https://5b33b873179a2.streamlock.net:1443/live/livestream/chunklist_w1027478611.m3u8
 
+#EXTINF:-1 group-title="Canais Abertos" tvg-name="TV Câmera" tvg-id="TV Câmera" tvg-logo="https://i.imgur.com/TlqB0Uo.png",TV Câmara
+https://stream3.camara.gov.br/tv1/manifest.m3u8?ManoTV
+
+#EXTINF:-1 group-title="Canais Abertos" tvg-name="TV Câmera" tvg-id="TV Câmera" tvg-logo="https://i.imgur.com/duy6waL.png",TV Câmara²
+https://stream3.camara.gov.br/tv2/manifest.m3u8
+
+#EXTINF:-1 group-title="Canais Abertos" tvg-name="TV SENADO" tvg-id="TV SENADO" tvg-logo="https://i.imgur.com/duy6waL.png",TV Senado
+https://stream1.freetv.fun/tv-senado-1.m3u8
+
+#EXTINF:-1 group-title="Canais Abertos" tvg-name="TV JUSTIÇA" tvg-id="TV JUSTIÇA" tvg-logo="https://i.imgur.com/sURDHLY.png",TV Justiça YT
+https://ythls.armelin.one/channel/UC0qlZ5jxxueKNzUERcrllNw.m3u8
+
+#EXTINF:-1 group-title="Canais Abertos" tvg-name="Canal GOV" tvg-id="Canal GOV" tvg-logo="https://i.imgur.com/9KwUxmX.png",Canal GOV
+https://canalgov-stream.ebc.com.br/index.m3u8
+
 #EXTINF:-1 group-title="Canais Abertos" tvg-id="TVCamara.br" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfx1E2YGvr_VLO-aUNQZh1kVjvONNaRpCb8GN0f_FS-N6vbcxAP6be6VM5mw&s",TV CÂMARA DOS DEPUTADOS HD
 https://stream3.camara.gov.br/tv1/manifest.m3u8
 
+#EXTINF:-1 tvg-logo="https://thumbs4.imagebam.com/18/98/81/MEVJO8Y_t.png" group-title="Canais Abertos",TV CÂMARA
+https://stream3.camara.gov.br/tv1/manifest.m3u8
+
+#EXTINF:-1 tvg-logo="https://thumbs4.imagebam.com/8e/07/79/MEVJO90_t.png" group-title="Canais Abertos",TV CAMARA JOAO PESSOA
+https://video05.logicahost.com.br/camarajp/camarajp/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://thumbs4.imagebam.com/d4/d9/65/MEVJO8U_t.png" group-title="Canais Abertos",TV CAMARA TUPÃ
+http://video.sinoinformatica.com.br:1935/cmtupa-live/sessaoaovivo/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://thumbs4.imagebam.com/a5/31/68/MEVJO8S_t.png" group-title="Canais Abertos",TV A OITAVA
+https://video05.logicahost.com.br/tvoitava/tvoitava/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://thumbs4.imagebam.com/64/c0/71/MEVJO8R_t.png" group-title="Canais Abertos",TV ALEAL
+https://5c483b9d1019c.streamlock.net/staffvideotv/staffvideotv/chunklist_w1993324451.m3u8
+
+#EXTINF:-1 tvg-logo="https://thumbs4.imagebam.com/ab/45/9d/MEVJO92_t.png" group-title="Canais Abertos",TV ALBA
+https://live.mediastreaming.com.br/tvalba/7e7b424cc5a8528480d3b2157d27f516.sdp/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://thumbs4.imagebam.com/52/b1/41/MEVJO9E_t.png" group-title="Canais Abertos",TV ALEGO
+https://ngbvqmbygn.zoeweb.tv/alegolive/ngrp:alegolive_all/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://thumbs4.imagebam.com/04/d8/ef/MEVJO95_t.png" group-title="Canais Abertos",TV ALMG
+https://streaming.almg.gov.br/live/tvalmg.m3u8
+
+#EXTINF:-1 tvg-logo="https://thumbs4.imagebam.com/37/01/c8/MEVJO9B_t.png" group-title="Canais Abertos",TV ALMS
+https://live.stream.al.ms.gov.br/memfs/936d09fa-2827-4002-a58f-085c1826aab9.m3u8
+
+#EXTINF:-1 tvg-logo="https://thumbs4.imagebam.com/f8/0e/e0/MEVJO99_t.png" group-title="Canais Abertos",TV ALRS
+https://ott01.al.rs.gov.br/meevaor/service3/index.m3u8
 #EXTINF:-1 group-title="Canais Abertos" tvg-id="TVSerraDourada.br" tvg-logo="(logo SBT)",SBT Rede Massa (PR)
 https://cdn-cdn-iguacu.ciclano.io:1443/cdn-iguacu/cdn-iguacu/playlist.m3u8
 
@@ -46,7 +90,7 @@ https://5a2b083e9f360.streamlock.net/bemtv/bemtv.sdp/playlist.m3u8
 https://video01.logicahost.com.br/tvdopovo1/tvdopovo1/playlist.m3u8
 
 #EXTINF:-1 group-title="Canais Abertos" tvg-id="TVBrasilCentral.br" tvg-logo="https://www.tvbrasilcentral.com.br/wp-content/uploads/2022/07/logo-tbc-azul.png",TV Brasil Central (GO)
-https://tbc.zoeweb.tv/tbc/tbc/chunklist.m3u8
+https://tbc.zoeweb.tv/tbc/ngrp:tbc_all/playlist.m3u8
 
 #EXTINF:-1 group-title="Canais Abertos" tvg-id="RBATV.br" tvg-logo="https://www.cxtv.com.br/img/Tvs/Logo/webp-l/df0c35517ab2f2e9e6c1808730694.webp",Band Belém (RBA TV) 
 https://streaming.gruporba.com.br/rba.m3u8
@@ -84,6 +128,8 @@ http://wowza4.catve.com.br:1935/live/livestream/playlist.m3u8?ManoTV
 http://rtmp.irdeb.ba.gov.br/stream/hls/tvehd.m3u8
 #EXTINF:-1 group-title="Canais Abertos" tvg-name="COM Brasil" tvg-logo="https://i.imgur.com/c8ztQnF.png" tvg-id="COMBrasil.br",COM Brasil
 https://br5093.streamingdevideo.com.br/abc/abc/playlist.m3u8
+group-title="Canais Abertos" tvg-name="TV RBC" tvg-id="TV RBC" tvg-logo="https://imgur.com/nA0cWeE.png",TV RBC
+https://5b33b873179a2.streamlock.net:1443/mastertv/livestream/playlist.m3u8
 #EXTINF:-1 group-title="Canais Abertos" tvg-logo="https://raw.githubusercontent.com/mariosanthos/arquivos/main/redetv.png",RedeTV!
 https://live.eu-north-1a.cf.dmcdn.net/sec2(2UDssy1rHLVp7nbtcyeQk0nwPAR1pS0oA5hEw7TIScAPToHyECRgipsgkY1WDuKL0wibvzrq5f0rIA1PlnEWLcw6FYcdPhIx_YzKZYq-axN3BeZShgUqxwGPN6nlkxVa)/dm/3/x8xps0s/d/live-1080.m3u8#cell=lcf-eu-north-1a
 #EXTINF:-1 group-title="Canais Abertos" tvg-logo="https://raw.githubusercontent.com/mariosanthos/arquivos/main/redetv.png",RedeTV! RS
