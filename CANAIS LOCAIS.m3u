@@ -35,6 +35,12 @@ https://5b33b873179a2.streamlock.net:1443/live/livestream/chunklist_w1027478611.
 #EXTINF:-1 group-title="Canais Abertos" tvg-name="TV Câmera" tvg-id="TV Câmera" tvg-logo="https://i.imgur.com/TlqB0Uo.png",TV Câmara
 https://stream3.camara.gov.br/tv1/manifest.m3u8?ManoTV
 
+#EXTINF:-1 group-title="Canais Abertos" tvg-id="TVCamara.br" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfx1E2YGvr_VLO-aUNQZh1kVjvONNaRpCb8GN0f_FS-N6vbcxAP6be6VM5mw&s",TV CÂMARA DOS DEPUTADOS HD
+https://stream3.camara.gov.br/tv1/manifest.m3u8
+
+#EXTINF:-1 tvg-logo="https://thumbs4.imagebam.com/18/98/81/MEVJO8Y_t.png" group-title="Canais Abertos",TV CÂMARA
+https://stream3.camara.gov.br/tv1/manifest.m3u8
+
 #EXTINF:-1 group-title="Canais Abertos" tvg-name="TV Câmera" tvg-id="TV Câmera" tvg-logo="https://i.imgur.com/duy6waL.png",TV Câmara²
 https://stream3.camara.gov.br/tv2/manifest.m3u8
 
@@ -47,11 +53,7 @@ https://ythls.armelin.one/channel/UC0qlZ5jxxueKNzUERcrllNw.m3u8
 #EXTINF:-1 group-title="Canais Abertos" tvg-name="Canal GOV" tvg-id="Canal GOV" tvg-logo="https://i.imgur.com/9KwUxmX.png",Canal GOV
 https://canalgov-stream.ebc.com.br/index.m3u8
 
-#EXTINF:-1 group-title="Canais Abertos" tvg-id="TVCamara.br" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfx1E2YGvr_VLO-aUNQZh1kVjvONNaRpCb8GN0f_FS-N6vbcxAP6be6VM5mw&s",TV CÂMARA DOS DEPUTADOS HD
-https://stream3.camara.gov.br/tv1/manifest.m3u8
 
-#EXTINF:-1 tvg-logo="https://thumbs4.imagebam.com/18/98/81/MEVJO8Y_t.png" group-title="Canais Abertos",TV CÂMARA
-https://stream3.camara.gov.br/tv1/manifest.m3u8
 
 #EXTINF:-1 tvg-logo="https://thumbs4.imagebam.com/8e/07/79/MEVJO90_t.png" group-title="Canais Abertos",TV CAMARA JOAO PESSOA
 https://video05.logicahost.com.br/camarajp/camarajp/playlist.m3u8
