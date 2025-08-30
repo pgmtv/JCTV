@@ -63,14 +63,15 @@ http://tv.nstvlatino.com:8080/UY1108/@373839/6979
 #EXTINF:-1 group-title="CHILE" tvg-chno="1214" tvg-id="CHILE - CDO PREMIUM " tvg-logo="http://descargas.podzone.net/logos/-CDO-premium.png" tvg-name="CHILE - CDO PREMIUM " , CHILE - CDO PREMIUM
 http://tv.nstvlatino.com:8080/UY1108/@373839/1155837
 
-#EXTINF:-1 group-title="CHILE" tvg-chno="1215" tvg-id="TVN.cl" tvg-logo="http://i.imgur.com/f41IHoB.png" , TVN
+#EXTINF:-1 group-title="CHILE" tvg-chno="1215" tvg-id="Canal.TVN.(Chile).cl" tvg-logo="http://i.imgur.com/f41IHoB.png" , TVN
 http://tv.nstvlatino.com:8080/UY1108/@373839/1155826
 
-#EXTINF:-1 group-title="CHILE" tvg-chno="1216" tvg-id="TVN.cl" tvg-logo="http://i.imgur.com/f41IHoB.png" , TVN
+#EXTINF:-1 group-title="CHILE" tvg-chno="1216" tvg-id="Canal.TVN.(Chile).cl" tvg-logo="http://i.imgur.com/f41IHoB.png" , TVN
 http://tv.nstvlatino.com:8080/UY1108/@373839/1155817
 
-#EXTINF:-1 group-title="CHILE" tvg-chno="1217" tvg-id="TVN.cl" tvg-logo="http://i.imgur.com/f41IHoB.png" , TVN
+#EXTINF:-1 group-title="CHILE" tvg-chno="1217" tvg-id="Canal.TVN.(Chile).cl" tvg-logo="http://i.imgur.com/f41IHoB.png" , TVN
 https://marine2.miplay.cl/tvnchile/playlist.m3u8
+
 
 #EXTINF:-1 group-title="CHILE" tvg-chno="1218" tvg-id="TVN.cl" tvg-logo="http://i.imgur.com/f41IHoB.png" , TVChile
 http://45.181.123.233:8000/play/a0qg
@@ -213,17 +214,19 @@ http://cord-cutter.net:8080/live/j3McKd/673709/164884.m3u8
 #EXTINF:-1 group-title="CHILE" tvg-chno="1264" tvg-id="13i.cl" tvg-logo="http://yourlogourl.com/13i.png" tvg-name="13I" , 13I
 http://cord-cutter.net:8080/live/j3McKd/673709/164885.m3u8
 
-#EXTINF:-1 group-title="CHILE" tvg-chno="1265" tvg-id="tvn-chile-hd.cl" tvg-logo="http://yourlogourl.com/tvn-chile-hd.png" tvg-name="TVN CHILE HD" , TVN CHILE HD
+#EXTINF:-1 group-title="CHILE" tvg-chno="1265" tvg-id="Canal.TVN.(Chile).cl" tvg-logo="http://yourlogourl.com/tvn-chile-hd.png" tvg-name="TVN CHILE HD" , TVN CHILE HD
 http://cord-cutter.net:8080/live/j3McKd/673709/164888.m3u8
+
 
 #EXTINF:-1 group-title="CHILE" tvg-chno="1266" tvg-id="cnn-chile-hd.cl" tvg-logo="http://yourlogourl.com/cnn-chile-hd.png" tvg-name="CNN CHILE HD" , CNN CHILE HD
 http://cord-cutter.net:8080/live/j3McKd/673709/164892.m3u8
 
-#EXTINF:-1 group-title="CHILE" tvg-chno="1267" tvg-id="TVN" tvg-logo="https://1000marcas.net/wp-content/uploads/2022/12/TVN-Chile-Logo-thmb.png" tvg-name="TVN" , TVN (CHILE)
+#EXTINF:-1 group-title="CHILE" tvg-chno="1267" tvg-id="Canal.TVN.(Chile).cl" tvg-logo="https://1000marcas.net/wp-content/uploads/2022/12/TVN-Chile-Logo-thmb.png" tvg-name="TVN" , TVN (CHILE)
 https://streamer01.digital.com.bo/2ap337/__cl/cg:sworigin2/__c/TVNCHILE/__op/hls-default/__f/index.m3u8
 
-#EXTINF:-1 group-title="CHILE" tvg-chno="1268" tvg-id="Tvn" tvg-logo="https://raw.githubusercontent.com/HERBERTM3/Logos/main/tvn.jpg" , TVN (VPN) ACHO
+#EXTINF:-1 group-title="CHILE" tvg-chno="1268" tvg-id="Canal.TVN.(Chile).cl" tvg-logo="https://raw.githubusercontent.com/HERBERTM3/Logos/main/tvn.jpg" , TVN (VPN) ACHO
 https://cvthmk.000webhostapp.com/tvn.php
+
 
 #EXTINF:-1 tvg-chno="1269" , 
 https://cvthmk.000webhostapp.com/tvnhd.php
