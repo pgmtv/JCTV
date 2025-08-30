@@ -3,6 +3,8 @@
 #EXTM3U x-tvg-url="https://raw.githubusercontent.com/AqFad2811/epg/main/unifitv.xml"
 #EXTINF:-1 tvg-id="RedeFamilia.br" tvg-logo="https://i.imgur.com/RCPEpPc.png" group-title="RELIGIOSOS",REDE FAMÍLIA 
 https://tv03.zas.media:1936/rftv/rftv/chunklist_w1301797576.m3u8
+#EXTINF:-1 tvg-id="RedeSuper.br" tvg-logo="https://i.imgur.com/rNizzxd.png" group-title="RELIGIOSOS",REDE SUPER
+https://tv02.zas.media:1936/redesuper/redesuper/chunklist_w1553191580.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/6UoUybZ.png" group-title="Canais Abertos",TV VERDADE
 https://acesso.ecast.site:3104/hybrid/play.m3u8
 #EXTINF:-1  group-title="Canais Abertos" tvg-id="N/A" tvg-logo="https://www.dancetv.net/img/DTlogo.png",24/7 ELETRÔNICA 1
