@@ -32,6 +32,259 @@ https://video01.logicahost.com.br/redebemtv/redebemtv/playlist.m3u8
 #EXTINF:-1 group-title="Canais Abertos" tvg-id="TVCidadedePetropolis.br" tvg-logo="https://www.cxtv.com.br/img/Tvs/Logo/webp-l/00bb19faeb0ea5b2ca8adcfcbaa1249c.webp",TV Cidade de Petrópolis
 https://video01.kshost.com.br:4443/inside2133/inside2133/playlist.m3u8
 
+#EXTINF:-1 tvg-id="Globo Sao Paulo HD.br" tvg-name="GLOBO" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/f/ff/TV_Globo_2021_azul.png/revision/latest?cb=20220201030422" group-title="TV ABERTA",GLOBO
+http://limed.cc:80/4x6cXF/ehfxdp/95657.m3u8
+#EXTINF:-1 tvg-id="RecordTV Sao Paulo HD.br" tvg-name="RECORD SP" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/1/10/Logotipo_da_Record.png?20190726203014" group-title="TV ABERTA",RECORD SP
+http://limed.cc:80/4x6cXF/ehfxdp/90266.m3u8
+#EXTINF:-1 tvg-id="SBT.br" tvg-name="SBT" tvg-logo="https://i.imgur.com/srURmsi.png" group-title="TV ABERTA",SBT
+http://limed.cc:80/4x6cXF/ehfxdp/95666.m3u8
+#EXTINF:-1 tvg-id="Band Sao Paulo.br" tvg-name="BAND" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Band_Marca.png/120px-Band_Marca.png" group-title="TV ABERTA",BAND
+http://limed.cc:80/4x6cXF/ehfxdp/95649.m3u8
+#EXTINF:-1 tvg-id="Tvbrasil.br" tvg-name="TV BRASIL" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/91/TvBrasil2023.png" group-title="TV ABERTA",TV BRASIL
+http://limed.cc:80/4x6cXF/ehfxdp/90409.m3u8
+#EXTINF:-1 tvg-id="RedeTV!.br" tvg-name="REDE TV" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/8/89/Logotipo_da_RedeTV%21.png?20191113234216" group-title="TV ABERTA",REDE TV
+http://limed.cc:80/4x6cXF/ehfxdp/95470.m3u8
+#EXTINF:-1 tvg-id="Cultura HD.br" tvg-name="CULTURA" tvg-logo="https://i.imgur.com/zmheeSl.png" group-title="TV ABERTA",CULTURA
+http://limed.cc:80/4x6cXF/ehfxdp/89900.m3u8
+#EXTINF:-1 tvg-id="Viva.br" tvg-name="VIVA" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/e/ef/Canal_viva_logo_.png/revision/latest?cb=20241224170303" group-title="TV ABERTA",VIVA
+http://limed.cc:80/4x6cXF/ehfxdp/90440.m3u8
+#EXTINF:-1 tvg-id="Multishow.br" tvg-name="MULTISHOW" tvg-logo="https://logodownload.org/wp-content/uploads/2017/03/multishow-logo.png" group-title="TV ABERTA",MULTISHOW 
+http://limed.cc:80/4x6cXF/ehfxdp/90173.m3u8
+#EXTINF:-1 tvg-id="GNT.br" tvg-name="GNT" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/c9/GNT_logo-roxo.png" group-title="TV ABERTA",GNT 
+http://limed.cc:80/4x6cXF/ehfxdp/90084.m3u8
+#EXTINF:-1 tvg-id="Canalbrasil.br" tvg-name="CANAL BRASIL" tvg-logo="https://logodownload.org/wp-content/uploads/2017/11/canal-brasil-logo-2.png" group-title="TV ABERTA",CANAL BRASIL
+http://limed.cc:80/4x6cXF/ehfxdp/89840.m3u8
+#EXTINF:-1 tvg-id="Futura.br" tvg-name="FUTURA" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Canal_Futura.png/120px-Canal_Futura.png" group-title="TV ABERTA",FUTURA
+http://limed.cc:80/4x6cXF/ehfxdp/89846.m3u8
+#EXTINF:-1 tvg-id="TV Gazeta.br" tvg-name="GAZETA" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/TV_Gazeta.svg/120px-TV_Gazeta.svg.png" group-title="TV ABERTA",GAZETA
+http://limed.cc:80/4x6cXF/ehfxdp/90010.m3u8
+#EXTINF:-1 tvg-id="TVE Bahia.br" tvg-name="TVE BAHIA" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/TVE_Bahia_logo_%282022%29.svg/120px-TVE_Bahia_logo_%282022%29.svg.png" group-title="TV ABERTA",TVE BAHIA
+http://rtmp.irdeb.ba.gov.br/stream/dash/tvehd.mpd
+#EXTINF:-1 tvg-id="Sesctv.br" tvg-name="SESC TV" tvg-logo="https://i.imgur.com/Wn1VFRx.png" group-title="TV ABERTA",SESC TV
+https://cloudflare.cdn.spalla.io/live/0195ede1-c23c-7078-8f2a-25f982a9fc91/s1/playlist-1080p.m3u8?sjwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmlfc3ViIjoiLzAxOTVlZGUxLWMyM2MtNzA3OC04ZjJhLTI1Zjk4MmE5ZmM5MS8iLCJ1aWQiOiJmNzc5YjQzMC00NDI3LTRiMzAtYmVkZC02Mjg0ODdhNjU0MDciLCJyYXUiOm51bGwsImJleSI6ZmFsc2UsImlpcCI6ZmFsc2UsIm5iZiI6MTc1MTkxNTM0NSwiaWF0IjoxNzUxOTE1MzQ1LCJleHAiOjE3NTIwMDE3NDUsImp0aSI6ImY3NzliNDMwLTQ0MjctNGIzMC1iZWRkLTYyODQ4N2E2NTQwNyIsImlzcyI6IlNwYWxsYSJ9.mE1XNBHn3qHT-XFhYPHDbAz1HkaF-ftKxUCvUcW07uM&uid=f779b430-4427-4b30-bedd-628487a65407&
+#EXTINF:-1 tvg-logo="https://i.imgur.com/u6DuMQk.png" group-title="TV ABERTA",NGT
+https://isaocorp.cloudecast.com/ngt/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="Rede Minas HD.br" tvg-logo="https://pbs.twimg.com/profile_images/1151111400615550976/MQW6Uj8p.png" group-title="TV ABERTA",REDE MINAS
+https://8hzcavccys.zoeweb.tv/redeminas/ngrp:redeminas_all/chunklist_w1642350627_b2771072.m3u8
+#EXTINF:-1 tvg-id="Rede Brasil HD.br" tvg-name="REDE BRASIL" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Rede_Brasil_de_Televis%C3%A3o_Logo2023.png/113px-Rede_Brasil_de_Televis%C3%A3o_Logo2023.png" group-title="TV ABERTA",REDE BRASIL
+https://video09.logicahost.com.br/redebrasiloficial/redebrasiloficial/chunklist_w466484883.m3u8
+#EXTINF:-1 tvg-id="combrasil.br" tvg-name="COM BRASIL" tvg-logo="https://combrasiltv.com.br/wp-content/uploads/2022/07/Logo-COMBR.png" group-title="TV ABERTA",COM BRASIL
+https://br5093.streamingdevideo.com.br/abc/abc/master.m3u8
+#EXTINF:-1 tvg-id="Globo TV Bahia.br" tvg-name="TV BAHIA" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/b/be/TVGlobo_2024_red.png/revision/latest/scale-to-width-down/1000?cb=20241209212350" group-title="TV ABERTA",TV BAHIA - BA
+http://limed.cc:80/4x6cXF/ehfxdp/90064.m3u8
+#EXTINF:-1 tvg-id="Globo TV Bahia.br" tvg-name="TV OESTE" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/b/be/TVGlobo_2024_red.png/revision/latest/scale-to-width-down/1000?cb=20241209212350" group-title="TV ABERTA",TV OESTE - BA 
+http://limed.cc:80/4x6cXF/ehfxdp/117329.m3u8
+#EXTINF:-1 tvg-id="TV Santa Cruz HD.br" tvg-name="TV SANTA CRUZ" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/b/be/TVGlobo_2024_red.png/revision/latest/scale-to-width-down/1000?cb=20241209212350" group-title="TV ABERTA",TV SANTA CRUZ - BA
+http://limed.cc:80/4x6cXF/ehfxdp/117328.m3u8
+#EXTINF:-1 tvg-id="Globo TV Bahia.br" tvg-name="TV SUBAÉ" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/b/be/TVGlobo_2024_red.png/revision/latest/scale-to-width-down/1000?cb=20241209212350" group-title="TV ABERTA",TV SUBAÉ - BA 
+http://limed.cc:80/4x6cXF/ehfxdp/117327.m3u8
+#EXTINF:-1 tvg-id="Globo TV Bahia.br" tvg-name="TV VERDES MARES CARIRI" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/b/be/TVGlobo_2024_red.png/revision/latest/scale-to-width-down/1000?cb=20241209212350" group-title="TV ABERTA",TV SÃO FRANCISCO - BA
+http://limed.cc:80/4x6cXF/ehfxdp/117326.m3u8
+#EXTINF:-1 tvg-id="Globo HD.br" tvg-name="TV GAZETA DE ALAGOAS" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/b/be/TVGlobo_2024_red.png/revision/latest/scale-to-width-down/1000?cb=20241209212350" group-title="TV ABERTA",TV GAZETA DE ALAGOAS - AL
+http://limed.cc:80/4x6cXF/ehfxdp/91444.m3u8
+#EXTINF:-1 tvg-id="TV Verdes Mares HD.br" tvg-name="TV VERDES MARES" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/b/be/TVGlobo_2024_red.png/revision/latest/scale-to-width-down/1000?cb=20241209212350" group-title="TV ABERTA",TV VERDES MARES - CE
+http://limed.cc:80/4x6cXF/ehfxdp/90072.m3u8
+#EXTINF:-1 tvg-id="TV Mirante Sao Luis HD.br" tvg-name="TV MIRANTE SÃO LUÍS" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/b/be/TVGlobo_2024_red.png/revision/latest/scale-to-width-down/1000?cb=20241209212350" group-title="TV ABERTA",TV MIRANTE SÃO LUÍS - MA 
+http://limed.cc:80/4x6cXF/ehfxdp/90032.m3u8
+#EXTINF:-1 tvg-id="TV Cabo Branco HD.br" tvg-name="TV CABO BRANCO" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/b/be/TVGlobo_2024_red.png/revision/latest/scale-to-width-down/1000?cb=20241209212350" group-title="TV ABERTA",TV CABO BRANCO - PB
+http://limed.cc:80/4x6cXF/ehfxdp/97260.m3u8
+#EXTINF:-1 tvg-id="Globo HD.br" tvg-name="TV GRANDE RIO" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/b/be/TVGlobo_2024_red.png/revision/latest/scale-to-width-down/1000?cb=20241209212350" group-title="TV ABERTA",TV GRANDE RIO - PE 
+http://limed.cc:80/4x6cXF/ehfxdp/117330.m3u8
+#EXTINF:-1 tvg-id="Globo Nordeste HD.br" tvg-name="TV GLOBO PERNAMBUCO" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/b/be/TVGlobo_2024_red.png/revision/latest/scale-to-width-down/1000?cb=20241209212350" group-title="TV ABERTA",TV GLOBO PERNAMBUCO - PE
+http://limed.cc:80/4x6cXF/ehfxdp/91463.m3u8
+#EXTINF:-1 tvg-id="Globo HD.br" tvg-name="GLOBO TV CLUBE" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/b/be/TVGlobo_2024_red.png/revision/latest/scale-to-width-down/1000?cb=20241209212350" group-title="TV ABERTA",GLOBO TV CLUBE - PI
+http://limed.cc:80/4x6cXF/ehfxdp/95677.m3u8
+#EXTINF:-1 tvg-id="InterTV Cabugi HD.br" tvg-name="INTERTV CABUGI" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/b/be/TVGlobo_2024_red.png/revision/latest/scale-to-width-down/1000?cb=20241209212350" group-title="TV ABERTA",INTERTV CABUGI - RN
+http://limed.cc:80/4x6cXF/ehfxdp/91405.m3u8
+#EXTINF:-1 tvg-id="TV Sergipe HD.br" tvg-name="TV SERGIPE" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/b/be/TVGlobo_2024_red.png/revision/latest/scale-to-width-down/1000?cb=20241209212350" group-title="TV ABERTA",TV SERGIPE - SE
+http://limed.cc:80/4x6cXF/ehfxdp/95484.m3u8
+#EXTINF:-1 tvg-id="Globo HD.br" tvg-name="TV GLOBO BRASÍLIA" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/c/c5/TVGlobo2021_orange.png/revision/latest?cb=20220506203649" group-title="TV ABERTA",TV GLOBO BRASÍLIA - DF
+http://limed.cc:80/4x6cXF/ehfxdp/90019.m3u8
+#EXTINF:-1 tvg-id="TV Anhanguera HD.br" tvg-name="TV ANHANGUERA" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/c/c5/TVGlobo2021_orange.png/revision/latest?cb=20220506203649" group-title="TV ABERTA",TV ANHANGUERA - GO 
+http://limed.cc:80/4x6cXF/ehfxdp/90062.m3u8
+#EXTINF:-1 tvg-id="Globo Anhanguera.br" tvg-name="TV ANHANGUERA CATALÃO" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/c/c5/TVGlobo2021_orange.png/revision/latest?cb=20220506203649" group-title="TV ABERTA",TV ANHANGUERA CATALÃO - GO
+http://limed.cc:80/4x6cXF/ehfxdp/117325.m3u8
+#EXTINF:-1 tvg-id="Globo HD.br" tvg-name="TV CENTRO AMÉRICA" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/c/c5/TVGlobo2021_orange.png/revision/latest?cb=20220506203649" group-title="TV ABERTA",TV CENTRO AMÉRICA - MT
+http://limed.cc:80/4x6cXF/ehfxdp/91396.m3u8
+#EXTINF:-1 tvg-id="TV Morena HD.br" tvg-name="TV MORENA" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/c/c5/TVGlobo2021_orange.png/revision/latest?cb=20220506203649" group-title="TV ABERTA",TV MORENA - MS
+http://limed.cc:80/4x6cXF/ehfxdp/91461.m3u8
+#EXTINF:-1 tvg-id="Globo HD.br" tvg-name="REDE AMAZÔNICA RIO BRANCO" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/4/4f/TVGlobo2024_green.png/revision/latest/scale-to-width-down/1000?cb=20241210012724" group-title="TV ABERTA",REDE AMAZÔNICA RIO BRANCO - AC 
+http://limed.cc:80/4x6cXF/ehfxdp/90013.m3u8
+#EXTINF:-1 tvg-id="Globo HD.br" tvg-name="REDE AMAZÔNICA MACAPÁ" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/4/4f/TVGlobo2024_green.png/revision/latest/scale-to-width-down/1000?cb=20241210012724" group-title="TV ABERTA",REDE AMAZÔNICA MACAPÁ - AP  
+http://limed.cc:80/4x6cXF/ehfxdp/90015.m3u8
+#EXTINF:-1 tvg-id="Globo HD.br" tvg-name="REDE AMAZÔNICA PARINTINS" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/4/4f/TVGlobo2024_green.png/revision/latest/scale-to-width-down/1000?cb=20241210012724" group-title="TV ABERTA",REDE AMAZÔNICA PARINTINS - AM 
+http://limed.cc:80/4x6cXF/ehfxdp/117332.m3u8
+#EXTINF:-1 tvg-id="Globo HD.br" tvg-name="AMAZONICA ARIQUEMES" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/4/4f/TVGlobo2024_green.png/revision/latest/scale-to-width-down/1000?cb=20241210012724" group-title="TV ABERTA",REDE AMAZÔNICA ARIQUEMES - RO
+http://limed.cc:80/4x6cXF/ehfxdp/120082.m3u8
+#EXTINF:-1 tvg-id="Globo HD.br" tvg-name="REDE AMAZÔNICA PORTO VELHO" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/4/4f/TVGlobo2024_green.png/revision/latest/scale-to-width-down/1000?cb=20241210012724" group-title="TV ABERTA",REDE AMAZÔNICA PORTO VELHO - RO
+http://limed.cc:80/4x6cXF/ehfxdp/90052.m3u8
+#EXTINF:-1 tvg-id="TV Liberal.br" tvg-name="TV LIBERAL BELÉM" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/4/4f/TVGlobo2024_green.png/revision/latest/scale-to-width-down/1000?cb=20241210012724" group-title="TV ABERTA",TV LIBERAL BELÉM - PA 
+http://limed.cc:80/4x6cXF/ehfxdp/90017.m3u8
+#EXTINF:-1 tvg-id="TV Anhanguera Palmas HD.br" tvg-name="TV ANHANGUERA PALMAS" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/4/4f/TVGlobo2024_green.png/revision/latest/scale-to-width-down/1000?cb=20241210012724" group-title="TV ABERTA",TV ANHANGUERA PALMAS - TO
+http://limed.cc:80/4x6cXF/ehfxdp/120079.m3u8
+#EXTINF:-1 tvg-id="Globo SP.br" tvg-name="TV GLOBO - SP" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/0/0e/TV_Globo_2024_azul.png/revision/latest/scale-to-width-down/1000?cb=20241210012706" group-title="TV ABERTA",TV GLOBO - SP
+http://limed.cc:80/4x6cXF/ehfxdp/90059.m3u8
+#EXTINF:-1 tvg-id="Tvdiariosp.br" tvg-name="TV DIARIO" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/0/0e/TV_Globo_2024_azul.png/revision/latest/scale-to-width-down/1000?cb=20241210012706" group-title="TV ABERTA",TV DÁRIO - SP
+http://limed.cc:80/4x6cXF/ehfxdp/91449.m3u8
+#EXTINF:-1 tvg-id="Globo HD.br" tvg-name="TV FRONTEIRA" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/0/0e/TV_Globo_2024_azul.png/revision/latest/scale-to-width-down/1000?cb=20241210012706" group-title="TV ABERTA",TV FRONTEIRA PAULISTA - SP
+http://limed.cc:80/4x6cXF/ehfxdp/97392.m3u8
+#EXTINF:-1 tvg-id="Globo HD.br" tvg-name="TV TEM BAURU" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/0/0e/TV_Globo_2024_azul.png/revision/latest/scale-to-width-down/1000?cb=20241210012706" group-title="TV ABERTA",TV TEM BAURU - SP 
+http://limed.cc:80/4x6cXF/ehfxdp/91469.m3u8
+#EXTINF:-1 tvg-id="Globo HD.br" tvg-name="TV TEM SOROCABA" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/0/0e/TV_Globo_2024_azul.png/revision/latest/scale-to-width-down/1000?cb=20241210012706" group-title="TV ABERTA",TV TEM SOROCABA - SP
+http://limed.cc:80/4x6cXF/ehfxdp/91471.m3u8
+#EXTINF:-1 tvg-id="Globo HD.br" tvg-name="TV TEM SJRP" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/0/0e/TV_Globo_2024_azul.png/revision/latest/scale-to-width-down/1000?cb=20241210012706" group-title="TV ABERTA",TV TEM SJRP - SP
+http://limed.cc:80/4x6cXF/ehfxdp/90068.m3u8
+#EXTINF:-1 tvg-id="Globo TV Tribuna.br" tvg-name="TV TRIBUNA" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/0/0e/TV_Globo_2024_azul.png/revision/latest/scale-to-width-down/1000?cb=20241210012706" group-title="TV ABERTA",TV TRIBUNA - SP
+http://limed.cc:80/4x6cXF/ehfxdp/91473.m3u8
+#EXTINF:-1 tvg-id="Globo HD.br" tvg-name="TV VANG. TAUBATE" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/0/0e/TV_Globo_2024_azul.png/revision/latest/scale-to-width-down/1000?cb=20241210012706" group-title="TV ABERTA",TV VANGUARDA TAUBATÉ - SP 
+http://limed.cc:80/4x6cXF/ehfxdp/91477.m3u8
+#EXTINF:-1 tvg-id="Globo HD.br" tvg-name="EPTV CAMPINAS" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/0/0e/TV_Globo_2024_azul.png/revision/latest/scale-to-width-down/1000?cb=20241210012706" group-title="TV ABERTA",EPTV CAMPINAS - SP
+http://limed.cc:80/4x6cXF/ehfxdp/91397.m3u8
+#EXTINF:-1 tvg-id="Globo HD.br" tvg-name="EPTV SÃO CARLOS" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/0/0e/TV_Globo_2024_azul.png/revision/latest/scale-to-width-down/1000?cb=20241210012706" group-title="TV ABERTA",EPTV CENTRAL - SP
+http://limed.cc:80/4x6cXF/ehfxdp/90029.m3u8
+#EXTINF:-1 tvg-id="Globo Rio HD.br" tvg-name="TV GLOBO - RJ" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/0/0e/TV_Globo_2024_azul.png/revision/latest/scale-to-width-down/1000?cb=20241210012706" group-title="TV ABERTA",TV GLOBO - RJ
+http://limed.cc:80/4x6cXF/ehfxdp/91431.m3u8
+#EXTINF:-1 tvg-id="Tvriosul.br" tvg-name="TV RIO SUL" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/0/0e/TV_Globo_2024_azul.png/revision/latest/scale-to-width-down/1000?cb=20241210012706" group-title="TV ABERTA",TV RIO SUL - RJ
+http://limed.cc:80/4x6cXF/ehfxdp/91466.m3u8
+#EXTINF:-1 tvg-id="Tvriosul.br" tvg-name="INTERTV ALTO LITORAL" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/0/0e/TV_Globo_2024_azul.png/revision/latest/scale-to-width-down/1000?cb=20241210012706" group-title="TV ABERTA",INTERTV ALTO LITORAL - RJ
+http://limed.cc:80/4x6cXF/ehfxdp/91404.m3u8
+#EXTINF:-1 tvg-id="InterTV Grande Minas HD.br" tvg-name="TV GLOBO MINAS" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/0/0e/TV_Globo_2024_azul.png/revision/latest/scale-to-width-down/1000?cb=20241210012706" group-title="TV ABERTA",TV GLOBO MINAS - MG
+http://limed.cc:80/4x6cXF/ehfxdp/90034.m3u8
+#EXTINF:-1 tvg-id="EPTV Sul de Minas HD.br" tvg-name="EPTV RIBEIRÃO PRETO" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/0/0e/TV_Globo_2024_azul.png/revision/latest/scale-to-width-down/1000?cb=20241210012706" group-title="TV ABERTA",EPTV RIBEIRÃO PRETO - MG
+http://limed.cc:80/4x6cXF/ehfxdp/90027.m3u8
+#EXTINF:-1 tvg-id="InterTV Grande Minas HD.br" tvg-name="TV INTEGRAÇÃO JUIZ DE FORA" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/0/0e/TV_Globo_2024_azul.png/revision/latest/scale-to-width-down/1000?cb=20241210012706" group-title="TV ABERTA",TV INTEGRAÇÃO JUIZ DE FORA - MG
+http://limed.cc:80/4x6cXF/ehfxdp/91459.m3u8
+#EXTINF:-1 tvg-id="InterTV Grande Minas HD.br" tvg-name="TV INTEGRAÇÃO UBERLÂNDIA" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/0/0e/TV_Globo_2024_azul.png/revision/latest/scale-to-width-down/1000?cb=20241210012706" group-title="TV ABERTA",TV INTEGRAÇÃO UBERLÂNDIA - MG
+http://limed.cc:80/4x6cXF/ehfxdp/119725.m3u8
+#EXTINF:-1 tvg-id="InterTV Grande Minas HD.br" tvg-name="TV INTEGRAÇÃO ARAXÁ" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/0/0e/TV_Globo_2024_azul.png/revision/latest/scale-to-width-down/1000?cb=20241210012706" group-title="TV ABERTA",TV INTEGRAÇÃO ARAXÁ - MG
+http://limed.cc:80/4x6cXF/ehfxdp/91456.m3u8
+#EXTINF:-1 tvg-id="InterTV Grande Minas HD.br" tvg-name="INTERTV GRANDE MINAS MG" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/0/0e/TV_Globo_2024_azul.png/revision/latest/scale-to-width-down/1000?cb=20241210012706" group-title="TV ABERTA",INTER TV GRANDE MINAS - MG 
+http://limed.cc:80/4x6cXF/ehfxdp/91409.m3u8
+#EXTINF:-1 tvg-id="InterTV Grande Minas HD.br" tvg-name="INTERTV DOS VALES" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/0/0e/TV_Globo_2024_azul.png/revision/latest/scale-to-width-down/1000?cb=20241210012706" group-title="TV ABERTA",INTER TV DOS VALES - MG
+http://limed.cc:80/4x6cXF/ehfxdp/91408.m3u8
+#EXTINF:-1 tvg-id="TV Gazeta Sul.br" tvg-name="TV GAZETA VITÓRIA" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/0/0e/TV_Globo_2024_azul.png/revision/latest/scale-to-width-down/1000?cb=20241210012706" group-title="TV ABERTA",TV GAZETA VITÓRIA - ES
+http://limed.cc:80/4x6cXF/ehfxdp/90073.m3u8
+#EXTINF:-1 tvg-id="TV Gazeta Sul.br" tvg-name="TV GAZETA SUL" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/0/0e/TV_Globo_2024_azul.png/revision/latest/scale-to-width-down/1000?cb=20241210012706" group-title="TV ABERTA",TV GAZETA SUL - ES
+http://limed.cc:80/4x6cXF/ehfxdp/91452.m3u8
+#EXTINF:-1 tvg-id="RPC Ponta Grossa HD.br" tvg-name="RPC TV PONTA GROSSA" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/8/8e/TVGlobo2021_purple.png/revision/latest?cb=20220506203750cb=20241210012706" group-title="TV ABERTA",RPC TV PONTA GROSSA - PR
+http://limed.cc:80/4x6cXF/ehfxdp/91442.m3u8
+#EXTINF:-1 tvg-id="RPC Curitiba HD.br"  tvg-name="RPC FOZ DO IGUAÇU"  tvg-logo="https://static.wikia.nocookie.net/logopedia/images/8/8e/TVGlobo2021_purple.png/revision/latest?cb=20220506203750cb=20241210012706" group-title="TV ABERTA",RPC FOZ DO IGUAÇU - PR
+http://limed.cc:80/4x6cXF/ehfxdp/91435.m3u8
+#EXTINF:-1 tvg-id="RPC Curitiba HD.br" tvg-name="RPC PARANAVAI" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/8/8e/TVGlobo2021_purple.png/revision/latest?cb=20220506203750cb=20241210012706" group-title="TV ABERTA",RPC PARANAVAI - PR
+http://limed.cc:80/4x6cXF/ehfxdp/91440.m3u8
+#EXTINF:-1 tvg-id="RPC Curitiba HD.br" tvg-name="RPC CURITIBA" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/8/8e/TVGlobo2021_purple.png/revision/latest?cb=20220506203750cb=20241210012706" group-title="TV ABERTA",RPC CURITIBA - PR
+http://limed.cc:80/4x6cXF/ehfxdp/91434.m3u8
+#EXTINF:-1 tvg-id="RBS TV Porto Alegre HD.br" tvg-name="RBS TV PORTO ALEGRE" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/8/8e/TVGlobo2021_purple.png/revision/latest?cb=20220506203750cb=20241210012706" group-title="TV ABERTA",RBS TV PORTO ALEGRE - RS
+http://limed.cc:80/4x6cXF/ehfxdp/90046.m3u8
+#EXTINF:-1 tvg-id="NSC TV Chapeco HD.br" tvg-name="NSC TV CHAPECÓ" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/8/8e/TVGlobo2021_purple.png/revision/latest?cb=20220506203750cb=20241210012706" group-title="TV ABERTA",NSC TV CHAPECÓ - SC 
+http://limed.cc:80/4x6cXF/ehfxdp/91413.m3u8
+#EXTINF:-1 tvg-id="NSC TV Florianopolis HD.br" tvg-name="NSC TV FLORIANÓPOLIS" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/8/8e/TVGlobo2021_purple.png/revision/latest?cb=20220506203750cb=20241210012706" group-title="TV ABERTA",NSC TV FLORIANÓPOLIS - SC
+http://limed.cc:80/4x6cXF/ehfxdp/90031.m3u8
+#EXTINF:-1 tvg-id="NSC TV Florianopolis HD.br" tvg-name="NSC TV CRICIUMA" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/8/8e/TVGlobo2021_purple.png/revision/latest?cb=20220506203750cb=20241210012706" group-title="TV ABERTA",NSC TV CRICIÚMA - SC
+http://limed.cc:80/4x6cXF/ehfxdp/91415.m3u8
+#EXTINF:-1 tvg-id="NSC TV Blumenau HD.br" tvg-name="NSC TV BLUMENAU" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/8/8e/TVGlobo2021_purple.png/revision/latest?cb=20220506203750cb=20241210012706" group-title="TV ABERTA",NSC TV BLUMENAU - SC 
+http://limed.cc:80/4x6cXF/ehfxdp/95461.m3u8
+#EXTINF:-1 tvg-id="NSC TV Joinville HD.br" tvg-name="NSC JOINVILLE" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/8/8e/TVGlobo2021_purple.png/revision/latest?cb=20220506203750cb=20241210012706" group-title="TV ABERTA",NSC TV JOINVILLE - SC
+http://limed.cc:80/4x6cXF/ehfxdp/91418.m3u8
+#EXTINF:-1 tvg-id="Record TV Bahia.br" tvg-name="RECORD BAHIA" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/1/10/Logotipo_da_Record.png?20190726203014" group-title="TV ABERTA",RECORD BAHIA - BA
+http://limed.cc:80/4x6cXF/ehfxdp/90245.m3u8
+#EXTINF:-1 tvg-id="Record TV.br" tvg-name="RECORD MANAUS" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/1/10/Logotipo_da_Record.png?20190726203014" group-title="TV ABERTA",RECORD MANAUS - AM
+http://limed.cc:80/4x6cXF/ehfxdp/90255.m3u8
+#EXTINF:-1 tvg-id="Record TV.br" tvg-name="TV VILA REAL" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/1/10/Logotipo_da_Record.png?20190726203014" group-title="TV ABERTA",TV VILA REAL - MT
+http://limed.cc:80/4x6cXF/ehfxdp/100543.m3u8
+#EXTINF:-1 tvg-id="Record TV HD.br" tvg-name="RECORD GOIÁS" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/1/10/Logotipo_da_Record.png?20190726203014" group-title="TV ABERTA",RECORD GOIÁS - GO
+http://limed.cc:80/4x6cXF/ehfxdp/90253.m3u8
+#EXTINF:-1 tvg-id="Record TV HD.br" tvg-name="RECORD CAMPINAS" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/1/10/Logotipo_da_Record.png?20190726203014" group-title="TV ABERTA",TV THATHI CAMPINAS - SP
+http://limed.cc:80/4x6cXF/ehfxdp/90252.m3u8
+#EXTINF:-1 tvg-id="Record TV.br" tvg-name="RECORD LITORAL E VALE" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/1/10/Logotipo_da_Record.png?20190726203014" group-title="TV ABERTA",RECORD LITORAL E VALE - SP
+http://limed.cc:80/4x6cXF/ehfxdp/123216.m3u8
+#EXTINF:-1 tvg-id="Record TV Minas HD.br" tvg-name="RECORD MINAS" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/1/10/Logotipo_da_Record.png?20190726203014" group-title="TV ABERTA",RECORD MINAS - MG
+http://limed.cc:80/4x6cXF/ehfxdp/90257.m3u8
+#EXTINF:-1 tvg-id="Record TV HD.br" tvg-name="TV PARANAÍBA" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/1/10/Logotipo_da_Record.png?20190726203014" group-title="TV ABERTA",TV PARANAÍBA - MG
+http://limed.cc:80/4x6cXF/ehfxdp/124836.m3u8
+#EXTINF:-1 tvg-id="Record TV.br" tvg-name="RECORD BELÉM" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/1/10/Logotipo_da_Record.png?20190726203014" group-title="TV ABERTA",RECORD BELÉM - PA
+http://limed.cc:80/4x6cXF/ehfxdp/100400.m3u8
+#EXTINF:-1 tvg-id="Record TV.br" tvg-name="TV GUARARAPES" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/1/10/Logotipo_da_Record.png?20190726203014" group-title="TV ABERTA",TV GUARARAPES - PE
+http://limed.cc:80/4x6cXF/ehfxdp/100401.m3u8
+#EXTINF:-1 tvg-id="Record TV HD.br" tvg-name="TV PAJUÇARA" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/1/10/Logotipo_da_Record.png?20190726203014" group-title="TV ABERTA",TV PAJUÇARA - AL
+http://limed.cc:80/4x6cXF/ehfxdp/116880.m3u8
+#EXTINF:-1 tvg-id="Record TV HD.br" tvg-name="TV TROPICAL" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/1/10/Logotipo_da_Record.png?20190726203014" group-title="TV ABERTA",TV TROPICAL - RN
+https://video08.logicahost.com.br/portaldatropical02/portaldatropical02/chunklist_w675410568.m3u8
+#EXTINF:-1 tvg-id="SIC TV HD.br" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/1/10/Logotipo_da_Record.png?20190726203014" group-title="TV ABERTA",SIC TV - RO
+https://parecisfmlive.brasilstream.com.br/hls/parecisfmlive/index.m3u8
+#EXTINF:-1 tvg-id="Record TV HD.br" tvg-name="NDTV JOINVILLE" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/1/10/Logotipo_da_Record.png?20190726203014" group-title="TV ABERTA",NDTV JOINVILLE - SC
+http://limed.cc:80/4x6cXF/ehfxdp/123212.m3u8
+#EXTINF:-1 tvg-id="Record TV Rio HD.br" tvg-name="RECORD RJ" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/1/10/Logotipo_da_Record.png?20190726203014" group-title="TV ABERTA",RECORD RIO - RJ
+http://limed.cc:80/4x6cXF/ehfxdp/90261.m3u8
+#EXTINF:-1 tvg-id="RecordTV Sao Paulo HD.br" tvg-name="RECORD SP" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/1/10/Logotipo_da_Record.png?20190726203014" group-title="TV ABERTA",RECORD - SP
+http://limed.cc:80/4x6cXF/ehfxdp/90265.m3u8
+#EXTINF:-1 tvg-id="Record TV RS.br" tvg-name="RECORD RS" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/1/10/Logotipo_da_Record.png?20190726203014" group-title="TV ABERTA",RECORD - RS
+http://limed.cc:80/4x6cXF/ehfxdp/90264.m3u8
+#EXTINF:-1 tvg-id="TV Aratu HD.br" tvg-logo="https://i.imgur.com/srURmsi.png" group-title="TV ABERTA",TV ARATU - BA
+http://limed.cc:80/4x6cXF/ehfxdp/90300.m3u8
+#EXTINF:-1 tvg-id="TV Cidade Verde HD.br" tvg-name="SBT PIAUI" tvg-logo="https://i.imgur.com/srURmsi.png" group-title="TV ABERTA",TV CIDADE VERDE - PI
+http://limed.cc:80/4x6cXF/ehfxdp/123213.m3u8
+#EXTINF:-1 tvg-id="Rede Massa.br" tvg-name="REDE MASSA" tvg-logo="https://i.imgur.com/srURmsi.png" group-title="TV ABERTA",REDE MASSA - PR
+http://limed.cc:80/4x6cXF/ehfxdp/90289.m3u8
+#EXTINF:-1 tvg-id="SBT HD.br" tvg-name="TV DIFUSORA SÃO LUÍS" tvg-logo="https://i.imgur.com/srURmsi.png" group-title="TV ABERTA",TV DIFUSORA SÃO LUÍS - MA
+http://limed.cc:80/4x6cXF/ehfxdp/90292.m3u8
+#EXTINF:-1 tvg-id="TV Jornal HD.br" tvg-name="TV JORNAL" tvg-logo="https://i.imgur.com/srURmsi.png" group-title="TV ABERTA",TV JORNAL - PE
+http://limed.cc:80/4x6cXF/ehfxdp/90302.m3u8
+#EXTINF:-1 tvg-id="TV Jangadeiro HD.br" tvg-name="TV JANGADEIRO" tvg-logo="https://i.imgur.com/srURmsi.png" group-title="TV ABERTA",TV JANGADEIRO - CE
+http://limed.cc:80/4x6cXF/ehfxdp/95493.m3u8
+#EXTINF:-1 tvg-id="SBT HD.br" tvg-name="SBT PARÁ" tvg-logo="https://i.imgur.com/srURmsi.png" group-title="TV ABERTA",SBT PARÁ - PA
+http://limed.cc:80/4x6cXF/ehfxdp/90288.m3u8
+#EXTINF:-1 tvg-id="SBT Goiania TV Serra Dourada.br" tvg-name="SBT SERRA DOURADA" tvg-logo="https://i.imgur.com/srURmsi.png" group-title="TV ABERTA",TV SERRA DOURADA - GO
+http://limed.cc:80/4x6cXF/ehfxdp/90294.m3u8
+#EXTINF:-1 tvg-id="TV Alterosa HD.br" tvg-name="TV ALTEROSA" tvg-logo="https://i.imgur.com/srURmsi.png" group-title="TV ABERTA",TV ALTEROSA - MG
+http://limed.cc:80/4x6cXF/ehfxdp/97414.m3u8
+#EXTINF:-1 tvg-id="SBT HD.br" tvg-name="VTV" tvg-logo="https://i.imgur.com/srURmsi.png" group-title="TV ABERTA",VTV - SP
+http://limed.cc:80/4x6cXF/ehfxdp/90305.m3u8
+#EXTINF:-1 tvg-id="SBT HD.br" tvg-name="SBT BRASÍLIA" tvg-logo="https://i.imgur.com/srURmsi.png" group-title="TV ABERTA",SBT BRASÍLIA - DF
+http://limed.cc:80/4x6cXF/ehfxdp/90285.m3u8
+#EXTINF:-1 tvg-id="SBT HD.br" tvg-name="SBT INTERIOR" tvg-logo="https://i.imgur.com/srURmsi.png" group-title="TV ABERTA",SBT INTERIOR - SP
+http://limed.cc:80/4x6cXF/ehfxdp/90287.m3u8
+#EXTINF:-1 tvg-id="SBT TV Ponta Verde HD.br" tvg-name="TV PONTA VERDE" tvg-logo="https://i.imgur.com/srURmsi.png" group-title="TV ABERTA",TV PONTA VERDE - AL
+http://limed.cc:80/4x6cXF/ehfxdp/90302.m3u8
+#EXTINF:-1 tvg-id="SBT Rio HD.br" tvg-name="SBT RJ" tvg-logo="https://i.imgur.com/srURmsi.png" group-title="TV ABERTA",SBT RIO - RJ
+http://limed.cc:80/4x6cXF/ehfxdp/90290.m3u8
+#EXTINF:-1 tvg-id="SBT HD.br" tvg-name="TV DIFUSORA SÃO LUÍS" tvg-logo="https://i.imgur.com/srURmsi.png" group-title="TV ABERTA",TV DIFUSORA SÃO LUÍS - MA
+http://limed.cc:80/4x6cXF/ehfxdp/90301.m3u8
+#EXTINF:-1 tvg-id="SBT Sao Paulo HD.br" tvg-name="SBT - SP" tvg-logo="https://i.imgur.com/srURmsi.png" group-title="TV ABERTA",SBT - SP
+http://limed.cc:80/4x6cXF/ehfxdp/90296.m3u8
+#EXTINF:-1 tvg-id="SBT HD.br" tvg-name="SCC SBT" tvg-logo="https://i.imgur.com/srURmsi.png" group-title="TV ABERTA",SCC SBT - SC
+http://limed.cc:80/4x6cXF/ehfxdp/90293.m3u8
+#EXTINF:-1 tvg-id="SBT RS HD.br" tvg-name="SBT RS" tvg-logo="https://i.imgur.com/srURmsi.png" group-title="TV ABERTA",SBT - RS
+http://limed.cc:80/4x6cXF/ehfxdp/90291.m3u8
+#EXTINF:-1 tvg-id="Band Sao Paulo.br" tvg-name="BAND - SP" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Band_Marca.png/120px-Band_Marca.png" group-title="TV ABERTA",BAND - SP
+http://limed.cc:80/4x6cXF/ehfxdp/89823.m3u8
+#EXTINF:-1 tvg-id="Band HD.br" tvg-name="BAND MAIS" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Band_Marca.png/120px-Band_Marca.png" group-title="TV ABERTA",BAND MAIS - SP
+http://limed.cc:80/4x6cXF/ehfxdp/89817.m3u8
+#EXTINF:-1 tvg-id="Band HD.br" tvg-name="BAND PAULISTA" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Band_Marca.png/120px-Band_Marca.png" group-title="TV ABERTA",BAND CAMPINAS - SP
+http://limed.cc:80/4x6cXF/ehfxdp/110231.m3u8
+#EXTINF:-1 tvg-id="Band HD.br" tvg-name="BAND VALE" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Band_Marca.png/120px-Band_Marca.png" group-title="TV ABERTA",BAND VALE - SP
+http://limed.cc:80/4x6cXF/ehfxdp/110232.m3u8
+#EXTINF:-1 tvg-id="Band RJ HD.br" tvg-name="BAND RIO" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Band_Marca.png/120px-Band_Marca.png" group-title="TV ABERTA",BAND RIO - RJ
+http://limed.cc:80/4x6cXF/ehfxdp/101480.m3u8
+#EXTINF:-1 tvg-id="Band Minas.br" tvg-name="BAND MINAS" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Band_Marca.png/120px-Band_Marca.png" group-title="TV ABERTA",BAND MINAS - MG
+http://limed.cc:80/4x6cXF/ehfxdp/110234.m3u8
+#EXTINF:-1 tvg-id="Band Bahia HD.br" tvg-name="BAND BAHIA" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Band_Marca.png/120px-Band_Marca.png" group-title="TV ABERTA",BAND BAHIA - BA
+http://limed.cc:80/4x6cXF/ehfxdp/110228.m3u8
+#EXTINF:-1 tvg-id="Band HD.br" tvg-name="BAND CEARÁ" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Band_Marca.png/120px-Band_Marca.png" group-title="TV ABERTA",BAND CEARÁ - CE
+http://limed.cc:80/4x6cXF/ehfxdp/101479.m3u8
+#EXTINF:-1 tvg-id="Band Belem.br" tvg-name="RBA TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Band_Marca.png/120px-Band_Marca.png" group-title="TV ABERTA",RBA TV - PA
+http://limed.cc:80/4x6cXF/ehfxdp/101482.m3u8
+#EXTINF:-1 tvg-id="TV Tribuna HD.br" tvg-name="TV TRIBUNA" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Band_Marca.png/120px-Band_Marca.png" group-title="TV ABERTA",TV TRIBUNA - PE
+http://limed.cc:80/4x6cXF/ehfxdp/116878.m3u8
+#EXTINF:-1 tvg-id="Band Amazonas HD.br" tvg-name="BAND AMAZONAS" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Band_Marca.png/120px-Band_Marca.png" group-title="TV ABERTA",BAND AMAZONAS - AM
+http://limed.cc:80/4x6cXF/ehfxdp/110233.m3u8
+#EXTINF:-1 tvg-id="Band Curitiba HD.br" tvg-name="BAND PARANÁ" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Band_Marca.png/120px-Band_Marca.png" group-title="TV ABERTA",BAND PARANÁ - PR
+http://limed.cc:80/4x6cXF/ehfxdp/110229.m3u8
+#EXTINF:-1 tvg-id="Band Rio Grande do Sul HD.br" tvg-name="BAND RS" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Band_Marca.png/120px-Band_Marca.png" group-title="TV ABERTA",BAND - RS
+http://limed.cc:80/4x6cXF/ehfxdp/100660.m3u8
+#EXTINF:-1 tvg-id="TV GuarÃ¡ HD.br" tvg-name="TV GUARÁ CAXIAS" tvg-logo="https://ugc.production.linktr.ee/ac8b3e63-c6b0-49be-a73d-6818df55ad2a_LOGO-TV-GUARA--1-.png?io=true&size=avatar-v3_0" group-title="TV ABERTA",TV GUARÁ CAXIAS - MA
+https://srv1.zcast.com.br/igo8807/igo8807/playlist.m3u8
+
 #EXTINF:-1 group-title="Canais Abertos" tvg-id="62e010e6cd663f0007e57dc8" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcE3z-QtWvhdP1Ps_ZKQuYPahyJTKVrJqR1ZvpYC5wOSfKqCbJhtOUmkXmZaI&s",TV CULTURA SP HD
 https://5b33b873179a2.streamlock.net:1443/live/livestream/chunklist_w1027478611.m3u8
 
