@@ -36,64 +36,62 @@ http://iptv.ixfo.com.ar:8081/live/C4POS/playlist.m3u8?PlaylistM3UCL
 #EXTINF:-1 group-title="Argentina" tvg-chno="1014" tvg-id="ARGTV.SSIPTV.ar" tvg-logo="...3666810289391430657_n.jpg", SSIPTV ARG TV - TDA 6.2
 http://service-stitcher.clusters.pluto.tv/...
 
-#EXTINF:-1 group-title="Argentina" tvg-chno="1015" tvg-id="TVPublica.ar" tvg-logo="...tv-publica-ar.png", TV PUBLICA
+#EXTINF:-1 group-title="Argentina" tvg-chno="1015" tvg-id="Canal.Televisión.Pública.(Argentina).ar" tvg-logo="...tv-publica-ar.png", TV PUBLICA
 http://181.13.173.86:8000/play/a0aq/index.m3u8
 
-#EXTINF:-1 group-title="Argentina" tvg-chno="1016" tvg-id="TVPublica.ar" tvg-logo="...tv-publica-ar.png", TV PUBLICA
+#EXTINF:-1 group-title="Argentina" tvg-chno="1016" tvg-id="Canal.Televisión.Pública.(Argentina).ar" tvg-logo="...tv-publica-ar.png", TV PUBLICA
 https://g2.proy-hor.transport.edge-access.net/...
 
-#EXTINF:-1 group-title="Argentina" tvg-chno="1017" tvg-id="TVPublica.ar" tvg-logo="...TV_PUBLICA.jpg", TV PUBLICA
+#EXTINF:-1 group-title="Argentina" tvg-chno="1017" tvg-id="Canal.Televisión.Pública.(Argentina).ar" tvg-logo="...TV_PUBLICA.jpg", TV PUBLICA
 https://g2.proy-slo.transport.edge-access.net/...
 
-#EXTINF:-1 group-title="Argentina" tvg-chno="1018" tvg-id="TVPublica.ar" tvg-logo="...TV_PUBLICA.jpg", TV PUBLICA
+#EXTINF:-1 group-title="Argentina" tvg-chno="1018" tvg-id="Canal.Televisión.Pública.(Argentina).ar" tvg-logo="...TV_PUBLICA.jpg", TV PUBLICA
 http://168.197.196.98:9981/stream/channelid/1475050013?...
 
-#EXTINF:-1 group-title="Argentina" tvg-chno="1019" tvg-id="TVPublica.ar" tvg-logo="https://i.imgur.com/04nIdpc.png", TV PUBLICA 2
+#EXTINF:-1 group-title="Argentina" tvg-chno="1019" tvg-id="Canal.Televisión.Pública.(Argentina).ar" tvg-logo="https://i.imgur.com/04nIdpc.png", TV PUBLICA 2
 http://168.197.196.98:9981/stream/channelid/1475050013
 
-#EXTINF:-1 group-title="Argentina" tvg-chno="1020" tvg-id="TVPublica.ar" tvg-logo="https://i.imgur.com/04nIdpc.png", Television Publica - Argentina - TDA 7.1
+#EXTINF:-1 group-title="Argentina" tvg-chno="1020" tvg-id="Canal.Televisión.Pública.(Argentina).ar" tvg-logo="https://i.imgur.com/04nIdpc.png", Television Publica - Argentina - TDA 7.1
 https://cntlnk-main-edge-access.dlt.qwilted-cds.cqloud.com/...
 
-#EXTINF:-1 group-title="Argentina" tvg-chno="1021" tvg-id="TVPublica.ar" tvg-logo="https://upload.wikimedia.org/.../Logo_Televisión_Pública_Argentina.png", TV PUBLICA - SINAL ORIGINAL 2 - TDA 7.1
+#EXTINF:-1 group-title="Argentina" tvg-chno="1021" tvg-id="Canal.Televisión.Pública.(Argentina).ar" tvg-logo="https://upload.wikimedia.org/.../Logo_Televisión_Pública_Argentina.png", TV PUBLICA - SINAL ORIGINAL 2 - TDA 7.1
 https://cntlnk-main-edge-access.dlt.qwilted-cds.cqloud.com/...
 
-#EXTINF:-1 group-title="Argentina" tvg-chno="1022" tvg-id="TVPublica.ar" tvg-logo="https://i.imgur.com/04nIdpc.png", TV PUBLICA 3
+#EXTINF:-1 group-title="Argentina" tvg-chno="1022" tvg-id="Canal.Televisión.Pública.(Argentina).ar" tvg-logo="https://i.imgur.com/04nIdpc.png", TV PUBLICA 3
 http://abcnew.site:8880/D12m2692/94245219/49978
 
-#EXTINF:-1 group-title="Argentina" tvg-chno="1023" tvg-id="TVPublica.ar" tvg-logo="https://raw.githubusercontent.com/mortal251/logos/main/TV_PUBLICA.jpg", TV PUBLICA 4
+#EXTINF:-1 group-title="Argentina" tvg-chno="1023" tvg-id="Canal.Televisión.Pública.(Argentina).ar" tvg-logo="https://raw.githubusercontent.com/mortal251/logos/main/TV_PUBLICA.jpg", TV PUBLICA 4
 http://181.191.140.2:8000/play/a0hd/index.m3u8
 
-#EXTINF:-1 group-title="Argentina" tvg-chno="1024" tvg-id="TVPublica.ar" tvg-logo="https://raw.githubusercontent.com/mortal251/logos/main/TV_PUBLICA.jpg", TV PUBLICA 5
+#EXTINF:-1 group-title="Argentina" tvg-chno="1024" tvg-id="Canal.Televisión.Pública.(Argentina).ar" tvg-logo="https://raw.githubusercontent.com/mortal251/logos/main/TV_PUBLICA.jpg", TV PUBLICA 5
 https://cntlnk-main-edge-access.dlt.qwilted-cds.cqloud.com/...
 
-#EXTINF:-1 group-title="Argentina" tvg-chno="1025" tvg-id="TVPublica.ar" tvg-logo="https://i.imgur.com/04nIdpc.png", Television Publica | Argentina
+#EXTINF:-1 group-title="Argentina" tvg-chno="1025" tvg-id="Canal.Televisión.Pública.(Argentina).ar" tvg-logo="https://i.imgur.com/04nIdpc.png", Television Publica | Argentina
 http://198.27.117.10:8080/Carlos2022/Carlos2022/362546
 
-#EXTINF:-1 group-title="Argentina" tvg-chno="1026" tvg-id="TVPublica.ar" tvg-logo="https://i.imgur.com/04nIdpc.png", Television Publica | Argentina
+#EXTINF:-1 group-title="Argentina" tvg-chno="1026" tvg-id="Canal.Televisión.Pública.(Argentina).ar" tvg-logo="https://i.imgur.com/04nIdpc.png", Television Publica | Argentina
 http://177.128.115.10:8000/play/a0a6/116203
+
 
 #EXTINF:-1 group-title="Argentina" tvg-chno="1027" tvg-id="Telecolormux.ar" tvg-logo="https://i2.paste.pics/35c791e364c3adb7c6c2ef98504041a0.png", TELECOLORMUX - TDA 8.1
 https://live.obslivestream.com/telecolormux/...
 
-#EXTINF:-1 group-title="Argentina" tvg-chno="1028" tvg-id="Telefe.ar" tvg-logo="https://cdn.mitvstatic.com/channels/ar_telefe_m.png", Telefe
-https://telefeviacom1.akamaized.net/...
-
-#EXTINF:-1 group-title="Argentina" tvg-chno="1029" tvg-id="Telefe.ar" tvg-logo="https://cdn.mitvstatic.com/channels/ar_telefe_m.png", Telefe
+#EXTINF:-1 group-title="Argentina" tvg-chno="1029" tvg-id="Canal.Telefé.(Argentina).ar" tvg-logo="https://cdn.mitvstatic.com/channels/ar_telefe_m.png", Telefe
 http://tv.nstvlatino.com:8080/UY1108/@373839/51071
 
-#EXTINF:-1 group-title="Argentina" tvg-chno="1030" tvg-id="Telefe.ar" tvg-logo="https://cdn.mitvstatic.com/channels/ar_telefe_m.png", Telefe
+#EXTINF:-1 group-title="Argentina" tvg-chno="1030" tvg-id="Canal.Telefé.(Argentina).ar" tvg-logo="https://cdn.mitvstatic.com/channels/ar_telefe_m.png", Telefe
 http://tv.nstvlatino.com:8080/UY1108/@373839/1155824
 
-#EXTINF:-1 group-title="Argentina" tvg-chno="1031" tvg-id="Telefe.ar" tvg-logo="https://cdn.mitvstatic.com/channels/ar_telefe_m.png", Telefe
+#EXTINF:-1 group-title="Argentina" tvg-chno="1031" tvg-id="Canal.Telefé.(Argentina).ar" tvg-logo="https://cdn.mitvstatic.com/channels/ar_telefe_m.png", Telefe
 http://181.13.173.86:8000/play/a06c/index.m3u8
 
-#EXTINF:-1 group-title="Argentina" tvg-chno="1032" tvg-id="Telefe.ar" tvg-logo="https://raw.githubusercontent.com/mortal251/logos/main/telefe.jpg", Telefe | Argentina - TDA 11.1
+#EXTINF:-1 group-title="Argentina" tvg-chno="1032" tvg-id="Canal.Telefé.(Argentina).ar" tvg-logo="https://raw.githubusercontent.com/mortal251/logos/main/telefe.jpg", Telefe | Argentina - TDA 11.1
 http://181.209.114.13:8000/play/a06c/index.m3u8
 
-#EXTINF:-1 group-title="Argentina" tvg-chno="1033" tvg-id="Telefe.ar" tvg-logo="https://telefe-static.akamaized.net/media/...png", Telefe (VPN) - TDA 11.1
+#EXTINF:-1 group-title="Argentina" tvg-chno="1033" tvg-id="Canal.Telefé.(Argentina).ar" tvg-logo="https://telefe-static.akamaized.net/media/...png", Telefe (VPN) - TDA 11.1
 https://mitelefe.com/Api/Videos/GetSourceUrl/694564/0/HLS
 
-#EXTINF:-1 group-title="Argentina" tvg-chno="1034" tvg-id="Telefe.ar" tvg-logo="http://x.playerlatino.live/telefe.png", Telefe (VPN) 2
+#EXTINF:-1 group-title="Argentina" tvg-chno="1034" tvg-id="Canal.Telefé.(Argentina).ar" tvg-logo="http://x.playerlatino.live/telefe.png", Telefe (VPN) 2
 https://telefe.com/Api/Videos/GetSourceUrl/694564/0/HLS?.m3u8
 
 #EXTINF:-1 group-title="Argentina" tvg-chno="1035" tvg-id="Telefe.Jujuy.ar" tvg-logo="https://i.imgur.com/q6BQ5YO.png", Telefe Canal 7 Jujuy
@@ -144,28 +142,28 @@ https://unlimited1-buenosaires.dps.live/.../perfiltv.smil
 #EXTINF:-1 group-title="Argentina" tvg-chno="1050" tvg-id="Canal.13.de.Argentina.(El.Trece).ar" tvg-logo="https://cdn.mitvstatic.com/channels/ar_el-trece_m.png", El Trece - TDA 13.1
 http://181.13.173.86:8000/play/a06d/index.m3u8
 
-#EXTINF:-1 group-title="Argentina" tvg-chno="1051" tvg-id="ElTrece.ar" tvg-logo="...Eltrece_logotipo_2018.png", El Trece - TDA 13.1
+#EXTINF:-1 group-title="Argentina" tvg-chno="1051" tvg-id="Canal.13.de.Argentina.(El.Trece).ar" tvg-logo="...Eltrece_logotipo_2018.png", El Trece - TDA 13.1
 https://livetrx01.vodgc.net/eltrecetv/index.m3u8
 
-#EXTINF:-1 group-title="Argentina" tvg-chno="1052" tvg-id="ElTrece.ar" tvg-logo="...Eltrece_logotipo_2018.png", El Trece - TDA 13.1
+#EXTINF:-1 group-title="Argentina" tvg-chno="1052" tvg-id="Canal.13.de.Argentina.(El.Trece).ar" tvg-logo="...Eltrece_logotipo_2018.png", El Trece - TDA 13.1
 https://livetrx01.vodgc.net/eltrecetv/tracks-v1a1/mono.m3u8
 
-#EXTINF:-1 group-title="Argentina" tvg-chno="1053" tvg-id="ElTrece.ar" tvg-logo="...Eltrece_logotipo_2018.png", El Trece - TDA 13.1
+#EXTINF:-1 group-title="Argentina" tvg-chno="1053" tvg-id="Canal.13.de.Argentina.(El.Trece).ar" tvg-logo="...Eltrece_logotipo_2018.png", El Trece - TDA 13.1
 http://181.191.140.2:8000/play/a0ir/index.m3u8
 
-#EXTINF:-1 group-title="Argentina" tvg-chno="1054" tvg-id="ElTrece.ar" tvg-logo="https://cdn.mitvstatic.com/channels/ar_el-trece_m.png", El Trece
+#EXTINF:-1 group-title="Argentina" tvg-chno="1054" tvg-id="Canal.13.de.Argentina.(El.Trece).ar" tvg-logo="https://cdn.mitvstatic.com/channels/ar_el-trece_m.png", El Trece
 https://live-01-02-eltrece.vodgc.net/...
 
-#EXTINF:-1 group-title="Argentina" tvg-chno="1055" tvg-id="ElTrece.ar" tvg-logo="...CANAL_13.jpg", CANAL 13 33.1
+#EXTINF:-1 group-title="Argentina" tvg-chno="1055" tvg-id="Canal.13.de.Argentina.(El.Trece).ar" tvg-logo="...CANAL_13.jpg", CANAL 13 33.1
 https://live-01-02-eltrece.vodgc.net/.../tracks-v2a1/mono.m3u8
 
-#EXTINF:-1 group-title="Argentina" tvg-chno="1056" tvg-id="ElTrece.ar" tvg-logo="...CANAL_13.jpg", CANAL 13 33.1
+#EXTINF:-1 group-title="Argentina" tvg-chno="1056" tvg-id="Canal.13.de.Argentina.(El.Trece).ar" tvg-logo="...CANAL_13.jpg", CANAL 13 33.1
 https://live-01-02-eltrece.vodgc.net/...
 
-#EXTINF:-1 group-title="Argentina" tvg-chno="1057" tvg-id="ElTrece.ar" tvg-logo="...13_de_argentina.png", El Trece | Argentina
+#EXTINF:-1 group-title="Argentina" tvg-chno="1057" tvg-id="Canal.13.de.Argentina.(El.Trece).ar" tvg-logo="...13_de_argentina.png", El Trece | Argentina
 http://177.128.115.10:8000/play/a0a6/116200
 
-#EXTINF:-1 group-title="Argentina" tvg-chno="1058" tvg-id="ElTrece.ar" tvg-logo="...13_de_argentina.png", El Trece | Argentina
+#EXTINF:-1 group-title="Argentina" tvg-chno="1058" tvg-id="Canal.13.de.Argentina.(El.Trece).ar" tvg-logo="...13_de_argentina.png", El Trece | Argentina
 http://198.27.117.10:8080/Carlos2022/Carlos2022/362529
 
 #EXTINF:-1 group-title="Argentina" tvg-chno="1059" tvg-id="ElTrece.Litoral.ar" tvg-logo="...Canal_9_Litoral.png", El Trece Canal 9 Litoral
