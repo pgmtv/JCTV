@@ -31,7 +31,7 @@ https://parecisfmlive.brasilstream.com.br/hls/parecisfmlive/index.m3u8
 #EXTINF:-1 group-title="Canais Abertos" tvg-logo="https://raw.githubusercontent.com/mariosanthos/arquivos/main/a10.png",TV Antena 10 (PI)
 https://video01.logicahost.com.br/a10maisadap/smil:transcoder.smil/playlist.m3u8
 
-#EXTINF:-1 group-title="Canais Abertos" tvg-logo="https://listaiptv.gratis/logos/imagens/gazeta.png", TV Gazeta SP
+#EXTINF:-1 group-title="Canais Abertos" tvg-id="TV Gazeta.br" tvg-logo="https://listaiptv.gratis/logos/imagens/gazeta.png", TV Gazeta SP
 https://stream1.freetv.fun/tv-gazeta-1.m3u8
 
 #EXTINF:-1 group-title="Canais Abertos" tvg-id="CanalMetropolitanodeNoticias.br" tvg-logo="https://i.imgur.com/G0x4xqa.png",Canal Metropolitano de Noticia (720p)
