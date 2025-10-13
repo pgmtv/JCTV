@@ -12,7 +12,6 @@ options.add_argument("--disable-gpu")
 options.add_argument("--window-size=1280,720")
 options.add_argument("--disable-infobars")
 
- URLs dos vídeos Globoplay
 # URLs dos vídeos Globoplay
 globoplay_urls = [
     "https://globoplay.globo.com/v/12749215/",
