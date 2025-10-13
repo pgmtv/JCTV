@@ -24,25 +24,15 @@ jobs:
           pip install selenium requests beautifulsoup4 yt-dlp lxml html5lib
 
       - name: Instalar Google Chrome e ChromeDriver
+        uses: browser-actions/setup-chrome@latest
+        with:
+          chrome-version: stable
+          chromedriver-version: stable
+
+      - name: Instalar FFmpeg (para yt-dlp)
         run: |
           sudo apt-get update
-          sudo apt-get install -y google-chrome-stable wget unzip
-          
-          CHROME_VERSION=$(google-chrome --version | grep -oP '\d+\.\d+\.\d+\.\d+')
-          DRIVER_URL=$(curl -s https://googlechromelabs.github.io/chrome-for-testing/known-good-versions-with-downloads.json | grep -B 5 "$CHROME_VERSION" | grep -o 'https:[^"]*chromedriver-linux64.zip' | head -n 1)
-          if [ -z "$DRIVER_URL" ]; then
-            echo "⚠️ Versão exata não encontrada, baixando última versão estável do ChromeDriver..."
-            DRIVER_URL=$(curl -s https://googlechromelabs.github.io/chrome-for-testing/known-good-versions-with-downloads.json | grep -o 'https:[^"]*chromedriver-linux64.zip' | head -n 1)
-          fi
-          
-          echo "🔽 Baixando ChromeDriver de: $DRIVER_URL"
-          wget -O chromedriver.zip "$DRIVER_URL"
-          unzip -o chromedriver.zip -d /usr/local/bin/
-          
-          # Corrige caminho novo do binário
-          mv /usr/local/bin/chromedriver-linux64/chromedriver /usr/local/bin/chromedriver
-          chmod +x /usr/local/bin/chromedriver
-          echo "✅ ChromeDriver instalado com sucesso."
+          sudo apt-get install -y ffmpeg
 
       - name: Testar instalação
         run: |
@@ -52,3 +42,4 @@ jobs:
       - name: Executar script GLOBO.py
         run: |
           python GLOBO.py
+
