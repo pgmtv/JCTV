@@ -2,8 +2,7 @@ name: Executar scripts Python automaticamente
 
 on:
   schedule:
-    # Executa a cada 2 horas
-    - cron: "0 */2 * * *"
+    - cron: "0 */2 * * *"  # A cada 2 horas
   workflow_dispatch:
 
 jobs:
@@ -24,20 +23,25 @@ jobs:
           python -m pip install --upgrade pip
           pip install selenium requests beautifulsoup4 yt-dlp lxml html5lib
 
-      - name: Instalar Chrome e ChromeDriver (para Selenium)
+      - name: Instalar Google Chrome e ChromeDriver
         run: |
-          set +e
-          sudo apt-get update || true
-          sudo apt-get install -y wget unzip xvfb || true
-          wget -q https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb || true
-          sudo apt install -y ./google-chrome-stable_current_amd64.deb || true
-          CHROME_VERSION=$(google-chrome --version | grep -oP "\d+\.\d+\.\d+\.\d+" | cut -d. -f1)
-          DRIVER_URL=$(curl -s "https://googlechromelabs.github.io/chrome-for-testing/known-good-versions-with-downloads.json" | grep -A 5 "\"version\": \"$CHROME_VERSION" | grep "linux64" | head -n 1 | grep -o 'https:[^"]*') || true
-          wget -O chromedriver.zip "$DRIVER_URL" || true
-          unzip -o chromedriver.zip -d /usr/local/bin/ || true
-          chmod +x /usr/local/bin/chromedriver || true
-          export PATH=$PATH:/usr/local/bin
-          set -e
+          sudo apt-get update
+          sudo apt-get install -y google-chrome-stable
+          CHROME_VERSION=$(google-chrome --version | grep -oP '\d+\.\d+\.\d+\.\d+')
+          DRIVER_VERSION=$(curl -s https://googlechromelabs.github.io/chrome-for-testing/known-good-versions-with-downloads.json | grep -B 5 "$CHROME_VERSION" | grep -o 'https:[^"]*chromedriver-linux64.zip' | head -n 1)
+          if [ -z "$DRIVER_VERSION" ]; then
+            echo "⚠️ Não foi encontrada versão exata, baixando última versão estável do ChromeDriver..."
+            DRIVER_VERSION=$(curl -s https://googlechromelabs.github.io/chrome-for-testing/known-good-versions-with-downloads.json | grep -o 'https:[^"]*chromedriver-linux64.zip' | head -n 1)
+          fi
+          wget -O chromedriver.zip "$DRIVER_VERSION"
+          unzip -o chromedriver.zip -d /usr/local/bin/
+          chmod +x /usr/local/bin/chromedriver
+          echo "✅ ChromeDriver instalado com sucesso."
+
+      - name: Testar instalação
+        run: |
+          google-chrome --version
+          chromedriver --version
 
       - name: Executar script GLOBO.py
         run: |
