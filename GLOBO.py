@@ -1,4 +1,5 @@
 from selenium import webdriver
+from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
 import time
@@ -49,7 +50,7 @@ globoplay_urls = [
 ]
 
 def extract_globoplay_data(url):
-    driver = webdriver.Chrome(options=options)
+    driver = webdriver.Chrome(service=webdriver.ChromeService(executable_path="/usr/bin/chromedriver"), options=options)
     driver.get(url)
     try:
         play_button = driver.find_element(By.CSS_SELECTOR, "button.poster__play-wrapper")
@@ -61,14 +62,14 @@ def extract_globoplay_data(url):
 
     time.sleep(55)  # Espera a página carregar
     title = driver.title
-    log_entries = driver.execute_script("return window.performance.getEntriesByType('resource');")
+    log_entries = driver.execute_script("return window.performance.getEntriesByType(\'resource\');")
     m3u8_url = None
     thumbnail_url = None
     for entry in log_entries:
-        if ".m3u8" in entry['name']:
-            m3u8_url = entry['name']
-        if ".jpg" in entry['name'] and not thumbnail_url:
-            thumbnail_url = entry['name']
+        if ".m3u8" in entry["name"]:
+            m3u8_url = entry["name"]
+        if ".jpg" in entry["name"] and not thumbnail_url:
+            thumbnail_url = entry["name"]
     driver.quit()
     return title, m3u8_url, thumbnail_url
 
@@ -88,5 +89,4 @@ with open("lista1.m3u", "w") as output_file:
                     print(f"M3U8 não encontrado para {url}")
             except Exception as e:
                 print(f"Erro ao processar {url}: {e}")
-# Executa o processamento
-process_m3u_file(input_url, output_file)
+
