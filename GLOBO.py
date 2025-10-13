@@ -48,7 +48,7 @@ globoplay_urls = [
     "https://globoplay.globo.com/v/10740500/",  # CBN RJ - Transmissão ao vivo
 ]
 
-def extract_globoplay_data(url ):
+def extract_globoplay_data(url):
     driver = webdriver.Chrome(options=options)
     driver.get(url)
     try:
@@ -72,8 +72,6 @@ def extract_globoplay_data(url ):
     driver.quit()
     return title, m3u8_url, thumbnail_url
 
-# (seu código completo acima)
-
 with open("lista1.m3u", "w") as output_file:
     with concurrent.futures.ThreadPoolExecutor(max_workers=4) as executor:
         future_to_url = {executor.submit(extract_globoplay_data, url): url for url in globoplay_urls}
@@ -90,4 +88,6 @@ with open("lista1.m3u", "w") as output_file:
                     print(f"M3U8 não encontrado para {url}")
             except Exception as e:
                 print(f"Erro ao processar {url}: {e}")
+# Executa o processamento
+process_m3u_file(input_url, output_file)
 
