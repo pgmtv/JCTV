@@ -1,5 +1,4 @@
 from selenium import webdriver
-from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
 import time
@@ -49,8 +48,8 @@ globoplay_urls = [
     "https://globoplay.globo.com/v/10740500/",  # CBN RJ - Transmissão ao vivo
 ]
 
-def extract_globoplay_data(url):
-    driver = webdriver.Chrome(service=webdriver.ChromeService(executable_path="/usr/bin/chromedriver"), options=options)
+def extract_globoplay_data(url ):
+    driver = webdriver.Chrome(options=options)
     driver.get(url)
     try:
         play_button = driver.find_element(By.CSS_SELECTOR, "button.poster__play-wrapper")
@@ -82,11 +81,12 @@ with open("lista1.m3u", "w") as output_file:
                 title, m3u8_url, thumbnail_url = future.result()
                 if m3u8_url:
                     thumbnail_url = thumbnail_url if thumbnail_url else ""
-                    output_file.write(f'#EXTINF:-1 tvg-logo="{thumbnail_url}" group-title="GLOBO AO VIVO", {title}\n')
-                    output_file.write(f"{m3u8_url}\n")
+                    output_file.write(f\'#EXTINF:-1 tvg-logo="{thumbnail_url}" group-title="GLOBO AO VIVO", {title}\\n\')
+                    output_file.write(f"{m3u8_url}\\n")
                     print(f"Processado com sucesso: {url}")
                 else:
                     print(f"M3U8 não encontrado para {url}")
             except Exception as e:
                 print(f"Erro ao processar {url}: {e}")
-
+# Executa o processamento
+process_m3u_file(input_url, output_file)
