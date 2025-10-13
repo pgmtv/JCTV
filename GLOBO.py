@@ -91,5 +91,3 @@ with open("lista1.m3u", "w") as output_file:
             except Exception as e:
                 print(f"Erro ao processar {url}: {e}")
 
-# Executa o processamento
-process_m3u_file(input_url, output_file)
