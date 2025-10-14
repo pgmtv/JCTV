@@ -1,14 +1,5 @@
 #EXTM3U
 
-#EXTINF:-1 group-title="GLOBO AO VIVO" tvg-chno="838" tvg-id="TVGloboSaoPaulo.br" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLBbr7-LGDTs8A4UlZaQ-v0s-u_T294dLLGlTkDsWp9mh_OPCP6ysZoaUkWA&s" , TV Globo São Paulo
-http://hls1.sua.tv:80/live/globosphd/s.m3u8
-
-#EXTINF:-1 group-title="GLOBO AO VIVO" tvg-chno="839" tvg-id="Globo SP" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDL0hiZWrm3Adfp7RouFKTT_oIyrYNUoouTMHacd4Zjf0oUUr49R-4em6lLA&s" , TV Globo São Paulo
-http://hls1.sua.tv:80/live/globosphd/s.m3u8
-
-#EXTINF:-1 group-title="GLOBO AO VIVO" tvg-chno="840" tvg-id="Globo SP" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVTA2lPxgzulUUqfQtAZ91PEug5evdlLfqP1l7Sr6U38KAtWklLFsOtIyqHg&s" , TV Globo São Paulo
-http://hls1.sua.tv:80/live/globosphd/s.m3u8
-
 #EXTINF:-1 group-title="GLOBO AO VIVO" tvg-chno="841" tvg-id="Globo BA" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/1/1e/Logotipo_TV_Bahia.png" , TV Bahia
 http://hls1.sua.tv/live/globotvbahiafhdbr2/s.m3u8
 
@@ -25,7 +16,7 @@ http://hls1.sua.tv/live/globotvbahiafhdbr2/s.m3u8
 https://parecisfmlive.brasilstream.com.br/hls/parecisfmlive/index.m3u8
 
 #EXTINF:-1 group-title="Canais | ABERTO;Canais | RECORD TV" tvg-chno="846" tvg-id="RecordTV" tvg-logo="https://i.imgur.com/lyQ1v9M.png" , RecordTV Conquista HD
-https://tvconquistalrv.duckdns.org:3334/hls/tvconquistalrv.m3u8?ManoTV
+https://tvconquistalrv.duckdns.org:3334/hls/tvconquistalrv.m3u8
 
 #EXTINF:-1 group-title="VOD" tvg-chno="847" tvg-id="ABC World News Tonight - January 8, 1982" tvg-logo="https://archive.org/services/img/WNBDJanuary91982" , ABC World News Tonight - January 8, 1982
 https://archive.org/download/WNBDJanuary91982/WNBD%20January%208%2C%201982.mp4
