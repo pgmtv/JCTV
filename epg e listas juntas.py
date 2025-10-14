@@ -2,6 +2,7 @@
 """
 M3U & EPG Consolidator - Concatena múltiplos arquivos M3U e consolida seus EPGs
 em um único arquivo XMLTV compactado (.xml.gz), com relatório de erros aprimorado.
+Compatível com execução no GitHub Actions.
 """
 
 import requests
@@ -58,7 +59,6 @@ class M3uEpgConsolidator:
     def download_epg(self, url):
         print(f"\n📅 Baixando EPG: {url}")
         try:
-            # Timeout aumentado para 60 segundos para downloads de EPG
             response = self.session.get(url, timeout=60)
             response.raise_for_status()
             content = response.content
@@ -118,7 +118,6 @@ class M3uEpgConsolidator:
             if source_url not in self.failed_urls:
                 self.failed_urls.append(source_url)
 
-
     def finalize_xmltv_and_compress(self, final_output_gz):
         if not os.path.exists(self.temp_xml_file):
             print("\n⚠️ Nenhum dado de EPG foi processado. O arquivo final não foi gerado.")
@@ -151,10 +150,12 @@ class M3uEpgConsolidator:
 
         if clean_successful:
             print(f"\n✅ EPGs processados com sucesso ({len(clean_successful)}):")
-            for url in clean_successful: print(f"  ✓ {url}")
+            for url in clean_successful:
+                print(f"  ✓ {url}")
         if self.failed_urls:
             print(f"\n❌ EPGs que falharam (download ou análise) ({len(self.failed_urls)}):")
-            for url in self.failed_urls: print(f"  ✗ {url}")
+            for url in self.failed_urls:
+                print(f"  ✗ {url}")
         
         total = len(self.successful_urls)
         if total == 0:
@@ -172,19 +173,20 @@ def main():
         "https://github.com/aseanic/aseanic.github.io/raw/31810aeb9cc29d671f58a554132e62f07f5a80e3/vod"
     ]
     
-    output_dir = "/content/drive/MyDrive"
-    os.makedirs(output_dir, exist_ok=True )
+    # ✅ Compatível com GitHub Actions
+    output_dir = os.path.join(os.getcwd(), "output")
+    os.makedirs(output_dir, exist_ok=True)
+
     playlist_output_file = os.path.join(output_dir, "PLAYLIST.m3u")
     epg_output_file = os.path.join(output_dir, "EPG.xml.gz")
 
-    print("🚀 Iniciando Consolidador de M3U e EPG (v1.2 - Timeout Aumentado)")
+    print("🚀 Iniciando Consolidador de M3U e EPG (v1.2 - GitHub Edition)")
     print(f"🗓️ Data/Hora: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
 
     full_m3u_content = ""
     for i, m3u_url in enumerate(m3u_sources):
         print(f"\n--- Baixando Fonte M3U [{i+1}/{len(m3u_sources)}]: {m3u_url} ---")
         try:
-            # --- MODIFICAÇÃO: Timeout aumentado para 60 segundos ---
             response = consolidator.session.get(m3u_url, timeout=60)
             response.raise_for_status()
             content = response.text
