@@ -1,4 +1,4 @@
-name: Gerador SINAL GLOBO
+name: Gerador EPG ALL
 
 on:
   schedule:
@@ -28,7 +28,7 @@ jobs:
         run: sudo apt-get install -y ffmpeg
 
       - name: Executar script epg e listas juntas.py
-        run: python epg e listas juntas.py
+        run: python "epg e listas juntas.py"
 
       - name: Configurar Git
         run: |
