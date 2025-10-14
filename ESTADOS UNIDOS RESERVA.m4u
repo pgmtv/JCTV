@@ -6,14 +6,6 @@
 EXTM3U url-tvg="https://raw.githubusercontent.com/ydbf/MoveOnJoy/refs/heads/main/epg.xml"
 
 # ------------------Local TV---------------------------
-#EXTINF:-1 ,ABC (WPVI)
-http://cord-cutter.net:8080/hq3y4G/234247/121149
-#EXTINF:-1 ,ABC (WABC)
-http://fl1.moveonjoy.com/ABC_EAST/index.m3u8
-#EXTINF:-1 ,ABC (WOLO)
-http://fl3.moveonjoy.com/ABC_EAST/index.m3u8
-#EXTINF:-1 ,ABC (WABC)
-http://143.244.60.30/ABC_EAST/index.m3u8
 #EXTINF:-1 ,ABC (KMIZ)
 https://cvtv.cvalley.net/hls/KMIZABC/KMIZABC.m3u8
 #EXTINF:-1 ,ABC (KTVO)
