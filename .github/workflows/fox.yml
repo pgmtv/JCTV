@@ -1,4 +1,4 @@
-name: Gerador SINAL GLOBO
+name: Gerador FOX
 
 on:
   schedule:
@@ -28,7 +28,7 @@ jobs:
         run: sudo apt-get install -y ffmpeg
 
       - name: Executar script foxvivo.py
-        run: python foxvivo.py
+        run: python "foxvivo.py"
 
       - name: Configurar Git
         run: |
