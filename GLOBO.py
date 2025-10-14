@@ -15,6 +15,9 @@ options.add_argument("--disable-infobars")
 # URLs dos vídeos Globoplay
 globoplay_urls = [
     "https://www.tvgazeta.com.br/aovivo/",
+    "https://globoplay.globo.com/ao-vivo/7690141/",
+    "https://globoplay.globo.com/ao-vivo/7689934/",
+    "https://ge.globo.com/sportv/video/sportv-2-ao-vivo-no-geglobo-fifa-monitoracao-7690141.ghtml",
     "https://globoplay.globo.com/v/12749215/",
     "https://g1.globo.com/rr/roraima/video/ao-vivo-assista-o-jornal-de-roraima-1a-edicao-2923545-1739458038240.ghtml",
     "https://g1.globo.com/sp/ribeirao-preto-franca/ao-vivo/bom-dia-cidade-ribeirao-preto.ghtml",  # Bom Dia Cidade Ribeirão Preto
