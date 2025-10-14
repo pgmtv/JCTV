@@ -33,11 +33,8 @@ http://181.13.173.86:8000/play/a0a7/index.m3u8
 #EXTINF:-1 group-title="Argentina" tvg-chno="1013" tvg-id="Canal4Posadas.ar" tvg-logo="...259_Canal_4_Posadas.png", América Canal 4 Posadas | AR
 http://iptv.ixfo.com.ar:8081/live/C4POS/playlist.m3u8?PlaylistM3UCL
 
-#EXTINF:-1 group-title="Argentina" tvg-chno="1014" tvg-id="ARGTV.SSIPTV.ar" tvg-logo="...3666810289391430657_n.jpg", SSIPTV ARG TV - TDA 6.2
-http://service-stitcher.clusters.pluto.tv/...
-
 #EXTINF:-1 group-title="Argentina" tvg-chno="1015" tvg-id="Canal.Televisión.Pública.(Argentina).ar" tvg-logo="...tv-publica-ar.png", TV PUBLICA
-http://181.13.173.86:8000/play/a0aq/index.m3u8
+https://g4.mc-hor.transport.edge-access.net/b16/ngrp:c7_vivo01_dai_source-20001_all/playlist.m3u8
 
 #EXTINF:-1 group-title="Argentina" tvg-chno="1016" tvg-id="Canal.Televisión.Pública.(Argentina).ar" tvg-logo="...tv-publica-ar.png", TV PUBLICA
 https://g2.proy-hor.transport.edge-access.net/...
