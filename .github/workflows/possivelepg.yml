@@ -1,4 +1,4 @@
-name: Gerador SINAL GLOBO
+name: Gerador POSSIVEL EPG
 
 on:
   schedule:
@@ -28,7 +28,7 @@ jobs:
         run: sudo apt-get install -y ffmpeg
 
       - name: Executar script possivel epg funcionando.py
-        run: python possivel epg funcionando.py
+        run: python "possivel epg funcionando.py"
 
       - name: Configurar Git
         run: |
