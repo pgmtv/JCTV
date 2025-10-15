@@ -6,7 +6,7 @@ http://tv.nstvlatino.com:8080/UY1108/@373839/1091369
 #EXTINF:-1 group-title="CHILE" tvg-chno="1195" tvg-id="192TVCE.ec" tvg-logo="http://descargas.podzone.net/logos/-13C.png" tvg-name="CHILE - 13C HD" , CHILE - 13C HD
 http://tv.nstvlatino.com:8080/UY1108/@373839/1091370
 
-#EXTINF:-1 group-title="CHILE" tvg-chno="1196" tvg-id="24Horas.es" tvg-logo="http://descargas.podzone.net/logos/-24-horas.png" tvg-name="CHILE - 24 HORAS" , CHILE - 24 HORAS
+#EXTINF:-1 group-title="CHILE" tvg-chno="1196" tvg-id="Canal.24.Horas.ch" tvg-logo="http://descargas.podzone.net/logos/-24-horas.png" tvg-name="CHILE - 24 HORAS" , CHILE - 24 HORAS
 http://tv.nstvlatino.com:8080/UY1108/@373839/23237
 
 #EXTINF:-1 group-title="CHILE" tvg-chno="1197" tvg-id="CHILE - NTV HD" tvg-logo="http://descargas.podzone.net/logos/-NTV.png" tvg-name="CHILE - NTV HD" , CHILE - NTV HD
@@ -30,7 +30,7 @@ http://tv.nstvlatino.com:8080/UY1108/@373839/1155840
 #EXTINF:-1 group-title="CHILE" tvg-chno="1203" tvg-id="Teletrak.cl" tvg-logo="http://descargas.podzone.net/logos/-teletrak.png" tvg-name="CHILE - TELETRAK HD" , CHILE - TELETRAK HD
 http://tv.nstvlatino.com:8080/UY1108/@373839/3854
 
-#EXTINF:-1 group-title="CHILE" tvg-chno="1204" tvg-id="CHILE - CNN CHILE" tvg-logo="http://descargas.podzone.net/logos/-CNN.png" tvg-name="CHILE - CNN CHILE" , CHILE - CNN CHILE
+#EXTINF:-1 group-title="CHILE" tvg-chno="1204" tvg-id="CNN.ch" tvg-logo="http://descargas.podzone.net/logos/-CNN.png" tvg-name="CHILE - CNN CHILE" , CHILE - CNN CHILE
 http://tv.nstvlatino.com:8080/UY1108/@373839/1155843
 
 #EXTINF:-1 group-title="CHILE" tvg-chno="1205" tvg-id="CHILE - ESPN CHILE HD" tvg-logo="http://descargas.podzone.net/logos/-ESPN-1.png" tvg-name="CHILE - ESPN CHILE HD" , CHILE - ESPN CHILE HD
@@ -97,7 +97,7 @@ https://marine2.miplay.cl/ucv3/playlist.m3u8
 #EXTINF:-1 group-title="CHILE" tvg-chno="1225" tvg-id="tvmas.cl" tvg-logo="https://img.soy-chile.cl/Fotos/2018/10/29/file_20181029173540.jpg" , TV+
 https://marine2.miplay.cl/tvmas/playlist.m3u8
 
-#EXTINF:-1 group-title="CHILE" tvg-chno="1226" tvg-id="24Horas.cl" tvg-logo="https://www.lyngsat-logo.com/logo/tv/tt/tvn_24_horas_cl.png" , 24 Horas
+#EXTINF:-1 group-title="CHILE" tvg-chno="1226" tvg-id="Canal.24.Horas.ch" tvg-logo="https://www.lyngsat-logo.com/logo/tv/tt/tvn_24_horas_cl.png" , 24 Horas
 https://marine2.miplay.cl/24horas/playlist.m3u8
 
 #EXTINF:-1 group-title="CHILE" tvg-chno="1227" tvg-id="Mega.cl" tvg-logo="https://www.lyngsat-logo.com/logo/tv/mm/mega-cl.png" , Mega
@@ -169,7 +169,7 @@ https://marine2.miplay.cl/tvr/playlist.m3u8
 #EXTINF:-1 group-title="CHILE" tvg-chno="1249" tvg-id="STGOTV.cl" tvg-logo="https://pbs.twimg.com/media/DmuwuKqXsAUevyn.jpg" , STGO TV
 https://stv4.janus.cl/playlist/stream.m3u8?s=lq&t=3&id=m30upk7m&q=&d=w
 
-#EXTINF:-1 group-title="CHILE" tvg-chno="1250" tvg-id="CNNChile.cl" tvg-logo="http://i.imgur.com/Dd9PMar.png" , CNN Chile
+#EXTINF:-1 group-title="CHILE" tvg-chno="1250" tvg-id="CNN.ch" tvg-logo="http://i.imgur.com/Dd9PMar.png" , CNN Chile
 http://45.181.123.233:8000/play/a15o
 
 #EXTINF:-1 group-title="CHILE" tvg-chno="1251" tvg-id="Undefined" tvg-logo="http://www.radiosplay.com/logos/3/2/6/7/32679.png" , Radio Portal FoxMix Chile
@@ -187,7 +187,7 @@ https://bst.buin.cl/0.m3u8
 #EXTINF:-1 group-title="CHILE" tvg-chno="1255" tvg-id="Caracola TV" tvg-logo="https://www.caracolatv.cl/wp-content/uploads/2021/12/logo-296x300.jpg" , Caracola TV | Chile
 https://wifispeed.trapemn.tv:1936/comunales/caracola-tv/playlist.m3u8
 
-#EXTINF:-1 group-title="INFANTILES" tvg-chno="1256" tvg-id="NTV" tvg-logo="https://i.imgur.com/w1jK0n7.png" tvg-name="NTV" , NTV | Chile
+#EXTINF:-1 group-title="INFANTILES" tvg-chno="1256" tvg-id="n-tv.ch" tvg-logo="https://i.imgur.com/w1jK0n7.png" tvg-name="NTV" , NTV | Chile
 https://marine2.miplay.cl/ntv/playlist.m3u8
 
 #EXTINF:-1 group-title="INFANTILES" tvg-chno="1257" tvg-id="Kids 90" tvg-logo="https://i.imgur.com/A5U3jer.png" tvg-name="Kids 90" , Kids 90 | Chile
@@ -199,10 +199,10 @@ https://tls-cl.cdnz.cl/planetatvkids/live/chunklist_w1953958808.m3u8
 #EXTINF:-1 group-title="INFANTILES" tvg-chno="1259" tvg-id="PlanetaTV Kids" tvg-logo="https://i.imgur.com/ZN3ry2f.png" tvg-name="PlanetaTV Kids" , PlanetaTV Kids | Chile
 https://scl.edge.grupoz.cl/planetatvkids/live/playlist.m3u8
 
-#EXTINF:-1 group-title="CHILE" player-buffer="30" tvg-chno="1260" tvg-id="CNN Chile" tvg-logo="https://i.ibb.co/QP2CjJG/CNN-Chile.png" , CNN Chile
+#EXTINF:-1 group-title="CHILE" player-buffer="30" tvg-chno="1260" tvg-id="CNN.ch" tvg-logo="https://i.ibb.co/QP2CjJG/CNN-Chile.png" , CNN Chile
 http://newultra.xyz:8080/34tehu87se24ma97/m37me65wu93m/57269
 
-#EXTINF:-1 group-title="CHILE" player-buffer="30" tvg-chno="1261" tvg-id="CNN Chile" tvg-logo="https://i.ibb.co/QP2CjJG/CNN-Chile.png" , CNN Chile
+#EXTINF:-1 group-title="CHILE" player-buffer="30" tvg-chno="1261" tvg-id="CNN.ch" tvg-logo="https://i.ibb.co/QP2CjJG/CNN-Chile.png" , CNN Chile
 http://fortv.cc:8080/DeishouV2573/120712/164892
 
 #EXTINF:-1 group-title="CHILE" tvg-chno="1262" tvg-id="mega-hd.cl" tvg-logo="http://yourlogourl.com/mega-hd.png" tvg-name="MEGA HD" , MEGA HD
@@ -218,7 +218,7 @@ http://cord-cutter.net:8080/live/j3McKd/673709/164885.m3u8
 http://cord-cutter.net:8080/live/j3McKd/673709/164888.m3u8
 
 
-#EXTINF:-1 group-title="CHILE" tvg-chno="1266" tvg-id="cnn-chile-hd.cl" tvg-logo="http://yourlogourl.com/cnn-chile-hd.png" tvg-name="CNN CHILE HD" , CNN CHILE HD
+#EXTINF:-1 group-title="CHILE" tvg-chno="1266" tvg-id="CNN.ch" tvg-logo="http://yourlogourl.com/cnn-chile-hd.png" tvg-name="CNN CHILE HD" , CNN CHILE HD
 http://cord-cutter.net:8080/live/j3McKd/673709/164892.m3u8
 
 #EXTINF:-1 group-title="CHILE" tvg-chno="1267" tvg-id="Canal.TVN.(Chile).cl" tvg-logo="https://1000marcas.net/wp-content/uploads/2022/12/TVN-Chile-Logo-thmb.png" tvg-name="TVN" , TVN (CHILE)
