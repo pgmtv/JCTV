@@ -412,7 +412,7 @@ https://videostream.shockmedia.com.ar:19360/neotvdigital/neotvdigital.m3u8
 #EXTINF:-1 group-title="Argentina" tvg-chno="1168" tvg-id="Undefined" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBqJ5EK_82Gq2Q1NadxFoqLtZOCPtvcn5Ba55nRrs1y21x7Xtmb3YTakmElg&s" , Sublime Gracia TV | AR
 https://5f700d5b2c46f.streamlock.net:443/sublime/sublime/playlist.m3u8?PlaylistM3UCL
 
-#EXTINF:-1 group-title="Undefined" tvg-chno="1169" tvg-id="CanalE" tvg-logo="https://www.perfil.com/img/minisitios/econocanal/logo.png" , Canal E
+#EXTINF:-1 group-title="Undefined" tvg-chno="1169" tvg-id="Canal.Europa.Europa.ar" tvg-logo="https://www.perfil.com/img/minisitios/econocanal/logo.png" , Canal E
 https://unlimited1-buenosaires.dps.live/perfiltv/perfiltv.smil/playlist.m3u8
 
 #EXTINF:-1 group-title="Undefined" tvg-chno="1170" tvg-id="Undefined" tvg-logo="https://github.com/masterentertainment/listas/blob/main/logos/NGFE.png?raw=true" , Norte Grande Federal
@@ -439,10 +439,10 @@ https://unlimited1-buenosaires.dps.live/carastv/carastv.smil/playlist.m3u8
 #EXTINF:-1 group-title="Argentina" tvg-chno="1184" tvg-id="Undefined" tvg-logo="https://github.com/masterentertainment/listas/blob/main/logos/CLIC.png?raw=true" , Clic
 https://stream.ads.ottera.tv/playlist.m3u8?network_id=4827
 
-#EXTINF:-1 group-title="Argentina" tvg-chno="1185" tvg-id="Enlace" tvg-logo="https://github.com/masterentertainment/listas/blob/main/logos/ENLCE.png?raw=true" , Enlace
+#EXTINF:-1 group-title="Argentina" tvg-chno="1185" tvg-id="Canal.Enlace.(TBN).ar" tvg-logo="https://github.com/masterentertainment/listas/blob/main/logos/ENLCE.png?raw=true" , Enlace
 https://livecdn.enlace.plus/enlace/smil:enlace-fhd.smil/playlist.m3u8
 
-#EXTINF:-1 group-title="Argentina" tvg-chno="1186" tvg-id="Undefined" tvg-logo="https://github.com/masterentertainment/listas/blob/main/logos/MTV80.png?raw=true" , MTV 80s
+#EXTINF:-1 group-title="Argentina" tvg-chno="1186" tvg-id="Canal.MTV.80s.ar" tvg-logo="https://github.com/masterentertainment/listas/blob/main/logos/MTV80.png?raw=true" , MTV 80s
 https://webtvstream.bhtelecom.ba/hls18/mtv_80s.mpd
 
 #EXTINF:-1 group-title="Argentina" tvg-chno="1187" tvg-id="Undefined" tvg-logo="https://github.com/masterentertainment/listas/blob/main/logos/MTV90.png?raw=true" , MTV 90s
