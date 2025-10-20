@@ -1,3 +1,4 @@
+
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
@@ -13,7 +14,7 @@ options = Options()
 options.add_argument("--headless")  # Executa sem interface gráfica
 options.add_argument("--no-sandbox")
 options.add_argument("--disable-gpu")
-options.add_argument("--window-size=1280,720")
+options.add_argument("--window-size=1920,1080") # Aumentar o tamanho da janela para melhor visibilidade
 options.add_argument("--disable-infobars")
 options.add_argument("--disable-web-security")
 options.add_argument("--disable-features=VizDisplayCompositor")
@@ -21,7 +22,8 @@ options.add_argument("--disable-blink-features=AutomationControlled")
 options.add_argument("--disable-dev-shm-usage")
 options.add_argument("--remote-debugging-port=9222")
 options.add_experimental_option("excludeSwitches", ["enable-automation"])
-options.add_experimental_option('useAutomationExtension', False)
+options.add_experimental_option("useAutomationExtension", False)
+options.add_argument("user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36") # Adicionar User-Agent
 
 # URLs dos vídeos ABC News
 abcnews_urls = [
@@ -63,19 +65,22 @@ def handle_cookie_consent(driver):
             "button[data-cy*='accept']",
             ".privacy-manager-accept-all",
             ".gdpr-accept",
-            ".consent-accept"
+            ".consent-accept",
+            "#didomi-notice-agree-button", # Adicionado seletor específico para Didomi
+            ".cmp-button_button--primary"
         ]
         
         for selector in cookie_selectors:
             try:
-                elements = driver.find_elements(By.CSS_SELECTOR, selector)
-                for element in elements:
-                    if element.is_displayed() and element.is_enabled():
-                        driver.execute_script("arguments[0].click();", element)
-                        print(f"Clicou no botão de cookies: {selector}")
-                        time.sleep(2)
-                        return True
-            except Exception:
+                # Usar WebDriverWait para esperar que o elemento seja clicável
+                element = WebDriverWait(driver, 5).until(
+                    EC.element_to_be_clickable((By.CSS_SELECTOR, selector))
+                )
+                driver.execute_script("arguments[0].click();", element)
+                print(f"Clicou no botão de cookies: {selector}")
+                time.sleep(2)
+                return True
+            except (TimeoutException, NoSuchElementException):
                 continue
                 
         # Tenta fechar modais/overlays genéricos
@@ -92,14 +97,14 @@ def handle_cookie_consent(driver):
         
         for selector in close_selectors:
             try:
-                elements = driver.find_elements(By.CSS_SELECTOR, selector)
-                for element in elements:
-                    if element.is_displayed() and element.is_enabled():
-                        driver.execute_script("arguments[0].click();", element)
-                        print(f"Fechou modal/overlay: {selector}")
-                        time.sleep(1)
-                        return True
-            except Exception:
+                element = WebDriverWait(driver, 3).until(
+                    EC.element_to_be_clickable((By.CSS_SELECTOR, selector))
+                )
+                driver.execute_script("arguments[0].click();", element)
+                print(f"Fechou modal/overlay: {selector}")
+                time.sleep(1)
+                return True
+            except (TimeoutException, NoSuchElementException):
                 continue
                 
     except Exception as e:
@@ -118,7 +123,9 @@ def wait_for_video_load(driver, timeout=30):
             "[data-testid*='video']",
             ".live-player",
             "iframe[src*='player']",
-            "iframe[src*='video']"
+            "iframe[src*='video']",
+            ".jwplayer", # Adicionado seletor para JWPlayer
+            ".vjs-tech" # Adicionado seletor para Video.js
         ]
         
         for selector in video_selectors:
@@ -138,6 +145,7 @@ def wait_for_video_load(driver, timeout=30):
 
 def handle_iframes(driver):
     """Trata iframes que podem conter o player de vídeo"""
+    original_window = driver.current_window_handle
     try:
         iframes = driver.find_elements(By.TAG_NAME, "iframe")
         print(f"Encontrados {len(iframes)} iframes")
@@ -146,7 +154,7 @@ def handle_iframes(driver):
             try:
                 # Verifica se o iframe pode conter vídeo
                 src = iframe.get_attribute("src") or ""
-                if any(keyword in src.lower() for keyword in ['player', 'video', 'live', 'stream']):
+                if any(keyword in src.lower() for keyword in ['player', 'video', 'live', 'stream', 'embed', 'youtube', 'vimeo']):
                     print(f"Iframe {i} parece conter vídeo: {src[:100]}...")
                     
                     # Muda para o iframe
@@ -178,6 +186,8 @@ def handle_iframes(driver):
                     
     except Exception as e:
         print(f"Erro ao tratar iframes: {e}")
+    finally:
+        driver.switch_to.window(original_window) # Garante que volta para a janela principal
 
 def try_play_video(driver):
     """Tenta dar play no vídeo usando vários métodos"""
@@ -205,24 +215,29 @@ def try_play_video(driver):
             ".playkit-pre-playback-play-button",
             "button.playkit-control-button",
             ".play-overlay",
-            ".play-icon"
+            ".play-icon",
+            ".vjs-poster", # Adicionado seletor para poster do Video.js
+            ".jw-icon-playback", # Adicionado seletor para JWPlayer
+            ".fp-ui.fp-engine", # Adicionado seletor para Flowplayer
+            ".bmpui-ui-overlay", # Adicionado seletor para Bitmovin Player
+            ".shaka-play-button" # Adicionado seletor para Shaka Player
         ]
         
         for selector in play_selectors:
             try:
-                elements = driver.find_elements(By.CSS_SELECTOR, selector)
-                for element in elements:
-                    if element.is_displayed() and element.is_enabled():
-                        # Scroll para o elemento se necessário
-                        driver.execute_script("arguments[0].scrollIntoView(true);", element)
-                        time.sleep(1)
-                        
-                        # Tenta clicar usando JavaScript
-                        driver.execute_script("arguments[0].click();", element)
-                        print(f"Clicou no botão de play: {selector}")
-                        time.sleep(3)
-                        return True
-            except Exception as e:
+                element = WebDriverWait(driver, 5).until(
+                    EC.element_to_be_clickable((By.CSS_SELECTOR, selector))
+                )
+                # Scroll para o elemento se necessário
+                driver.execute_script("arguments[0].scrollIntoView({block: 'center'});", element)
+                time.sleep(1)
+                
+                # Tenta clicar usando JavaScript
+                driver.execute_script("arguments[0].click();", element)
+                print(f"Clicou no botão de play: {selector}")
+                time.sleep(3)
+                return True
+            except (TimeoutException, NoSuchElementException):
                 continue
         
         # Se não encontrou botão, tenta clicar no vídeo diretamente
@@ -262,7 +277,11 @@ def try_play_video(driver):
 def extract_m3u8_from_network(driver):
     """Extrai URLs .m3u8 dos logs de rede"""
     try:
-        # Obtém logs de performance/rede
+        # Adicionar um pequeno atraso para garantir que as solicitações de rede sejam registradas
+        time.sleep(5)
+        
+        # Obtém logs de performance/rede. Nota: Esta abordagem pode ser limitada em headless mode.
+        # Para logs de rede mais completos, seria necessário configurar o CDP (Chrome DevTools Protocol).
         log_entries = driver.execute_script("return window.performance.getEntriesByType('resource');")
         
         m3u8_urls = []
@@ -274,9 +293,9 @@ def extract_m3u8_from_network(driver):
         # Remove duplicatas e retorna a melhor URL
         m3u8_urls = list(set(m3u8_urls))
         
-        # Prioriza URLs que parecem ser de melhor qualidade
+        # Prioriza URLs que parecem ser de melhor qualidade ou master playlists
         for url in m3u8_urls:
-            if any(quality in url.lower() for quality in ['master', 'playlist', 'index']):
+            if any(quality in url.lower() for quality in ['master', 'playlist', 'index', 'chunklist']):
                 return url
                 
         # Se não encontrou URL prioritária, retorna a primeira
@@ -295,24 +314,24 @@ def extract_m3u8_from_source(driver):
         
         # Padrões regex para encontrar URLs .m3u8
         m3u8_patterns = [
-            r'https?://[^\s"\'<>]+\.m3u8[^\s"\'<>]*',
-            r'"(https?://[^"]+\.m3u8[^"]*)"',
-            r"'(https?://[^']+\.m3u8[^']*)'",
-            r'src="([^"]+\.m3u8[^"]*)"',
-            r"src='([^']+\.m3u8[^']*)'",
-            r'url:\s*["\']([^"\']+\.m3u8[^"\']*)["\']',
-            r'source:\s*["\']([^"\']+\.m3u8[^"\']*)["\']',
-            r'file:\s*["\']([^"\']+\.m3u8[^"\']*)["\']'
+            r'(https?://[^\s"\\'<>]+?\.m3u8[^\s"\\'<>]*?)', # Padrão mais abrangente para URLs m3u8
+            r'"(https?://[^"]+?\.m3u8[^"]*)"',
+            r"'(https?://[^']+?\.m3u8[^']*)"',
+            r'src="([^"]+?\.m3u8[^"]*)"',
+            r"src='([^']+?\.m3u8[^']*)'",
+            r'url:\s*["\"]([^"\"]+?\.m3u8[^"\"]*)["\"]',
+            r'source:\s*["\"]([^"\"]+?\.m3u8[^"\"]*)["\"]',
+            r'file:\s*["\"]([^"\"]+?\.m3u8[^"\"]*)["\"]',
+            r'"hls_url":"(.*?\.m3u8.*?)"', # Para players que usam JSON para configurar HLS
+            r'"src":"(.*?\.m3u8.*?)"' # Outro padrão comum em JSON
         ]
         
         for pattern in m3u8_patterns:
             matches = re.findall(pattern, page_source, re.IGNORECASE)
             if matches:
-                # Se o padrão captura grupos, pega o primeiro grupo
-                if isinstance(matches[0], tuple):
-                    return matches[0][0] if matches[0][0] else matches[0]
-                else:
-                    return matches[0]
+                # O re.findall com grupos já retorna o grupo, então não precisa de verificação de tuple
+                # Apenas pega o primeiro match encontrado
+                return matches[0]
                     
     except Exception as e:
         print(f"Erro ao extrair m3u8 do código fonte: {e}")
@@ -354,24 +373,26 @@ def extract_abcnews_data(url):
         else:
             print(f"Não conseguiu dar play para {url}")
         
-        # Aguarda um tempo para o stream carregar
+        # Aguarda um tempo para o stream carregar e as URLs .m3u8 aparecerem nos logs de rede
         print(f"Aguardando stream carregar para {url}...")
-        time.sleep(20)
+        time.sleep(15) # Reduzido para 15 segundos, pode ser ajustado
         
         # Tenta extrair .m3u8 dos logs de rede primeiro
         m3u8_url = extract_m3u8_from_network(driver)
         
         # Se não encontrou nos logs, tenta no código fonte
         if not m3u8_url:
+            print("Tentando extrair m3u8 do código fonte...")
             m3u8_url = extract_m3u8_from_source(driver)
         
-        # Aguarda mais um pouco se ainda não encontrou
+        # Aguarda mais um pouco se ainda não encontrou (segunda tentativa)
         if not m3u8_url:
-            print(f"Aguardando mais tempo para {url}...")
-            time.sleep(30)
+            print(f"Aguardando mais tempo para {url} (segunda tentativa)...")
+            time.sleep(10) # Aguarda mais 10 segundos
             m3u8_url = extract_m3u8_from_network(driver)
             
         if not m3u8_url:
+            print("Tentando extrair m3u8 do código fonte (segunda tentativa)...")
             m3u8_url = extract_m3u8_from_source(driver)
         
         # Coleta informações adicionais
@@ -380,15 +401,25 @@ def extract_abcnews_data(url):
         # Busca thumbnail
         thumbnail_url = None
         try:
-            log_entries = driver.execute_script("return window.performance.getEntriesByType('resource');")
-            for entry in log_entries:
-                url_entry = entry.get('name', '')
-                if any(ext in url_entry.lower() for ext in ['.jpg', '.jpeg', '.png', '.webp']) and any(keyword in url_entry.lower() for keyword in ['thumb', 'preview', 'poster']):
-                    thumbnail_url = url_entry
-                    break
-        except Exception:
-            pass
-        
+            # Tenta encontrar a thumbnail no código fonte ou via JavaScript
+            thumbnail_element = driver.find_element(By.CSS_SELECTOR, "meta[property='og:image']")
+            if thumbnail_element: thumbnail_url = thumbnail_element.get_attribute("content")
+        except NoSuchElementException:
+            try:
+                thumbnail_element = driver.find_element(By.CSS_SELECTOR, "link[rel='apple-touch-icon']")
+                if thumbnail_element: thumbnail_url = thumbnail_element.get_attribute("href")
+            except NoSuchElementException:
+                try:
+                    # Fallback para logs de rede se os meta tags não funcionarem
+                    log_entries = driver.execute_script("return window.performance.getEntriesByType('resource');")
+                    for entry in log_entries:
+                        url_entry = entry.get('name', '')
+                        if any(ext in url_entry.lower() for ext in ['.jpg', '.jpeg', '.png', '.webp']) and any(keyword in url_entry.lower() for keyword in ['thumb', 'preview', 'poster', 'image']):
+                            thumbnail_url = url_entry
+                            break
+                except Exception:
+                    pass
+
         return title, m3u8_url, thumbnail_url
         
     except Exception as e:
