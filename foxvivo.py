@@ -178,31 +178,19 @@ def extract_m3u8_from_network(driver):
             if any(x in u.lower() for x in ["master", "playlist", "index"]):
                 return u
         if urls:
-            return urls[0]
-    except Exception as e:
-        print(f"Erro ao extrair m3u8 dos logs: {e}")
-    return None
-
-
-def extract_m3u8_from_source(driver):
-    """Extrai URLs .m3u8 do código-fonte."""
-    try:
-        html = driver.page_source
+            return u        html = driver.page_source
         m3u8_patterns = [
-            r"https?://[^\\s\\"\'<>]+\\.m3u8[^\\s\\"\'<>]+",
-            r"\\"(https?://[^\\"]+\\.m3u8[^\\"]*)\\"",
-            r"\\\'(https?://[^\\\\]+\\.m3u8[^\\\\]*)\\\'",
-            r"src=\\"(https?://[^\\"]+\\.m3u8[^\\"]*)\\"",
-            r"src=\\\\\\'(https?://[^\\\\\\]+\\.m3u8[^\\\\\\]*)\\\\\\'",
-            r"url:\\s*[\\"\\](https?://[^\\"\\]+\\.m3u8[^\\"\\]*)[\\"\\]",
-            r"source:\\s*[\\"\\](https?://[^\\"\\]+\\.m3u8[^\\"\\]*)[\\"\\]",
-            r"file:\\s*[\\"\\](https?://[^\\"\\]+\\.m3u8[^\\"\\]*)[\\"\\]"
+            r"https?://[^\s"'<>]+?\.m3u8[^\s"'<>]*",
+            r"(https?://[^"]+?\.m3u8[^"]*)",
+            r"(https?://[^\]+?\.m3u8[^\]*)",
+            r"src=(https?://[^"]+?\.m3u8[^"]*)",
+            r"src=(https?://[^\]+?\.m3u8[^\]*)",
+            r"url:\s*["'](https?://[^"]+?\.m3u8[^"]*)["']",
+            r"source:\s*["'](https?://[^"]+?\.m3u8[^"]*)["']",
+            r"file:\s*["'](https?://[^"]+?\.m3u8[^"]*)["']"
         ]
 
-        for pattern in m3u8_patterns:
-            matches = re.findall(pattern, html, re.IGNORECASE)
-            if matches:
-                if isinstance(matches[0], tuple):
+        for pattern in m3u8_patterns:              if isinstance(matches[0], tuple):
                     return matches[0][0] if matches[0][0] else matches[0]
                 return matches[0]
     except Exception as e:
@@ -236,8 +224,8 @@ def get_foxnews_live_streams(driver):
                 "div[data-component-name=\"LivePlayer\"] a",
                 "video[src*=\"live\"]",
                 "iframe[src*=\"live\"]",
-                "span.live-badge", # Exemplo de um badge 'Ao Vivo'
-                "div.on-air-now", # Exemplo de um contêiner 'No Ar Agora'
+                "span.live-badge", # Exemplo de um badge \'Ao Vivo\'
+                "div.on-air-now", # Exemplo de um contêiner \'No Ar Agora\'
                 "div[data-qa-label=\"on-air-now\"]"
             ]
 
@@ -260,16 +248,12 @@ def get_foxnews_live_streams(driver):
                 live_urls.add(m3u8_from_source)
                 print(f"M3U8 ao vivo encontrado via source: {m3u8_from_source}")
 
-
-
-        except Exception as e:
-            print(f"Erro ao processar URL de live {url}: {e}")
             # Verificar se há indicadores visuais de "On Air Now" ou "Live" na página
-            on_air_indicators = driver.find_elements(By.XPATH, "//*[contains(text(), 'On Air Now') or contains(text(), 'LIVE')] | //*[contains(@class, 'live-badge') or contains(@class, 'on-air-now')] | //*[contains(@class, 'live-tag')] | //*[contains(@class, 'live-label')]")
+            on_air_indicators = driver.find_elements(By.XPATH, "//*[contains(text(), \'On Air Now\') or contains(text(), \'LIVE\')] | //*[contains(@class, \'live-badge\') or contains(@class, \'on-air-now\')] | //*[contains(@class, \'live-tag\')] | //*[contains(@class, \'live-label\')]")
             
             # Se a página contém um indicador "On Air Now" ou "LIVE", consideramos os URLs encontrados nela
             if on_air_indicators:
-                print(f"Indicador 'On Air Now' ou 'LIVE' encontrado na página {url}.")
+                print(f"Indicador \'On Air Now\' ou \'LIVE\' encontrado na página {url}.")
                 # Adicionar todos os URLs de stream encontrados para esta página ao conjunto final
                 for u in live_urls:
                     # Refinar ainda mais: garantir que o URL em si contenha "live" ou seja um m3u8
@@ -279,9 +263,11 @@ def get_foxnews_live_streams(driver):
                             continue # Ignorar se for um vídeo gravado sem indicador claro de live
                         final_filtered_urls.add(u)
             else:
-                print(f"Nenhum indicador 'On Air Now' ou 'LIVE' encontrado na página {url}. Ignorando URLs desta página.")
+                print(f"Nenhum indicador \'On Air Now\' ou \'LIVE\' encontrado na página {url}. Ignorando URLs desta página.")
 
-    return list(final_filtered_urls)
+        except Exception as e:
+            print(f"Erro ao processar URL de live {url}: {e}")
+
     return list(final_filtered_urls)
 
 
