@@ -32,21 +32,21 @@ def handle_cookie_consent(driver):
     try:
         time.sleep(3)
         cookie_selectors = [
-            "button[id*='accept']",
-            "button[class*='accept']",
-            "button[data-testid*='accept']",
-            "button:contains('Accept')",
-            "button:contains('I Accept')",
-            "button:contains('Accept All')",
-            "button:contains('Agree')",
-            "button:contains('OK')",
+            "button[id*=\'accept\']",
+            "button[class*=\'accept\']",
+            "button[data-testid*=\'accept\']",
+            "button:contains(\'Accept\')",
+            "button:contains(\'I Accept\')",
+            "button:contains(\'Accept All\')",
+            "button:contains(\'Agree\')",
+            "button:contains(\'OK\')",
             ".cookie-accept",
             ".accept-cookies",
             "#onetrust-accept-btn-handler",
             ".ot-sdk-show-settings",
-            "button[aria-label*='Accept']",
-            "button[title*='Accept']",
-            "button[data-cy*='accept']",
+            "button[aria-label*=\'Accept\']",
+            "button[title*=\'Accept\']",
+            "button[data-cy*=\'accept\']",
             ".privacy-manager-accept-all",
             ".gdpr-accept",
             ".consent-accept"
@@ -62,9 +62,9 @@ def handle_cookie_consent(driver):
                     return True
 
         close_selectors = [
-            "button[aria-label*='close']",
+            "button[aria-label*=\'close\']",
             ".close", ".modal-close", "button.close",
-            "[data-dismiss='modal']", ".overlay-close", ".popup-close"
+            "[data-dismiss=\'modal\']", ".overlay-close", ".popup-close"
         ]
 
         for selector in close_selectors:
@@ -85,8 +85,8 @@ def wait_for_video_load(driver, timeout=30):
     """Aguarda até o vídeo carregar."""
     video_selectors = [
         "video", ".video-player", ".player-container",
-        "[data-testid*='video']", ".live-player",
-        "iframe[src*='player']", "iframe[src*='video']"
+        "[data-testid*=\'video\']", ".live-player",
+        "iframe[src*=\'player\']", "iframe[src*=\'video\']"
     ]
     for selector in video_selectors:
         try:
@@ -126,7 +126,7 @@ def try_play_video(driver):
     try:
         time.sleep(3)
         play_selectors = [
-            "button[aria-label*='play']", "button[title*='play']",
+            "button[aria-label*=\'play\']", "button[title*=\'play\']",
             "button.play-button", ".play-btn", ".video-play-button",
             ".player-play-button", "button.vjs-big-play-button",
             ".vjs-play-control", ".poster__play-wrapper",
@@ -155,7 +155,7 @@ def try_play_video(driver):
 
         # Play via JavaScript
         driver.execute_script("""
-            var videos = document.querySelectorAll('video');
+            var videos = document.querySelectorAll(\'video\');
             for (var i = 0; i < videos.length; i++) {
                 if (videos[i].paused) videos[i].play();
             }
@@ -171,7 +171,7 @@ def try_play_video(driver):
 def extract_m3u8_from_network(driver):
     """Extrai URLs .m3u8 do log de rede."""
     try:
-        logs = driver.execute_script("return window.performance.getEntriesByType('resource');")
+        logs = driver.execute_script("return window.performance.getEntriesByType(\'resource\');")
         urls = [l.get("name", "") for l in logs if ".m3u8" in l.get("name", "")]
         urls = list(set(urls))
         for u in urls:
@@ -189,14 +189,14 @@ def extract_m3u8_from_source(driver):
     try:
         html = driver.page_source
         m3u8_patterns = [
-            r"https?://[^\s\"'<>]+\.m3u8[^\s\"'<>]*",
-            r"\"(https?://[^\"]+\.m3u8[^\"]*)\"",
-            r"\'(https?://[^\']+\.m3u8[^\']*)\'",
-            r"src=\"(https?://[^\"]+\.m3u8[^\"]*)\"",
-            r"src=\\'(https?://[^\\']+\.m3u8[^\\']*)\\'",
-            r"url:\s*[\"'](https?://[^\"']+\.m3u8[^\"']*)[\"']",
-            r"source:\s*[\"'](https?://[^\"']+\.m3u8[^\"']*)[\"']",
-            r"file:\s*[\"'](https?://[^\"']+\.m3u8[^\"']*)[\"']"
+            r"https?://[^\\s\\"\'<>]+\\.m3u8[^\\s\\"\'<>]+",
+            r"\\"(https?://[^\\"]+\\.m3u8[^\\"]*)\\"",
+            r"\\\'(https?://[^\\\\]+\\.m3u8[^\\\\]*)\\\'",
+            r"src=\\"(https?://[^\\"]+\\.m3u8[^\\"]*)\\"",
+            r"src=\\\\\\'(https?://[^\\\\\\]+\\.m3u8[^\\\\\\]*)\\\\\\'",
+            r"url:\\s*[\\"\\](https?://[^\\"\\]+\\.m3u8[^\\"\\]*)[\\"\\]",
+            r"source:\\s*[\\"\\](https?://[^\\"\\]+\\.m3u8[^\\"\\]*)[\\"\\]",
+            r"file:\\s*[\\"\\](https?://[^\\"\\]+\\.m3u8[^\\"\\]*)[\\"\\]"
         ]
 
         for pattern in m3u8_patterns:
@@ -210,24 +210,79 @@ def extract_m3u8_from_source(driver):
     return None
 
 
-def get_foxnews_video_links(driver, base_url):
-    """Obtém links de vídeos da Fox News."""
-    links = set()
-    try:
-        driver.get(base_url)
-        time.sleep(5)
-        handle_cookie_consent(driver)
-        for _ in range(5):
-            driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
-            time.sleep(3)
-        elements = driver.find_elements(By.CSS_SELECTOR, "article.video-item a")
-        for e in elements:
-            href = e.get_attribute("href")
-            if href and "/video/" in href and "foxnews.com" in href:
-                links.add(href)
-    except Exception as e:
-        print(f"Erro ao coletar links: {e}")
-    return list(links)
+def get_foxnews_live_streams(driver):
+    """Obtém URLs de streams ao vivo da Fox News."""
+    live_urls = set()
+    final_filtered_urls = set() # Inicializar aqui
+    potential_live_pages = [
+        "https://www.foxnews.com/live",
+        "https://www.foxnews.com/shows/fox-news-live",
+        "https://www.foxnews.com/go",
+        "https://www.foxnews.com/video" # Incluir a página de vídeo geral para mais cobertura
+    ]
+
+    for url in potential_live_pages:
+        try:
+            print(f"Navegando para página potencial de live: {url}")
+            driver.get(url)
+            time.sleep(5)
+            handle_cookie_consent(driver)
+
+            # Tentar encontrar elementos que indiquem um stream ao vivo
+            # Isso pode variar, então usaremos vários seletores
+            live_selectors = [
+                "a[href*=\"/live\"][href*=\".m3u8\"]",
+                "a[href*=\"/live-stream\"]",
+                "div[data-component-name=\"LivePlayer\"] a",
+                "video[src*=\"live\"]",
+                "iframe[src*=\"live\"]",
+                "span.live-badge", # Exemplo de um badge 'Ao Vivo'
+                "div.on-air-now", # Exemplo de um contêiner 'No Ar Agora'
+                "div[data-qa-label=\"on-air-now\"]"
+            ]
+
+            for selector in live_selectors:
+                elements = driver.find_elements(By.CSS_SELECTOR, selector)
+                for el in elements:
+                    href = el.get_attribute("href") or el.get_attribute("src")
+                    if href and (".m3u8" in href or "live" in href.lower()):
+                        live_urls.add(href)
+                        print(f"Encontrado potencial stream ao vivo: {href}")
+
+            # Tentar extrair m3u8 diretamente da rede ou source nessas páginas
+            m3u8_from_network = extract_m3u8_from_network(driver)
+            if m3u8_from_network and "live" in m3u8_from_network.lower():
+                live_urls.add(m3u8_from_network)
+                print(f"M3U8 ao vivo encontrado via rede: {m3u8_from_network}")
+            
+            m3u8_from_source = extract_m3u8_from_source(driver)
+            if m3u8_from_source and "live" in m3u8_from_source.lower():
+                live_urls.add(m3u8_from_source)
+                print(f"M3U8 ao vivo encontrado via source: {m3u8_from_source}")
+
+
+
+        except Exception as e:
+            print(f"Erro ao processar URL de live {url}: {e}")
+            # Verificar se há indicadores visuais de "On Air Now" ou "Live" na página
+            on_air_indicators = driver.find_elements(By.XPATH, "//*[contains(text(), 'On Air Now') or contains(text(), 'LIVE')] | //*[contains(@class, 'live-badge') or contains(@class, 'on-air-now')] | //*[contains(@class, 'live-tag')] | //*[contains(@class, 'live-label')]")
+            
+            # Se a página contém um indicador "On Air Now" ou "LIVE", consideramos os URLs encontrados nela
+            if on_air_indicators:
+                print(f"Indicador 'On Air Now' ou 'LIVE' encontrado na página {url}.")
+                # Adicionar todos os URLs de stream encontrados para esta página ao conjunto final
+                for u in live_urls:
+                    # Refinar ainda mais: garantir que o URL em si contenha "live" ou seja um m3u8
+                    if "live" in u.lower() or ".m3u8" in u.lower():
+                        # Evitar URLs que parecem ser VODs, a menos que explicitamente marcados como live
+                        if "/video/" in u.lower() and not ("live" in u.lower().split("/video/")[-1] or "live-stream" in u.lower()):
+                            continue # Ignorar se for um vídeo gravado sem indicador claro de live
+                        final_filtered_urls.add(u)
+            else:
+                print(f"Nenhum indicador 'On Air Now' ou 'LIVE' encontrado na página {url}. Ignorando URLs desta página.")
+
+    return list(final_filtered_urls)
+    return list(final_filtered_urls)
 
 
 def extract_foxnews_data(url):
@@ -235,7 +290,7 @@ def extract_foxnews_data(url):
     driver = None
     try:
         driver = webdriver.Chrome(options=options)
-        driver.execute_script("Object.defineProperty(navigator, 'webdriver', {get: () => undefined})")
+        driver.execute_script("Object.defineProperty(navigator, \'webdriver\', {get: () => undefined})")
 
         print(f"Acessando: {url}")
         driver.get(url)
@@ -250,7 +305,7 @@ def extract_foxnews_data(url):
         title = driver.title
 
         thumb = None
-        logs = driver.execute_script("return window.performance.getEntriesByType('resource');")
+        logs = driver.execute_script("return window.performance.getEntriesByType(\'resource\');")
         for entry in logs:
             name = entry.get("name", "")
             if any(ext in name.lower() for ext in [".jpg", ".png", ".webp"]) and "thumb" in name.lower():
@@ -270,27 +325,30 @@ def extract_foxnews_data(url):
 # FUNÇÃO PRINCIPAL
 # ===========================
 def main():
-    print("Iniciando extração da Fox News...")
-    base_url = "https://www.foxnews.com/video"
+    print("Iniciando extração de streams ao vivo da Fox News...")
 
     driver_main = webdriver.Chrome(options=options)
-    video_urls = get_foxnews_video_links(driver_main, base_url)
+    live_stream_urls = get_foxnews_live_streams(driver_main)
     driver_main.quit()
 
-    print(f"Foram encontrados {len(video_urls)} vídeos.")
+    print(f"Foram encontrados {len(live_stream_urls)} streams ao vivo.")
 
     with open("lista_foxnews.m3u", "w", encoding="utf-8") as f:
         f.write("#EXTM3U\n")
 
-        for url in video_urls:
+        for url in live_stream_urls:
             print("=" * 60)
             print(f"Processando: {url}")
             print("=" * 60)
-            title, m3u8_url, thumb = extract_foxnews_data(url)
+            # Para streams ao vivo, o título pode ser genérico, e o m3u8_url já é o próprio url
+            # Vamos tentar obter um título melhor se possível, mas o foco é o URL do stream
+            title = f"Fox News Live Stream {live_stream_urls.index(url) + 1}"
+            m3u8_url = url
+            thumb = None # Pode ser difícil obter um thumbnail específico para streams ao vivo sem uma API
 
             if m3u8_url:
                 thumb = thumb or ""
-                f.write(f'#EXTINF:-1 tvg-logo="{thumb}" group-title="FOX NEWS VIDEO", {title}\n')
+                f.write(f\'#EXTINF:-1 tvg-logo="{thumb}" group-title="FOX NEWS VIDEO", {title}\n\')
                 f.write(f"{m3u8_url}\n")
                 print(f"✅ Sucesso: {title}")
             else:
