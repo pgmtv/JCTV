@@ -1,186 +1,50 @@
-#EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_MX1.xml.gz"
-
-✔️Azteca_Clic_(Mexico) - ottera server 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/CINECITY2023/cinecity/refs/heads/cinecity.net/logos/canales-internacionales/ClicMexico.png" group-title="🌍 Canales Internacionales",✔️ Azteca Clic (Mexico)
-https://stream.ads.ottera.tv/playlist.m3u8?network_id=5398
-
-✔️Azteca_Internacional_(Mexico) - otteravision server 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/CINECITY2023/cinecity/refs/heads/cinecity.net/logos/canales-internacionales/AztecaInternacional.png" group-title="🌍 Canales Internacionales",✔️ Azteca Internacional (Mexico)
-https://azt-mun.otteravision.com/azt/mun/mun_360p.m3u8
-
-✔️Azteca_Internacional_(Mexico) - ottera server 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/CINECITY2023/cinecity/refs/heads/cinecity.net/logos/canales-internacionales/AztecaInternacional.png" group-title="🌍 Canales Internacionales",✔️ Azteca Internacional (2) (Mexico)
-https://stream.ads.ottera.tv/playlist.m3u8?network_id=5397
-
-✔️Azteca_Uno_(Mexico) - ottera server 
-#EXTINF:-1 tvg-id="Canal.Azteca.Uno.mx" tvg-logo="https://raw.githubusercontent.com/CINECITY2023/cinecity/refs/heads/cinecity.net/logos/canales-internacionales/Azteca_Uno.png" group-title="🌍 Canales Internacionales",✔️ Azteca Uno (Mexico)
-https://stream.ads.ottera.tv/playlist.m3u8?network_id=5396
-
-✔️Azteca_Uno_(Mexico) - otteravision server 
-#EXTINF:-1 tvg-id="Canal.Azteca.Uno.mx" tvg-logo="https://raw.githubusercontent.com/CINECITY2023/cinecity/refs/heads/cinecity.net/logos/canales-internacionales/Azteca_Uno.png" group-title="🌍 Canales Internacionales",✔️ Azteca Uno (2) (Mexico)
-https://azt-oo.otteravision.com/out/v1/da53d7d388be437e92bf8f464018eb48/index.m3u8
-
-✔️Azteca_7_(Mexico) - clubtv server
-#EXTINF:-1 tvg-id="Azteca.7.(XHLAT).Nuevo.Laredo.MX.mx" tvg-logo="https://raw.githubusercontent.com/CINECITY2023/cinecity/refs/heads/cinecity.net/logos/canales-internacionales/Azteca7-2025.png" group-title="🌍 Canales Internacionales",✔️ Azteca 7 (Mexico)
-http://clubtv.link/jun27/phpcode/lista0.php?c=54&token=TecnoplusJunio03&f=.m3u8
-
-//Canal_5_(Mexico)
-EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/CINECITY2023/cinecity/refs/heads/cinecity.net/logos/canales-internacionales/Canal5Mexico.png" group-title="🌍 Canales Internacionales",Canal 5 (Mexico)
-
-
-✔️Canal_6_Multimedios_Laguna_(Mexico) - mdstrm server 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/CINECITY2023/cinecity/refs/heads/cinecity.net/logos/canales-internacionales/Canal%206%20Multimedios.png" group-title="🌍 Canales Internacionales",✔️ Canal 6 Multimedios Laguna (Mexico)
-https://mdstrm.com/live-stream-playlist/57bf686a61ff39e1085d43e1.m3u8
-
-✔️Canal_6_Multimedios_Laguna_(Mexico) - ottera sever  
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/CINECITY2023/cinecity/refs/heads/cinecity.net/logos/canales-internacionales/Canal%206%20Multimedios.png" group-title="🌍 Canales Internacionales",✔️ Canal 6 Multimedios (2) Laguna (Mexico)
-https://stream.ads.ottera.tv/playlist.m3u8?network_id=7368
-
-✔️Canal_6_Multimedios_Monterrey_(Mexico) - mdstrm server 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/CINECITY2023/cinecity/refs/heads/cinecity.net/logos/canales-internacionales/Canal%206%20Multimedios.png" group-title="🌍 Canales Internacionales",✔️ Canal 6 Multimedios (3) Monterrey (Mexico)
-https://mdstrm.com/live-stream-playlist/57b4dbf5dbbfc8f16bb63ce1.m3u8
-
-✔️Canal_6_Multimedios_Saltillo_(Mexico) - mdsrtm server 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/CINECITY2023/cinecity/refs/heads/cinecity.net/logos/canales-internacionales/Canal%206%20Multimedios.png" group-title="🌍 Canales Internacionales",✔️ Canal 6 Multimedios (4) Saltillo (Mexico)
-https://mdstrm.com/live-stream-playlist/5d5d51a4e9a40e25f4a0332c.m3u8
-
-*Canal_10_(Mexico) - streamlock server 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/CINECITY2023/cinecity/refs/heads/cinecity.net/logos/canales-internacionales/Canal10Mexico.png" group-title="🌍 Canales Internacionales",✔️ Canal 10 (Mexico)
-https://5e50264bd6766.streamlock.net/canal10durango/videocanal10durango/playlist.m3u8
-
-✔️Canal_14_(Mexico) - mexside server 
-#EXTINF:-1 tvg-id="Canal.14.de.México.mx" tvg-logo="https://raw.githubusercontent.com/CINECITY2023/cinecity/refs/heads/cinecity.net/logos/canales-internacionales/canal14mexico.png" group-title="🌍 Canales Internacionales",✔️ Canal 14 (Mexico)
-https://s5.mexside.net:1936/canal14/canal14/playlist.m3u8
-
-//CanelaTV_(Mexico)
-EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/CINECITY2023/cinecity/refs/heads/cinecity.net/logos/canales-internacionales/CanelaTVMexico.png" group-title="🌍 Canales Internacionales",✔️ Canela TV (Mexico)
-
-✔️Canal_Once_(Mexico) - canaloncelive server
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/CINECITY2023/cinecity/refs/heads/cinecity.net/logos/canales-internacionales/CanalOnceMexico.png" group-title="🌍 Canales Internacionales",✔️ Canal Once (Mexico)
-https://vivo.canaloncelive.tv/oncedos/ngrp:pruebachunks_all/.m3u8
-
-✔️Canal_Once_Internacional_(Mexico) - canaloncelive server
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/CINECITY2023/cinecity/refs/heads/cinecity.net/logos/canales-internacionales/CanalOnceInternacionalMexico.png" group-title="🌍 Canales Internacionales",✔️ Canal Once Internacional (Mexico)
-https://vivo.canaloncelive.tv/alivepkgr3/ngrp:cepro_all/playlist.m3u8
-
-✔️Capital_21_CDMX_(Mexico) - mexside server
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/CINECITY2023/cinecity/refs/heads/cinecity.net/logos/canales-internacionales/Capital21CDMXMexico.png" group-title="🌍 Canales Internacionales",✔️ Capital 21 CDMX (Mexico)
-https://s5.mexside.net:1936/respaldo/respaldo/playlist.m3u8
-
-✔️Estrella_TV_(Mexico) - oando server 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/CINECITY2023/cinecity/refs/heads/cinecity.net/logos/canales-internacionales/EstrellaTVMexico.png" group-title="🌍 Canales Internacionales",✔️ Estrella TV (Mexico)
-https://estrellatv-oando.amagi.tv/playlist.m3u8
-
-✔️Estrella_TV_(Mexico) - roku server 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/CINECITY2023/cinecity/refs/heads/cinecity.net/logos/canales-internacionales/EstrellaTVMexico.png" group-title="🌍 Canales Internacionales",✔️ Estrella TV (2) (Mexico)
-https://estrellatv-roku.amagi.tv/playlist.m3u8
-
-✔️Estrella_Games_(Mexico) - tubi server
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/CINECITY2023/cinecity/refs/heads/cinecity.net/logos/canales-internacionales/estrellagamesmexico.png" group-title="🌍 Canales Internacionales",✔️ Estrella Games (Mexico)
-https://apollo.production-public.tubi.io/live/ac-estrella-games.m3u8
-
-✔️Galavision_(Mexico) - 104.238 server
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/CINECITY2023/cinecity/refs/heads/cinecity.net/logos/canales-internacionales/galavson.png" group-title="🌍 Canales Internacionales",✔️ Galavision (Mexico)
-http://104.238.205.28:8989/278723_.m3u8
-
-✔️Imagen_TV_(Mexico) - otteravision server 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/CINECITY2023/cinecity/refs/heads/cinecity.net/logos/canales-internacionales/ImagenTVmexico.png" group-title="🌍 Canales Internacionales",✔️ Imagen TV (Mexico)
-https://igd-it-runtime.otteravision.com/igd/it/it_360.m3u8
-
-✔️Imagen_TV_(Mexico) - ottera server 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/CINECITY2023/cinecity/refs/heads/cinecity.net/logos/canales-internacionales/ImagenTVmexico.png" group-title="🌍 Canales Internacionales",✔️ Imagen TV (2) (Mexico)
-https://stream.ads.ottera.tv/playlist.m3u8?network_id=7390
-
-✔️Jalisco_TV_(Mexico) - rogohosting server
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/CINECITY2023/cinecity/refs/heads/cinecity.net/logos/canales-internacionales/JaliscoTVMexico.png" group-title="🌍 Canales Internacionales",✔️ Jalisco TV (Mexico)
-https://video0.rogohosting.com:19360/sisjalisciense/sisjalisciense.m3u8
-
-✔️JusticiaTV_(Mexico) - vivaro server
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/CINECITY2023/cinecity/refs/heads/cinecity.net/logos/canales-internacionales/JusticiaTVMexico.png" group-title="🌍 Canales Internacionales",✔️ JusticiaTV (Mexico)
-https://live-scjn.ovp-vivaro.digital/ovp-origin/638a22b47746d/playlist.m3u8
-
-✔️Las_Estrellas_(Mexico) - onlymex server 
-#EXTINF:-1 tvg-id="Canal.2.de.México.(Canal.Las.Estrellas.-.XEW).mx" tvg-logo="https://raw.githubusercontent.com/CINECITY2023/cinecity/refs/heads/cinecity.net/logos/canales-internacionales/LasEstrellas.png" group-title="🌍 Canales Internacionales",✔️ Las Estrellas (Mexico)
-https://channel01-onlymex.akamaized.net/hls/live/2022749/event01/index.m3u8
-
-✔️Las_Estrellas_(2)_(Mexico) - 190.216 server 
-#EXTINF:-1 tvg-id="Canal.2.de.México.(Canal.Las.Estrellas.-.XEW).mx" tvg-logo="https://raw.githubusercontent.com/CINECITY2023/cinecity/refs/heads/cinecity.net/logos/canales-internacionales/LasEstrellas.png" group-title="🌍 Canales Internacionales",✔️ Las Estrellas (2)(Mexico)
-http://190.216.158.199:8000/play/a02s/index.m3u8
-
-✔️Mexiquense_(Mexico) - streamlock server 
-#EXTINF:-1 tvg-id="Canal.Mexiquense.TV.mx" tvg-logo="https://raw.githubusercontent.com/CINECITY2023/cinecity/refs/heads/cinecity.net/logos/canales-internacionales/MexiquenseMexico.png" group-title="🌍 Canales Internacionales",✔️ Mexiquense (Mexico)
-https://5fe2654d6127d.streamlock.net/mexiquense/videomexiquense/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9My8yMS8yMDI1IDg6MTg6MjcgQU0maGFzaF92YWx1ZT1CRVNhbDJmY1N4SSsxbDBDcEpaNWtnPT0mdmFsaWRtaW51dGVzPTUmaWQ9
-
-✔️NRT_Mexico_Centro_(Mexico) - streamlock server
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/CINECITY2023/cinecity/refs/heads/cinecity.net/logos/canales-internacionales/NRTMexicoCentroMexico.png"  group-title="🌍 Canales Internacionales",✔️ NRT Mexico Centro (Mexico)
-https://5c001c2729b09.streamlock.net:4443/live/_definst_/canal4mva/playlist.m3u8
-
-//Nueve_TV_(Mexico)
-EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/CINECITY2023/cinecity/refs/heads/cinecity.net/logos/canales-internacionales/NueveTVMexico.png" group-title="🌍 Canales Internacionales",✔️ Nueve TV (Mexico)
-
-✔️RCG_Media_(Mexico) - getstreamhosting server
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/CINECITY2023/cinecity/refs/heads/cinecity.net/logos/canales-internacionales/RCGMediaMexico.png" group-title="🌍 Canales Internacionales",✔️ RCG Media (Mexico)
-https://video1.getstreamhosting.com:1936/8172/8172/playlist.m3u8
-
-✔️TelePlay_(Mexico) - tvstream server
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/CINECITY2023/cinecity/refs/heads/cinecity.net/logos/canales-internacionales/teleplaymexico.png" group-title="🌍 Canales Internacionales",✔️ Teleplay (Mexico)
-https://player.tvstream.mx/livestream/teleplay/livesd/playlist.m3u8
-
-✔️TRC_Television_(Mexico) - streamlock server 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/CINECITY2023/cinecity/refs/heads/cinecity.net/logos/canales-internacionales/trctelevisionmexico.png" group-title="🌍 Canales Internacionales",✔️ TRC Television (Mexico)
-https://5f1af61612fb5.streamlock.net/tv43gto/smil:tv43gto.smil/playlist.m3u8
-
-✔️TVC_(Mexico)
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/CINECITY2023/cinecity/refs/heads/cinecity.net/logos/canales-internacionales/Tvc_2003.png" group-title="🌍 Canales Internacionales",✔️ TVC (Mexico)
-https://d2blnrh268ipk.cloudfront.net/live_0.m3u8?CMCD=cid%3D%22https%3A%2F%2Fd2blnrh268ipk.cloudfront.net%2Findex.m3u8%22%2Csid%3D%22306d19e5-c7af-41e3-9492-6bdc13aa2a40%22
-
-✔️TV_Mas_(Mexico) - streamlock server 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/CINECITY2023/cinecity/refs/heads/cinecity.net/logos/canales-internacionales/TVMasMexico.png" group-title="🌍 Canales Internacionales",✔️ TV Mas (Mexico)
-https://5ca9af4645e15.streamlock.net/rtv/videortv/.m3u8
-
-✔️TV_Migrante_(Mexico) - mexside server
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/CINECITY2023/cinecity/refs/heads/cinecity.net/logos/canales-internacionales/TVMigranteMexico.png" group-title="🌍 Canales Internacionales",✔️ TV Migrante (Mexico)
-https://s5.mexside.net:1936/tvmigrante/tvmigrante/playlist.m3u8
-
-✔️TVOAI_Channel_(Mexico) - ottera server 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/CINECITY2023/cinecity/refs/heads/cinecity.net/logos/canales-internacionales/TVOAIChannelMexico.png" group-title="🌍 Canales Internacionales",✔️ TVOAI Channel (Mexico)
-https://stream.ads.ottera.tv/playlist.m3u8?network_id=7392
-
-✔️TV_Pacifico_(Mexico) - streamlock server 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/CINECITY2023/cinecity/refs/heads/cinecity.net/logos/canales-internacionales/TVPacificoMexico.png" group-title="🌍 Canales Internacionales",✔️ TV Pacifico (Mexico)
-https://5ca3e84a76d30.streamlock.net/gpacifico2/mochis.smil/.m3u8
-
-✔️TV_Pacifico_(2)_(Mexico) - 104.238 server 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/CINECITY2023/cinecity/refs/heads/cinecity.net/logos/canales-internacionales/TVPacificoMexico.png" group-title="🌍 Canales Internacionales",✔️ TV Pacifico (2) (Mexico)
-http://104.238.205.28:8989/278372_.m3u8
-
-✔️TV_Unam_(Mexico) - streamlock server 
-#EXTINF:-1 tvg-id="Canal.TVUNAM.mx" tvg-logo="https://raw.githubusercontent.com/CINECITY2023/cinecity/refs/heads/cinecity.net/logos/canales-internacionales/tvunammexico.png" group-title="🌍 Canales Internacionales",✔️ TV Unam (Mexico)
-https://5e50264bd6766.streamlock.net/tvunam/videotvunam/chunklist_w1404092117_DVR.m3u8
-
-✔️TV_Unam_(2)_(Mexico) - 104.238 server 
-#EXTINF:-1 tvg-id="Canal.TVUNAM.mx" tvg-logo="https://raw.githubusercontent.com/CINECITY2023/cinecity/refs/heads/cinecity.net/logos/canales-internacionales/tvunammexico.png" group-title="🌍 Canales Internacionales",✔️ TV Unam (2) (Mexico)
-http://104.238.205.28:8989/278370_.m3u8
-
-//Unicable_(Mexico)
-EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/CINECITY2023/cinecity/refs/heads/cinecity.net/logos/canales-internacionales/uniclb.png" group-title="🌍 Canales Internacionales",Unicable (Mexico)
-
-✔️Unimas_(Mexico) - 172.93 server
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/CINECITY2023/cinecity/refs/heads/cinecity.net/logos/canales-internacionales/unims.png" group-title="🌍 Canales Internacionales",✔️ Unimas (Mexico)
-http://172.93.102.112:8989/158753_.m3u8
-
-✔️Univision_(Mexico) - 190.92 server 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/CINECITY2023/cinecity/refs/heads/cinecity.net/logos/canales-internacionales/unvisn.png" group-title="🌍 Canales Internacionales",✔️ Univision (Mexico)
-http://190.92.10.66:4000/play/a005/index.m3u8
-
-✔️💻Univision_(Mexico)
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/CINECITY2023/cinecity/refs/heads/cinecity.net/logos/canales-internacionales/unvisn.png" group-title="🌍 Canales Internacionales",✔️ Univision (2) (Mexico)
-https://clubtv.link/jun27/phpcode/lista0.php?c=3&token=TecnoplusJunio03&f=.m3u8
-
-✔️Univision_(Mexico) - 190.216 server
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/CINECITY2023/cinecity/refs/heads/cinecity.net/logos/canales-internacionales/unvisn.png" group-title="🌍 Canales Internacionales",✔️ Univision (3) (Mexico)
-http://190.216.158.199:8000/play/a00c/index.m3u8
-
-✔️Vibe_TV_(Mexico) - streamlock server 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/CINECITY2023/cinecity/refs/heads/cinecity.net/logos/canales-internacionales/VibeTVMexico.png" group-title="🌍 Canales Internacionales",✔️ Vibe TV (Mexico)
-https://5ca9af4645e15.streamlock.net/vibetv/videovibetv/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9My8yMS8yMDI1IDg6NTk6MjQgQU0maGFzaF92YWx1ZT1qMmRGZWNzTHIyZGttY3dJdXRYMXF3PT0mdmFsaWRtaW51dGVzPTEwJmlkPQ==
+#EXTINF:-1 tvg-logo="https://s03.video.glbimg.com/x720/7689934.jpg" group-title="GLOBO AO VIVO", sportv ao vivo no ge.globo - monitoração FIFA Copa do Mundo de Clubes | Assista ao vivo pelo Globoplay
+https://live-as-01-02.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJVUyIsImRvbWFpbiI6ImxpdmUtYXMtMDEtMDIudmlkZW8uZ2xvYm8uY29tIiwiZXhwIjoxNzYxMjgwNTkwLCJpYXQiOjE3NjEyNTg5OTAsImlzcyI6InBsYXliYWNrLWFwaS1wcm9kLWdjcCIsIm93bmVyIjoiIiwicGF0aCI6Ii9saXZlL2YoaT0yKS9zcG8xMjRoYS9wbGF5bGlzdC5tM3U4In0.zVAwPmluBJ-UZmQdZwH5RbaZE50eFUUyGtF6rkPTKqLmGFoYNf_wqCpFY2t4qJg3uVcFO596t9818A8jzMIYKbiLx1Fa7VLgF3sOm-diyGbncDdAlLa6wOLoQKnZe-08-f0u_SEecgnwG-_E9h58Q-EV-MRZCLjTrpKQi-dT6b4FwXSrjHspPoPnBgZffu5kTzQc52ad_oFo2pKwPnxWyR2SKD-uYHy9ORhjPzOtWXRW6qxwJStuEHRh9B4HWtJVfDyed1GHfRZW69Wr1Lc9dw7RkxeeJP2u6nP7BFAqS65PBAC-BvF8V5k6yqRqFBLlU-Dl5sIDFoDVKsy8Kja8bw/live/f(i=2)/spo124ha/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://s02.video.glbimg.com/x720/7690141.jpg" group-title="GLOBO AO VIVO", sportv 2 ao vivo no ge.globo - FIFA Monitoração | Assista ao vivo pelo Globoplay
+https://live-as-10-01.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJVUyIsImRvbWFpbiI6ImxpdmUtYXMtMTAtMDEudmlkZW8uZ2xvYm8uY29tIiwiZXhwIjoxNzYxMjgwNjIzLCJpYXQiOjE3NjEyNTkwMjMsImlzcyI6InBsYXliYWNrLWFwaS1wcm9kLWdjcCIsIm93bmVyIjoiIiwicGF0aCI6Ii9saXZlL2YoaT0yKS9zcG8yMjRoYS9wbGF5bGlzdC5tM3U4In0.ppGP80uV7EBsmfAjUjlpSuO1B3QHz6FYNUlohQwWAhKSxJeqzjNm5U1O_HL4xDGjAjLLUBrrrlFTLalmuSEKR5eEEDhw6z9ocfy4GeH3K3gFnrsVKFJAP2K0KVA2yzYPNxgP0PDfUa6fTrCpvoEeT3fbzyxUZhZUP1-gsnRtwOHcQWsE3ZqMDeEn5X0-lX_s7_hTY8iuZnTiKy1h7bp0rDLzoP5w9q6KtpsxwG65f52Rf0b0CzHYW4PIzTwnmv8iXb5F2El7tUF_vsbdRkhFBNG5qUkyVFvcxSaOfMMNckCgTgUsp_pO1rCbmFWdpsLQU7FH9nQzxE7UXzuIeNGzUw/live/f(i=2)/spo224ha/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://s04.video.glbimg.com/x720/12749215.jpg" group-title="GLOBO AO VIVO", Assistir Copa do Mundo de Clubes da FIFA 2025 - sportv 3 no ge.globo online | Globoplay
+https://live-as-02-20.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJVUyIsImRvbWFpbiI6ImxpdmUtYXMtMDItMjAudmlkZW8uZ2xvYm8uY29tIiwiZXhwIjoxNzYxMjgwNjI0LCJpYXQiOjE3NjEyNTkwMjQsImlzcyI6InBsYXliYWNrLWFwaS1wcm9kLWdjcCIsIm93bmVyIjoiIiwicGF0aCI6Ii9saXZlL2YoaT0yKS9zcG8zMjRoYS9wbGF5bGlzdC5tM3U4In0.s0nQu0s8FU1mgIHWQDN8hC1BD_01LHyqOSnVWZRRRj08ydJchnzPSrLCrdcsrFgpsYnOOR-rAN5MbOuzTolSWIzQFNHSk0D_cAyWnlAeBBaCZL0fdFERK8tM6qqDoaNYDWJ6temnHpi6r0s5dvQozM-zezJWewDee6tMWYIv4ZijELuNJwaZP3uZhn1VBQG8jC7W4Ju2GpfVsPCIu3yFNxLYiv668z7Kui789ASj_VImE8y8IKAxmbisCsr_0ng4cP43jQqnIAi6m4kIKJsUMR-dQ1FSP0iHszJ7G4VaPKCelo4ORdC8ZOaOkY2Hpp0B7w4RKpQA6WOsqQLzJWaKwA/live/f(i=2)/spo324ha/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://s02.video.glbimg.com/x720/12860218.jpg" group-title="GLOBO AO VIVO", AO VIVO: EPTV2 - Ribeirão e Franca | G1
+https://live-as-03-27.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJVUyIsImRvbWFpbiI6ImxpdmUtYXMtMDMtMjcudmlkZW8uZ2xvYm8uY29tIiwiZXhwIjoxNzYxMjgwNjk0LCJpYXQiOjE3NjEyNTkwOTQsImlzcyI6InBsYXliYWNrLWFwaS1wcm9kLWdjcCIsIm93bmVyIjoiIiwicGF0aCI6Ii9saXZlL2YoaT0yKS9lcHR2cmliZXZlbnQxL3BsYXlsaXN0Lm0zdTgifQ.aNrwNcDbKeJV2EI-5vS6PoDrBYwAPEXTgeciUh6V8OMc88umo-YP_GWXMV3s8TZsXXiW1Xl7USfu3keI84Of5fRt5Sb5ZGUN2TvJw54yqVfMHyLWw-oub9oWRmaGqVOmz1g4tu3YQPHgV1j5lEtwVPAEXQceUmZlMgE_p7zZwr1y6QUyLFnONwXku1HrArLozo4rHwhRqTUZJ0rwjCSaP9Kbtlsr-B70-Yxuu3mUNmk1AeL0Fw0hNrYdrp3lEpMTxargjki-26lPMv5_iuSOugvr2RU1cCPHBZkha9BhyIoEIygGkKBaDZWmcyjnrVTQVGJYpj73v4f-1aZI62nM1A/live/f(i=2)/eptvribevent1/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://s02.video.glbimg.com/x720/5768715.jpg" group-title="GLOBO AO VIVO", AO VIVO: AO VIVO: Assista ao GR2 | G1
+https://live-as-04-27.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJVUyIsImRvbWFpbiI6ImxpdmUtYXMtMDQtMjcudmlkZW8uZ2xvYm8uY29tIiwiZXhwIjoxNzYxMjgwNzI2LCJpYXQiOjE3NjEyNTkxMjYsImlzcyI6InBsYXliYWNrLWFwaS1wcm9kLWdjcCIsIm93bmVyIjoiIiwicGF0aCI6Ii9saXZlL2YoaT0yKS9nMXBldC9wbGF5bGlzdC5tM3U4In0.fxVIv6i3cHH7hYFV82RXFDbNLyjxKlSvLfrsFXomQlOJjvLafMlmgRTAKXHV732N8Li1pWuy4ekpS0J0SD4drwCSYJfi7B_Hu1vajMjn8fYEPOo9g7DpCozEVOVzYzm6m-PCugrCaSK_VcgP4lQsrqmp_g0z4-jkEawCZBCbNfNbUO_4lco91-e32I0oaxieGTbWu5atlbgTe4lvGjEz3p0V2nc6R5M2qg8taoWQLhBNlSuY1PACR9RPwIi2uqmf7Wibj_vJ13BheutBIxAz4Nfpj-OW19jEWfG3yEfL9WEh99LL0p3CzLVd6ldCdANeGd2LBvQe-pg5uxcMvh4KuA/live/f(i=2)/g1pet/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://s03.video.glbimg.com/x720/1328766.jpg" group-title="GLOBO AO VIVO", Assistir G1 ao vivo - g1 ao vivo: Transmissão ao vivo online | Globoplay
+https://live-as-10-22.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJVUyIsImRvbWFpbiI6ImxpdmUtYXMtMTAtMjIudmlkZW8uZ2xvYm8uY29tIiwiZXhwIjoxNzYxMjgwNzcyLCJpYXQiOjE3NjEyNTkxNzIsImlzcyI6InBsYXliYWNrLWFwaS1wcm9kLWdjcCIsIm93bmVyIjoiIiwicGF0aCI6Ii9saXZlL2YoaT0yKS9nMXJqMS9wbGF5bGlzdC5tM3U4In0.v6dorjRYOZDRyg80d2KRjEz39bdzbCovV1CY1yL1KTN69YTebwhCEjDuesMbKWPC04HTvyLo11LCUAl9vCG8i_JwsImY8ZNoeKCrZmqYMg1N5JWNJ9ZOrMDVbjBMFC94-_MzAYNAhjesiQhPMABVrsdP9tcjqs6a8lYeH5YoQ2LxOcvcNydWIRC-dQmgvcUxGDaPT3yL_KxWbqQP1ZYtaqH4_kf5JmWFOtBEBgGXnFfHXG6xdvnNdxi8sIE3vxTZ8MLnomR_i_sK75VDKnaLyA0fsdGHSwN0XVQ-VgulWJUiCAfLm1Je23CbUGO4m-6CAzvaREQxzarkrtSBHkbiQg/live/f(i=2)/g1rj1/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://s02.video.glbimg.com/x720/1467373.jpg" group-title="GLOBO AO VIVO", Assistir ge.globo - Transmissão ao vivo online | Globoplay
+https://live-as-02-03.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJVUyIsImRvbWFpbiI6ImxpdmUtYXMtMDItMDMudmlkZW8uZ2xvYm8uY29tIiwiZXhwIjoxNzYxMjgwNzczLCJpYXQiOjE3NjEyNTkxNzMsImlzcyI6InBsYXliYWNrLWFwaS1wcm9kLWdjcCIsIm93bmVyIjoiIiwicGF0aCI6Ii9saXZlL2YoaT0yKS9iZXIxL3BsYXlsaXN0Lm0zdTgifQ.TVsRUScgs4wpBcD_C4QPZAt7Iv2y3oSN-OvqPcR1SdhJqaLa8oWKqvtU4knHP2bFcRXGJiXIQ7XQGGOsQ7UxTaAWdA6tOis7kVtXA_PZziV7LjKuZeFpUJ9TMAwPxosbnuXSgA4gy4WyFHIywGiNqy-dYmWLq7gOqqPjbibf9IF9lRkPe6xYxPAp7Evevg_MmqhT5weK6-gFoTh63WNHQQTGiN3KHnlkEti-uhwmEy02ennZEzmx4ZVocHzemOH7aGNXYNzcZjvVbcQzmvBzx41DH5Q9cXKLEhrNQIovpKX0tr88Vqc0_kgNEtFoSClWwwxsQYUanZ3-vFxv2cLu8g/live/f(i=2)/ber1/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://s04.video.glbimg.com/x720/5472979.jpg" group-title="GLOBO AO VIVO", Assistir G1 Caruaru - Transmissão ao vivo do ABTV online | Globoplay
+https://live-as-10-28.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJVUyIsImRvbWFpbiI6ImxpdmUtYXMtMTAtMjgudmlkZW8uZ2xvYm8uY29tIiwiZXhwIjoxNzYxMjgwODA4LCJpYXQiOjE3NjEyNTkyMDgsImlzcyI6InBsYXliYWNrLWFwaS1wcm9kLWdjcCIsIm93bmVyIjoiIiwicGF0aCI6Ii9saXZlL2YoaT0yKS9nMWNhcnVhcnUvcGxheWxpc3QubTN1OCJ9.GJlCZGH5n8ej2SvQU6AFFsGSMAK8nBdBGGYm-YM41bW-kXUvoOC8--5nSdSxfyXkwXPafQm5yBwDNhpw5Hv9cMIJda0W6tN6p7aKHFsWjVntBnFoEMLpjrRqoGhT1mCaEcGaBQQ3rYutfXqiQXhwA-mzEwT0GGIl0j_NgBFjQuryIUUWCkvrjKW-v2vNXFrP4Vx4S8ryuuVLgWPihnlSc6IyM0GckmC8MhlO0TfPesL0HRlTyuVNzecIRB9a4GQdDNHSdyBMJe4IpF6seiM_C3WIQQ6LS6i9bzgEIPpE9mFFrFDq5RrVgl2CzTl5359YNsvjUYgZoHvdz5a0dP984Q/live/f(i=2)/g1caruaru/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://s04.video.glbimg.com/x720/4064559.jpg" group-title="GLOBO AO VIVO", Assistir G1 ao vivo - g1 ao vivo: Primeira Turma do STF retoma julgamento do núcleo 4 da tentativa de golpe online | Globoplay
+https://live-as-04-27.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJVUyIsImRvbWFpbiI6ImxpdmUtYXMtMDQtMjcudmlkZW8uZ2xvYm8uY29tIiwiZXhwIjoxNzYxMjgwODA4LCJpYXQiOjE3NjEyNTkyMDgsImlzcyI6InBsYXliYWNrLWFwaS1wcm9kLWdjcCIsIm93bmVyIjoiIiwicGF0aCI6Ii9saXZlL2YoaT0yKS9qYjEvcGxheWxpc3QubTN1OCJ9.wvlEzv4o7kD-DjMIjTCkKE1iJrsWE0cTxbEv9sTkx6NP24Y4Pnup2tG05U5hn1fHWLXFzgIHoyuZHUUA-dsSm9reba2do-OK53gDdlh219mpAIKlFIbsrgVcN0201L5ttVNZJw4bJERRI3cwlLd5LWgsUjxDC6XibNiE91qpQps3rKfkUd3LSLwwZdgDJQaeE0VNCyTCh4EO0NefScWKS6f2AlwEkl2sB9vaDZOU-eHOoPyHxCl4308kkYfPRkda_ttnA_RRl0P_h52FjO60N1AyZ_Dq3TZaR0TJNXgx9kfZ20RmbL6POe-j2ZZgBHxJJwS2tmNRxdpxAYS_aDjAwA/live/f(i=2)/jb1/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://s04.video.glbimg.com/x720/5472979.jpg" group-title="GLOBO AO VIVO", Transmissão ao vivo do ABTV | Assista ao vivo pelo Globoplay
+https://live-as-10-28.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJVUyIsImRvbWFpbiI6ImxpdmUtYXMtMTAtMjgudmlkZW8uZ2xvYm8uY29tIiwiZXhwIjoxNzYxMjgwODQ1LCJpYXQiOjE3NjEyNTkyNDUsImlzcyI6InBsYXliYWNrLWFwaS1wcm9kLWdjcCIsIm93bmVyIjoiIiwicGF0aCI6Ii9saXZlL2YoaT0yKS9nMWNhcnVhcnUvcGxheWxpc3QubTN1OCJ9.g6fBqoFEZTkanFWFkd5UKHPU4N8CxPY26ydZvIgMuQDQlejoKAWN4sHhZrE_QOExOY0Owm_IWpTEJqK5k4BxqX4t6ixZHxL1mEdg6Mlz-OXfmA7yIyoCWwh8LSf9ONw01PlAJ6MUhxTT704WOTJtBhxEJxe49zlXYTc8hXldLmuTu215aW38Vh_cxS8ARRZ77tOYuN9N1b_NKxspb6oQgxnLJoBwa0kn6-Ye8e7uGaspjM6GP2tEXA1dG4jmUClYfLPRo1cxBqSHbMORY5l-xNOPb1Ts_utiNtoQHob5u6Vxtwr-drSPwhXs8V5jBkDcAyYmjMeO0XMAKlp9Lr7y7g/live/f(i=2)/g1caruaru/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://s04.video.glbimg.com/x720/2135579.jpg" group-title="GLOBO AO VIVO", Assistir G1 RS - Assista aos telejornais da RBS TV online | Globoplay
+https://live-as-01-01.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJVUyIsImRvbWFpbiI6ImxpdmUtYXMtMDEtMDEudmlkZW8uZ2xvYm8uY29tIiwiZXhwIjoxNzYxMjgwODQ0LCJpYXQiOjE3NjEyNTkyNDQsImlzcyI6InBsYXliYWNrLWFwaS1wcm9kLWdjcCIsIm93bmVyIjoiIiwicGF0aCI6Ii9saXZlL2YoZHZyPTEyMCxpPTIpL2dsb2JvLXJzMS9wbGF5bGlzdC5tM3U4In0.jE4wpYhhzEwQJc5wVjwmV5yJXos7SaqaBskFhZ6Jx8R6pxwUGMakyeJ5V28-N1Lh9Az388lXTkHd6xp6tQOFjnq4uabOQtoBYL8s9MMbiXhhz_DA0ObteAXh-PhOa6VyH4HO3zaNh-4apX7UI8euHmDntXXe5uiv0s1qxdjFjm-LR-jLSPzqWthOxTd6kTnW0EXOhIcllpM0qP_CHjOmHmkofpS0pzJokFvLkzUDz9SYLEjgpFHrv9ih0jymvnY-qsciHl-nIgoTYBKS27yCoYqqxW5qY31HS_OQJe6XYA3FWOq02z_UNU1CecLvMKju0OsoTjpt7wWu1GZJhaOwLA/live/f(dvr=120,i=2)/globo-rs1/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://s01.video.glbimg.com/x720/2145544.jpg" group-title="GLOBO AO VIVO", Assistir G1 SC - AO VIVO: Assista aos telejornais da NSC TV online | Globoplay
+https://live-as-09-14.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJVUyIsImRvbWFpbiI6ImxpdmUtYXMtMDktMTQudmlkZW8uZ2xvYm8uY29tIiwiZXhwIjoxNzYxMjgwODc5LCJpYXQiOjE3NjEyNTkyNzksImlzcyI6InBsYXliYWNrLWFwaS1wcm9kLWdjcCIsIm93bmVyIjoiIiwicGF0aCI6Ii9saXZlL2YoYk1pbj01NTg5NzYpL25zY3NjYXRhcmluYS9wbGF5bGlzdC5tM3U4In0.OvPHBrnWxA3RIeRxpPSmORwseLMyMtttol1AjDmkac6jQISWAb6cfC7jv9OXXahQ02LxRfmBk0tUE4T87VXpLV72-L96aK0k3pgLzbXwzndWEqK4JQs4DlgDqVGVHA2OBtkqddVsvnIcvxSGbQncw5njI0x2AQSToIF4-YHETAe6RdC1hT62uORuDryHb91hYeLYv1zWa5A5oQbXnCeowYF_A2lBlAcAp8QUpRwRhBbj8bSlOfbb2f0Hzpgns088Y5oce_WL2JtUqsMoTyORT-W6k4nFsirWZns2aiQpBDK9RKy_j9sDNNJULlXIKXpKdFnTDWwYGjsXQhWs8fXg6w/live/f(bMin=558976)/nscscatarina/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://s01.video.glbimg.com/x720/4039160.jpg" group-title="GLOBO AO VIVO", Assistir G1 CE - Assista à TV Verdes Mares ao vivo online | Globoplay
+https://live-as-02-01.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJVUyIsImRvbWFpbiI6ImxpdmUtYXMtMDItMDEudmlkZW8uZ2xvYm8uY29tIiwiZXhwIjoxNzYxMjgwOTE1LCJpYXQiOjE3NjEyNTkzMTUsImlzcyI6InBsYXliYWNrLWFwaS1wcm9kLWdjcCIsIm93bmVyIjoiIiwicGF0aCI6Ii9saXZlL2YoYk1pbj01NTg5NzYpL3R2dm1jZWZvcjIvcGxheWxpc3QubTN1OCJ9.IPTkq4Wu-crlGFetFienIJH5qjZGNkLTSf0mQ9uStyFTmUsfHu6dJ2wQ1O5pAzVqoH9bPfQ3l7bobSHyQYvRFywVtEyWJAQQoIQ1JsR4KOL6hTRuSf4V9Iz2IRKXSL8kOC28-_oVcEafg_TfwLJ5erFamp45l-KVoTtCZvQefv233NIqQFKf_QPE_AoFRDYURT0yHniShP5JGTmiQmelJlBSKl2A0f3Up3VP-UWFkjm_zGXlHBgNFCDjNf8MG5izxLaclBgR1FYm1fwOefzEtwybOBzixi7WKrJOk3W34Ge4U0c6rQ5QQLnKfTrW6yZES-dzxo33ifRWt9l1NR3VnQ/live/f(bMin=558976)/tvvmcefor2/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://s01.video.glbimg.com/x720/11999480.jpg" group-title="GLOBO AO VIVO", Assistir G1 ES - Transmissão ao vivo do jornal Regional no g1 ES online | Globoplay
+https://live-as-10-28.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJVUyIsImRvbWFpbiI6ImxpdmUtYXMtMTAtMjgudmlkZW8uZ2xvYm8uY29tIiwiZXhwIjoxNzYxMjgwOTQ5LCJpYXQiOjE3NjEyNTkzNDksImlzcyI6InBsYXliYWNrLWFwaS1wcm9kLWdjcCIsIm93bmVyIjoiIiwicGF0aCI6Ii9saXZlL2YoaT0yKS9nMXR2Z2F6ZXRhZXMvcGxheWxpc3QubTN1OCJ9.0Ddg8XlghUybsSa2E1gWnET85cwsG6oadrttjfbQ-1GBMEs57W6BeOS8xwGtXNKLVBvEW3rftU34j8JzRHEVQG1lxZL1qfQgUHDNeTQzWR7yr9IvzlwWfEB4A48qx35filrSDnESudMpAC30KPGLigxLUViPl-PqgiHUqI30dPes7Xk7yshQ8aihkIXlug-NrXOj9jMYsQyYVSNAHXoJUn2xVRylwPqFbMOQP0lpRcyIFt8k1qof6hqoLccJpG3ZIdoaV4sOPbMnPthloq73RzMqGcI884StZOHm0g4uRd2aSVHn_cM6IZQcg_LAKBGL02xYg0j8QDVAh5eS-ZEHwQ/live/f(i=2)/g1tvgazetaes/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://s04.video.glbimg.com/x720/3667427.jpg" group-title="GLOBO AO VIVO", TV Integração Juiz de Fora - Transmissão ao vivo | Assista ao vivo pelo Globoplay
+https://live-as-10-03.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJVUyIsImRvbWFpbiI6ImxpdmUtYXMtMTAtMDMudmlkZW8uZ2xvYm8uY29tIiwiZXhwIjoxNzYxMjgwOTg2LCJpYXQiOjE3NjEyNTkzODYsImlzcyI6InBsYXliYWNrLWFwaS1wcm9kLWdjcCIsIm93bmVyIjoiIiwicGF0aCI6Ii9saXZlL2YoaT0yKS9nMWludGVncmFtZ2pkZi9wbGF5bGlzdC5tM3U4In0.0h72mf3q8yklNH43L4BnsUGpxMNCpfwEaaT6_FFjXKfVFGRWhiJXTPEWr6hydZBLvBBGJnEVOfGdxkWBqPVraPjytJmSAjO8EAsB0eiHkpA92mJyre0_rtcgh26TAad4jPmsM0QcVDzF7P2hgx_sYATTDdTB54dCzzwbb5qpFYFlGDchlrQXbmZqRniWmgfhxEpyL4d81O7l4Wtr1XyM9ov6uJEJKmKoCSKRcntKi1c4oe8X-S9_CzHUA3Q1JaadihsobSvIp5ueksKKHzGQA4xA1zp-5e48yEH9IXLobt5FwP3bkGgBxCDi67xyS_A-ymG-h-UOYZLVqZ6h1COM3Q/live/f(i=2)/g1integramgjdf/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://s02.video.glbimg.com/x720/4218681.jpg" group-title="GLOBO AO VIVO", Assistir G1 Triângulo Mineiro - TV Integração Uberlândia - Transmissão ao vivo online | Globoplay
+https://live-as-11-33.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJVUyIsImRvbWFpbiI6ImxpdmUtYXMtMTEtMzMudmlkZW8uZ2xvYm8uY29tIiwiZXhwIjoxNzYxMjgwOTg2LCJpYXQiOjE3NjEyNTkzODYsImlzcyI6InBsYXliYWNrLWFwaS1wcm9kLWdjcCIsIm93bmVyIjoiIiwicGF0aCI6Ii9saXZlL2YoaT0yKS9nMWludGVncmFtZ3ViZS9wbGF5bGlzdC5tM3U4In0.OkAkB53uWfM8xro_Z0weXKwJWPLk16VShuDa8046Ht7cJx24bIpX_bhc_S53K7gMV_P5YgRj0FoxBg1ANaCdEfCVTs6KVrFanvUMuzLyFmvDlJat5QOmaKqAPnfZmeOvQ59ZNkordJlrFrYXYs9VF1lQN2csEPRXjZXbc7LrKdGZ-HzwERPxBTYNEC8HEjSnba3XCy4xH_PoupU4IY19TDlOFDWz2neeND0a9mklDEBQ506ASZcO_nypufmOUJDXKAWSm_mKS9-s4XtnGBk1OXG6NXMbesphLQDMprz062akJWo8UsIs0Wbpvorza6BI1ILb5Wvu7cnmb6Y3P9KM4A/live/f(i=2)/g1integramgube/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://s02.video.glbimg.com/x720/12945385.jpg" group-title="GLOBO AO VIVO", Assistir G1 Triângulo Mineiro - TV Integração Uberaba - Transmissão ao vivo online | Globoplay
+https://live-as-08-05.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJVUyIsImRvbWFpbiI6ImxpdmUtYXMtMDgtMDUudmlkZW8uZ2xvYm8uY29tIiwiZXhwIjoxNzYxMjgxMDE4LCJpYXQiOjE3NjEyNTk0MTgsImlzcyI6InBsYXliYWNrLWFwaS1wcm9kLWdjcCIsIm93bmVyIjoiIiwicGF0aCI6Ii9saXZlL2YoaT0yKS9nMWludGVncmFtZ3ViYS9wbGF5bGlzdC5tM3U4In0.D0qq_A-UPyp8Nn_d39UUUsPd2KKeCSlaD0_fDZw60SiV1jI7Wx71D7t8au9GSBFo03s81l-gkapC3gPfbyVmvu5Kzv63_JF_qnR48Kfvh6nNyHheqd11-D-lMhkVW3iS3WVkf3yP9wIBMtfPYKkJHC_XwVhOHiypFc79z-SXruptUwRpjUe7BvUct-x28WioGhd66JwenmzJxoL8P7ECbE7PH3yJYcRuagKwA0kLdmuoSYGMlffyoDDe3vpXPSPE1XaoeAtCXhWpQZFAu_sNHcibAK333HC0OyE3qNsHDReWYd-8Ca-zopfw15kD8dKN5YST9dWT4XiK7rz29Lba8g/live/f(i=2)/g1integramguba/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://s04.video.glbimg.com/x720/2923579.jpg" group-title="GLOBO AO VIVO", Assistir G1 AP - Assista ao vivo aos telejornais da Rede Amazônica online | Globoplay
+https://live-as-09-09.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJVUyIsImRvbWFpbiI6ImxpdmUtYXMtMDktMDkudmlkZW8uZ2xvYm8uY29tIiwiZXhwIjoxNzYxMjgxMDUyLCJpYXQiOjE3NjEyNTk0NTIsImlzcyI6InBsYXliYWNrLWFwaS1wcm9kLWdjcCIsIm93bmVyIjoiIiwicGF0aCI6Ii9saXZlL2YoaT0yKS9yZWRlYXAvcGxheWxpc3QubTN1OCJ9.ECJY0RgmPwRx_7EUtfJcx9o8U0EvgeHOHaZBWogvXSBfjE1nJdVWdQetRHgqYtQ3DGl9bTY-E6yB47s235w27zaDd0E9weSe4zUAY2muuZJVOnBnxne9Sec9FH03V8E_cl0gifPEXzPCcDgMcJSSNld--pZgkQDBvOysWisd0ZIdnKs4htmLaYoAcU_4b4M6Dk0BjaqBSONCsfPUAeIs5XqTfcCBWiKVxLoXbT_sl9JZcXb6ngnWz9IwL7k54cVLyQYEcuw-VxfX8ki0elW8qGU61J6QoULczsEJbdNUU-dEPMeM8CqiIZTh-GtmdddfBnJDn-FsMaLyaJP_NaYKNg/live/f(i=2)/redeap/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://s02.video.glbimg.com/x720/2126580.jpg" group-title="GLOBO AO VIVO", AO VIVO: Assista ao JAM 1 ao vivo | G1
+https://live-as-08-17.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJVUyIsImRvbWFpbiI6ImxpdmUtYXMtMDgtMTcudmlkZW8uZ2xvYm8uY29tIiwiZXhwIjoxNzYxMjgxMDU3LCJpYXQiOjE3NjEyNTk0NTcsImlzcyI6InBsYXliYWNrLWFwaS1wcm9kLWdjcCIsIm93bmVyIjoiIiwicGF0aCI6Ii9saXZlL2YoaT0yKS9yZWRlYW0vcGxheWxpc3QubTN1OCJ9.sWv9Sf5oVhckhDvzZ-tNOwh_49Bh5ydu4BD13XB93AFQk7y220CzLpEtqn0qWmlaEFy4rPgZwfxd_MS6ppuGbIbJTOdKOkDCOPAVxPrHnLAKTkMRJer38gI76xlvOzK1y9HdN7McxFv_87jbZBI589ym7hdY0ydzQxC9f4lvxyE1r2dZ7KPQ_-rpABV6KZXrjY62Bc1sC4dLv3fLSMunPHwOTWplKBo8HuFQKfxdNOKmEOod7EAHp8sbBuj1XAhcaLVDzIvnzhCid5WlkHSresfe8LPUrIsPPjS1xARAJtMexP4kwh55UcXgkqXVIRE5BGZMg3kAo_OWEU2Z6WXd5w/live/f(i=2)/redeam/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://s03.video.glbimg.com/x720/2923546.jpg" group-title="GLOBO AO VIVO", Assistir G1 AC - Assista aos jornais da Rede Amazônica online | Globoplay
+https://live-as-10-02.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJVUyIsImRvbWFpbiI6ImxpdmUtYXMtMTAtMDIudmlkZW8uZ2xvYm8uY29tIiwiZXhwIjoxNzYxMjgxMDg4LCJpYXQiOjE3NjEyNTk0ODgsImlzcyI6InBsYXliYWNrLWFwaS1wcm9kLWdjcCIsIm93bmVyIjoiIiwicGF0aCI6Ii9saXZlL2YoaT0yKS9yZWRlYWMvcGxheWxpc3QubTN1OCJ9.cc7JhcQnURURYlEZpgclwI6rM3mo3nhJDbYvvqWp05uMMFAdig_a2L-0mXK3Nc3GYJ2lFQFK3mdU8LLXewDQmXGCGjgpP6VA_HhOOZoSa2mkbGwkjHBKMn2f9lI7z82fxU-ZNgl_zTmC3FXMiRR-q26r-6Qhlb26GIYV62wfy2nFoQlltp2YkUPgkqOSKHtqXUzdxZ5-awwXtTYoDEcrza26SzHTZ7VoIuBnKBRDpOTyvLdTXyzGkJadzR8wgfymL6qHrxu72QIJBMRoACpVWdCrCquCm-9TGtjrBNMsVj9wGI3kzEZEAMUHVP0Wp7rnjZyS0x2U_oKp89ty_8e4Hg/live/f(i=2)/redeac/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://s02.video.glbimg.com/x720/2168377.jpg" group-title="GLOBO AO VIVO", Assistir G1 PA - Assista aos telejornais da TV Liberal online | Globoplay
+https://live-as-02-22.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJVUyIsImRvbWFpbiI6ImxpdmUtYXMtMDItMjIudmlkZW8uZ2xvYm8uY29tIiwiZXhwIjoxNzYxMjgxMTAzLCJpYXQiOjE3NjEyNTk1MDMsImlzcyI6InBsYXliYWNrLWFwaS1wcm9kLWdjcCIsIm93bmVyIjoiIiwicGF0aCI6Ii9saXZlL2YoYk1pbj01NTg5NzYpL3R2bGliZXJhbC9wbGF5bGlzdC5tM3U4In0.K49Muj0j8vB9raVEs8qMP-cOpaH3cBP2qKa1Mb2b0d4PeFKvBMRqMaXmxNmc_HVy_Rp1mpEvwnrsp2PRfi5E_4WDWjLG8Hlufj0w5j1B-dD7oIz5bTE-7_VYRlPVICZ8lCaklGo7EOaWMR9iAFYiYe9SB1PtS-qWMSwKY9Tu-bQGyVWLaMXlfYsnBz30XMzdmXMM20j-oTtrWw6jz82axXGb5HE4oOwuR8TNkkFvRwdy2cvIYY8u-Uezog39q1GQsQ940BpKgrNPc0FVoTo6qx_Id9GIDJMqw8Qey9Tc_Zb24ipTJAAA4IrrNgZfNPSPiieUIWxVf-u99wvw3CaUIw/live/f(bMin=558976)/tvliberal/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://s04.video.glbimg.com/x720/992055.jpg" group-title="GLOBO AO VIVO", Assistir G1 ao vivo - Veja os vídeos que estão em alta no g1 online | Globoplay
+https://live-as-08-29.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJVUyIsImRvbWFpbiI6ImxpdmUtYXMtMDgtMjkudmlkZW8uZ2xvYm8uY29tIiwiZXhwIjoxNzYxMjgxMTI0LCJpYXQiOjE3NjEyNTk1MjQsImlzcyI6InBsYXliYWNrLWFwaS1wcm9kLWdjcCIsIm93bmVyIjoiIiwicGF0aCI6Ii9saXZlL2YoaT0yKS9nZWhkL3BsYXlsaXN0Lm0zdTgifQ.T8DqKVGXkQFgpARbcJH1odGfLj-eo887leYIWvTWCdRf3xYYTYWv969xOwOwrcb2jZGCLwHCcoMhVaCHiXKEu7bBqtw7zIuck1jPPweOjxiQyP3bLGrCjxNxzqxViLeiybN39GmfBi54TkXYHAlxbuAEnHN-XwqsOqZhNCeokm7aA8s1FUpmJkeroFNSgaWf23na77l5P9UAgt6zDamzfiMOE71lBJzUyGTnW32pQuuW7lpIO3ZzNBFUDCp7i9KgKttYGE6Zrh9LIXMaejP9mBCUDk3u2zFM4V1MgHvxFOhSY8kl5LQd58gNYqK4zjbEXvydNonMGk6dMEnGUh3DEg/live/f(i=2)/gehd/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://s02.video.glbimg.com/x720/602497.jpg" group-title="GLOBO AO VIVO", Assistir ge.globo - Transmissão ao vivo online | Globoplay
+https://live-as-03-09.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJVUyIsImRvbWFpbiI6ImxpdmUtYXMtMDMtMDkudmlkZW8uZ2xvYm8uY29tIiwiZXhwIjoxNzYxMjgxMTM4LCJpYXQiOjE3NjEyNTk1MzgsImlzcyI6InBsYXliYWNrLWFwaS1wcm9kLWdjcCIsIm93bmVyIjoiIiwicGF0aCI6Ii9saXZlL2YoaT0yKS9nZWhkL3BsYXlsaXN0Lm0zdTgifQ.MTiFIPOPZCSuVzpXIeeYnzub7mIdZ9pktmJs7lBiAFTEiy3-SegSTc2G2jr4iZmKk8mgOaKL2hhyLV9bhauFk3R61MpRwTZh6a8bmi5yzTkKfSxm_zh8n8v5LnoKmJQohUOkSwpbnBHtZWyzJvFmzbL0mXjdC_BersRBBskwb-1Zj3ZYNBZr9Vi5_jVUrvJaJLnNnU7srzFIrh7AML3Admo4bQspY6SVi_KrqLYWV3Z8lzXgKkihmu2gQmPpA-OATjprp7kmgp-vlpoBTo41OSGne_TPD_nSibuey-nJm0EwLn-ASQAJ2OT1HERhwf-odchduLKkuNJQqt5ASEAclA/live/f(i=2)/gehd/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://s01.video.glbimg.com/x720/10747444.jpg" group-title="GLOBO AO VIVO", Assistir CBN - CBN SP online | Globoplay
+https://live-as-02-01.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJVUyIsImRvbWFpbiI6ImxpdmUtYXMtMDItMDEudmlkZW8uZ2xvYm8uY29tIiwiZXhwIjoxNzYxMjgxMTcyLCJpYXQiOjE3NjEyNTk1NzIsImlzcyI6InBsYXliYWNrLWFwaS1wcm9kLWdjcCIsIm93bmVyIjoiIiwicGF0aCI6Ii9saXZlL2YoYk1pbj01NTg5NzYsZHZyPTEyMCkvY2Juc3AyNGhhL3BsYXlsaXN0Lm0zdTgifQ.wIdtJ7Fi0vAGQoVLjcOlKj_hSozbfvNrZt5BwUX_9IElI8sBGVLCFfUGwfUVxrNneoYnt1xFDRhuh7hChceupdQais0LVtO64OKdBlPpZoWQIzm9pCGNbiOrNy53AOB6TpqafXVXktykrjxOYNq_MNRa0kMo5-bquY87gdbAoIFggayqEHzuUM-SytmjUVhJjvqNAlvpOd7AUwyma8P_wH4Q-2n8Fch5OIkbYwro3iRdfM2tfltqqqqCOyofVHKv20J7PSgEpoquJcGdq1qpPHWl4708wa9uuEwRF7woo9Vn2FDqkN0lLeDhZKJwt4ErqczyDRe5tvJ6FtJmKSBLTg/live/f(bMin=558976,dvr=120)/cbnsp24ha/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://s01.video.glbimg.com/x720/10740500.jpg" group-title="GLOBO AO VIVO", Assistir CBN - CBN RJ online | Globoplay
+https://live-as-09-15.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJVUyIsImRvbWFpbiI6ImxpdmUtYXMtMDktMTUudmlkZW8uZ2xvYm8uY29tIiwiZXhwIjoxNzYxMjgxMTk0LCJpYXQiOjE3NjEyNTk1OTQsImlzcyI6InBsYXliYWNrLWFwaS1wcm9kLWdjcCIsIm93bmVyIjoiIiwicGF0aCI6Ii9saXZlL2YoYk1pbj01NTg5NzYsZHZyPTEyMCkvY2JucmoyNGhhL3BsYXlsaXN0Lm0zdTgifQ.OEUx69NlBXmO1LBh9Au59tgYUVbIIjSws5NIHeeDuujtiA34XxE7yUaCzhhmHVFQFzaM9TQTS9hiAhLZ1pau3PakgxzL1QtP5ZSsh6P6T8VEhsEL97Qv1d5o_jjFa8nhs8M65ycxnHGQd9z9A8M4G7Wy1Mk1XT1neFPLHv1k-zMu6_SR5x__9VvbwuUsEsQjwyHARuq2M_z7milY2aQX7slV1KcihaSbxbQBlRnnLAHRN3Q_d75zizhYvKfNT-iXGPlWCWQHacynqNlHF197ib4Ll4AYpKnYP9Gunf3b672eybgSa6b9bFafJRXoSJfiVG4WXMkbrn-rnLVSxv9-nQ/live/f(bMin=558976,dvr=120)/cbnrj24ha/playlist.m3u8
