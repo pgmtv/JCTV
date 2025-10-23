@@ -1,0 +1,56 @@
+name: Gerador SINAL GLOBO
+
+on:
+  schedule:
+    - cron: '0 * * * *'  # Executa a cada hora, no minuto 0
+  pull_request:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Atualizar pip e instalar dependências Python
+        run: |
+          pip install streamlink selenium tdqm
+
+      - name: Instalar yt-dlp
+        run: |
+          sudo wget https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp -O /usr/local/bin/yt-dlp
+          sudo chmod a+rx /usr/local/bin/yt-dlp
+
+      - name: Instalar ffmpeg
+        run: sudo apt-get install -y ffmpeg
+
+      - name: Executar script corijaepglista.py
+        run: python corijaepglista.py
+
+      - name: Configurar Git
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+
+      - name: Commitar arquivos modificados
+        run: |
+          git add -A
+          git commit -m "update data" || echo "Nada para commit"
+
+      - name: Obter data atual
+        id: date
+        run: echo "date=$(date '+%Y-%m-%d')" >> $GITHUB_OUTPUT
+
+      - name: Push com rebase e retry
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git pull --rebase origin main || echo "Nada para rebase"
+          git push origin main || (
+            echo "Push falhou, tentando novamente após rebase..."
+            git pull --rebase origin main
+            git push origin main || echo "Falha persistente no push"
+          )
