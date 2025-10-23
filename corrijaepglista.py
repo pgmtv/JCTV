@@ -12,6 +12,10 @@ from tqdm import tqdm
 LOG_FORMAT = '%(asctime)s - %(levelname)s - %(message)s'
 logging.basicConfig(level=logging.INFO, format=LOG_FORMAT)
 
+
+# =========================================================
+# CLASSE M3UProcessor – carrega e extrai canais e URLs de EPG
+# =========================================================
 class M3UProcessor:
     def __init__(self, m3u_path: str):
         self.m3u_path = m3u_path
@@ -56,11 +60,15 @@ class M3UProcessor:
                 channel_info['name'] = match_name.group(1).strip() if match_name else ''
 
                 if i + 1 < len(lines):
-                    channel_info['url'] = lines[i+1].strip()
+                    channel_info['url'] = lines[i + 1].strip()
                 else:
                     channel_info['url'] = ''
                 self.channels.append(channel_info)
 
+
+# =========================================================
+# CLASSE EPGProcessor – baixa, descomprime e parseia EPGs XML
+# =========================================================
 class EPGProcessor:
     def __init__(self, temp_dir: str = '/tmp'):
         self.temp_dir = temp_dir
@@ -85,10 +93,10 @@ class EPGProcessor:
                 else:
                     all_epg_data.update(self._parse_epg_file(download_path))
 
-                # Limpar arquivos temporários
-                if os.path.exists(download_path): 
+                # Limpa arquivos temporários
+                if os.path.exists(download_path):
                     os.remove(download_path)
-                if os.path.exists(decompressed_path) and decompressed_path != download_path: 
+                if os.path.exists(decompressed_path) and decompressed_path != download_path:
                     os.remove(decompressed_path)
         return all_epg_data
 
@@ -148,6 +156,10 @@ class EPGProcessor:
             logging.error(f"Erro inesperado ao parsear EPG {epg_path}: {e}")
         return epg_data
 
+
+# =========================================================
+# CLASSE TVGIDCorrector – corrige tvg-id ausentes ou inválidos
+# =========================================================
 class TVGIDCorrector:
     def __init__(self, channels: List[Dict], all_epg_data: Dict[str, str]):
         self.channels = channels
@@ -181,6 +193,10 @@ class TVGIDCorrector:
             corrected_channels.append(channel)
         return corrected_channels
 
+
+# =========================================================
+# CLASSE M3UUpdater – salva novo arquivo M3U corrigido
+# =========================================================
 class M3UUpdater:
     def __init__(self, m3u_path: str, channels: List[Dict]):
         self.m3u_path = m3u_path
@@ -188,26 +204,36 @@ class M3UUpdater:
 
     def update_m3u_file(self, original_m3u_content: str) -> bool:
         try:
-            updated_m3u_content = ""
+            updated_lines = []
             m3u_lines = original_m3u_content.splitlines()
             channel_index = 0
-            for line in m3u_lines:
-                if line.startswith('#EXTINF'):
-                    if channel_index < len(self.channels):
-                        updated_m3u_content += self.channels[channel_index]['original_line'] + '\n'
-                        updated_m3u_content += self.channels[channel_index]['url'] + '\n'
-                        channel_index += 1
-                elif not line.startswith('http'):
-                    updated_m3u_content += line + '\n'
 
-            with open(self.m3u_path, 'w', encoding='utf-8') as f:
-                f.write(updated_m3u_content)
-            logging.info(f"Arquivo M3U corrigido salvo em: {self.m3u_path}")
+            for i, line in enumerate(m3u_lines):
+                if line.startswith("#EXTINF"):
+                    if channel_index < len(self.channels):
+                        ch = self.channels[channel_index]
+                        updated_lines.append(ch["original_line"])
+                        updated_lines.append(ch["url"])
+                        channel_index += 1
+                else:
+                    # Mantém cabeçalho e comentários
+                    if not line.startswith("http"):
+                        updated_lines.append(line)
+
+            new_m3u_path = self.m3u_path.replace(".m3u", "_corrigida.m3u")
+            with open(new_m3u_path, "w", encoding="utf-8") as f:
+                f.write("\n".join(updated_lines) + "\n")
+
+            logging.info(f"✅ Arquivo M3U corrigido salvo em: {new_m3u_path}")
             return True
         except Exception as e:
             logging.error(f"Erro ao atualizar o arquivo M3U: {e}")
             return False
 
+
+# =========================================================
+# FUNÇÃO PRINCIPAL
+# =========================================================
 def main():
     M3U_PATH = 'lista1.m3u'
     TEMP_DIR = '/tmp'
@@ -229,8 +255,16 @@ def main():
     with open(M3U_PATH, 'r', encoding='utf-8', errors='ignore') as f:
         original_m3u_content = f.read()
 
+    logging.info(f"Total de canais processados: {len(m3u_processor.channels)}")
+    corrigidos = sum(1 for c in corrected_channels if c['tvg-id'])
+    logging.info(f"Canais com tvg-id corrigido: {corrigidos}")
+
     m3u_updater = M3UUpdater(M3U_PATH, corrected_channels)
     m3u_updater.update_m3u_file(original_m3u_content)
 
+
+# =========================================================
+# EXECUÇÃO DIRETA
+# =========================================================
 if __name__ == '__main__':
     main()
