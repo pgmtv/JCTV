@@ -209,6 +209,7 @@ class M3UUpdater:
             updated_lines = []
             m3u_lines = original_m3u_content.splitlines()
             channel_index = 0
+            vlc_opts_added = set()  # Para controlar se já adicionamos os #EXTVLCOPT
 
             for i, line in enumerate(m3u_lines):
                 if line.startswith("#EXTINF"):
@@ -217,12 +218,18 @@ class M3UUpdater:
                         updated_lines.append(ch["original_line"])
                         updated_lines.append(ch["url"])
                         channel_index += 1
+
+                        # Adiciona #EXTVLCOPT apenas uma vez
+                        if ch["url"] not in vlc_opts_added:
+                            updated_lines.append("#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160")
+                            vlc_opts_added.add(ch["url"])
+
                 else:
                     # Mantém cabeçalho e comentários
                     if not line.startswith("http"):
                         updated_lines.append(line)
 
-            # 🔁 Sobrescreve o arquivo original
+            # Sobrescreve o arquivo original
             with open(self.m3u_path, "w", encoding="utf-8") as f:
                 f.write("\n".join(updated_lines) + "\n")
 
@@ -231,42 +238,3 @@ class M3UUpdater:
         except Exception as e:
             logging.error(f"Erro ao atualizar o arquivo M3U: {e}")
             return False
-
-
-# =========================================================
-# FUNÇÃO PRINCIPAL
-# =========================================================
-def main():
-    M3U_PATH = 'lista1.m3u'
-    TEMP_DIR = '/tmp'
-
-    m3u_processor = M3UProcessor(M3U_PATH)
-    if not m3u_processor.load_m3u():
-        return
-
-    epg_processor = EPGProcessor(TEMP_DIR)
-    all_epg_data = epg_processor.download_and_parse_epgs(m3u_processor.epg_urls)
-
-    if not all_epg_data:
-        logging.warning("Nenhum dado EPG foi coletado. Não será possível corrigir tvg-ids.")
-        return
-
-    tvg_corrector = TVGIDCorrector(m3u_processor.channels, all_epg_data)
-    corrected_channels = tvg_corrector.correct_tvg_ids()
-
-    with open(M3U_PATH, 'r', encoding='utf-8', errors='ignore') as f:
-        original_m3u_content = f.read()
-
-    logging.info(f"Total de canais processados: {len(m3u_processor.channels)}")
-    corrigidos = sum(1 for c in corrected_channels if c['tvg-id'])
-    logging.info(f"Canais com tvg-id corrigido: {corrigidos}")
-
-    m3u_updater = M3UUpdater(M3U_PATH, corrected_channels)
-    m3u_updater.update_m3u_file(original_m3u_content)
-
-
-# =========================================================
-# EXECUÇÃO DIRETA
-# =========================================================
-if __name__ == '__main__':
-    main()
