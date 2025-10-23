@@ -258,44 +258,44 @@ http://hz1.teleport.cc/HLS/SD.m3u8
 http://streaming.bitonlive.net:8080/hls/ottofm2/index.m3u8
 #EXTINF:-1 group-title="ESPANHA" tvg-id="Undefined" tvg-logo="https://graph.facebook.com/sonusfmpage/picture?width=200&height=200",Musicales: Sonus FM Alemania
 #EXTVLCOPT:http-referrer=http://www.sonus.fm
-http://www.sonus.fm:1935/public/stream_source/playlist.m3u8
+#EXTVLCOPT:http-referrer=http://www.sonus.fm
 #EXTINF:-1 group-title="ESPANHA" tvg-id="Undefined" tvg-logo="https://graph.facebook.com/30atv/picture?width=200&height=200",Musicales: 30A Music USA EN
 https://30a-tv.com/music.m3u8
 #EXTINF:-1 group-title="ESPANHA" tvg-id="Undefined" tvg-logo="https://graph.facebook.com/retromusic/picture?width=200&height=200",Musicales: Retro Music TV Chequia EN
 http://stream.mediawork.cz/retrotv/retrotvHQ1/playlist.m3u8
 #EXTINF:-1 group-title="ESPANHA" tvg-id="Undefined" tvg-logo="https://graph.facebook.com/muzzik.television/picture?width=200&height=200",Musicales: Muzzik TV Serbia
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160
-https://muzzik-live.morescreens.com/mts-6/playlist.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160
 #EXTINF:-1 group-title="ESPANHA" tvg-id="Undefined" tvg-logo="https://graph.facebook.com/muzzik.television/picture?width=200&height=200",Musicales: Muzzik Rock&Roll Serbia
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160
-https://muzzik-live.morescreens.com/mts-1/playlist.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160
 #EXTINF:-1 group-title="ESPANHA" tvg-id="Undefined" tvg-logo="https://graph.facebook.com/muzzik.television/picture?width=200&height=200",Musicales: Muzzik Cafe&Club Serbia
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160
-https://muzzik-live.morescreens.com/mts-3/playlist.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160
 #EXTINF:-1 group-title="ESPANHA" tvg-id="Undefined" tvg-logo="https://graph.facebook.com/muzzik.television/picture?width=200&height=200",Musicales: Muzzik Worldwide Serbia
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160
-https://muzzik-live.morescreens.com/mts-5/playlist.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160
 #EXTINF:-1 group-title="ESPANHA" tvg-id="Undefined" tvg-logo="https://graph.facebook.com/muzzik.television/picture?width=200&height=200",Musicales: Muzzik Rivijera Serbia
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160
-https://muzzik-live.morescreens.com/mts-a5/playlist.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160
 #EXTINF:-1 group-title="ESPANHA" tvg-id="Undefined" tvg-logo="https://graph.facebook.com/muzzik.television/picture?width=200&height=200",Musicales: Muzzik Jeka Serbia
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160
-https://muzzik-live.morescreens.com/mts-4/playlist.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160
 #EXTINF:-1 group-title="ESPANHA" tvg-id="Undefined" tvg-logo="https://graph.facebook.com/muzzik.television/picture?width=200&height=200",Musicales: Muzzik ZZ TV Serbia
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160
-https://muzzik-live.morescreens.com/mts-a4/playlist.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160
 #EXTINF:-1 group-title="ESPANHA" tvg-id="Undefined" tvg-logo="https://graph.facebook.com/muzzik.television/picture?width=200&height=200",Musicales: Muzzik Sense Serbia
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160
-https://muzzik-live.morescreens.com/mts-7/playlist.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160
 #EXTINF:-1 group-title="ESPANHA" tvg-id="Undefined" tvg-logo="https://graph.facebook.com/muzzik.television/picture?width=200&height=200",Musicales: Muzzik Glazzba Serbia
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160
-https://muzzik-live.morescreens.com/mts-a7/playlist.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160
 #EXTINF:-1 group-title="ESPANHA" tvg-id="Undefined" tvg-logo="https://graph.facebook.com/muzzik.television/picture?width=200&height=200",Musicales: Muzzik Flashback Serbia
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160
-https://muzzik-live.morescreens.com/mts-8/playlist.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160
 #EXTINF:-1 group-title="ESPANHA" tvg-id="Undefined" tvg-logo="https://graph.facebook.com/muzzik.television/picture?width=200&height=200",Musicales: Muzzik OKK Serbia
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160
-https://muzzik-live.morescreens.com/mts-2/playlist.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160
 #EXTINF:-1 group-title="ESPANHA" tvg-id="Undefined" tvg-logo="https://pbs.twimg.com/profile_images/825104000341012480/ip1tcW4n_200x200.jpg",Musicales: Spirit TV USA EN
 https://cdnlive.myspirit.tv/LS-ATL-43240-2/index.m3u8
 #EXTINF:-1 group-title="ESPANHA" tvg-id="Undefined" tvg-logo="https://graph.facebook.com/ewtnespanol/picture?width=200&height=200",Religiosos: EWTN España
