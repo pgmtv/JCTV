@@ -8,7 +8,9 @@ import logging
 from typing import List, Dict, Set
 from tqdm import tqdm
 
-# Configuração de logging
+# =========================================================
+# CONFIGURAÇÃO DE LOGGING
+# =========================================================
 LOG_FORMAT = '%(asctime)s - %(levelname)s - %(message)s'
 logging.basicConfig(level=logging.INFO, format=LOG_FORMAT)
 
@@ -195,7 +197,7 @@ class TVGIDCorrector:
 
 
 # =========================================================
-# CLASSE M3UUpdater – salva novo arquivo M3U corrigido
+# CLASSE M3UUpdater – atualiza o arquivo M3U ORIGINAL
 # =========================================================
 class M3UUpdater:
     def __init__(self, m3u_path: str, channels: List[Dict]):
@@ -220,11 +222,11 @@ class M3UUpdater:
                     if not line.startswith("http"):
                         updated_lines.append(line)
 
-            new_m3u_path = self.m3u_path.replace(".m3u", "_corrigida.m3u")
-            with open(new_m3u_path, "w", encoding="utf-8") as f:
+            # 🔁 Sobrescreve o arquivo original
+            with open(self.m3u_path, "w", encoding="utf-8") as f:
                 f.write("\n".join(updated_lines) + "\n")
 
-            logging.info(f"✅ Arquivo M3U corrigido salvo em: {new_m3u_path}")
+            logging.info(f"✅ Arquivo M3U atualizado com sucesso: {self.m3u_path}")
             return True
         except Exception as e:
             logging.error(f"Erro ao atualizar o arquivo M3U: {e}")
