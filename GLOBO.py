@@ -14,7 +14,7 @@ options.add_argument("--disable-infobars")
 
 # URLs dos vídeos Globoplay
 globoplay_urls = [
-    "https://www.tvgazeta.com.br/aovivo/",
+    "https://www.cxtv.com.br/tv-ao-vivo/tv-vitoria-record-es",
     "https://globoplay.globo.com/ao-vivo/7689934/",
     "https://globoplay.globo.com/ao-vivo/7690141/",    
     "https://globoplay.globo.com/v/12749215/",
