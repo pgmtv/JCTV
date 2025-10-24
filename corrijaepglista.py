@@ -1,12 +1,12 @@
-import requests
+import logging
 import re
+import os
+import requests
 import gzip
 import lzma
 import xml.etree.ElementTree as ET
-import os
-import logging
-from typing import List, Dict, Set
 from tqdm import tqdm
+from typing import List, Dict
 
 # =========================================================
 # CONFIGURAÇÃO DE LOGGING
@@ -21,7 +21,7 @@ logging.basicConfig(level=logging.INFO, format=LOG_FORMAT)
 class M3UProcessor:
     def __init__(self, m3u_path: str):
         self.m3u_path = m3u_path
-        self.epg_urls: Set[str] = set()
+        self.epg_urls: set[str] = set()
         self.channels: List[Dict] = []
 
     def load_m3u(self) -> bool:
@@ -69,6 +69,67 @@ class M3UProcessor:
 
 
 # =========================================================
+# CLASSE M3UUpdater – atualiza o arquivo M3U ORIGINAL
+# =========================================================
+class M3UUpdater:
+    def __init__(self, m3u_path: str, channels: List[Dict]):
+        self.m3u_path = m3u_path
+        self.channels = channels
+
+    def update_m3u(self, original_m3u_content: str) -> bool:
+        try:
+            logging.info(f"Iniciando a atualização do arquivo M3U: {self.m3u_path}")
+
+            updated_lines = []
+            m3u_lines = original_m3u_content.splitlines()
+            channel_index = 0
+            vlc_opts_added = set()  # Para controlar se já adicionamos os #EXTVLCOPT
+
+            # Log para verificar se o conteúdo foi carregado
+            logging.debug(f"Conteúdo original do M3U carregado com {len(m3u_lines)} linhas.")
+
+            for i, line in enumerate(m3u_lines):
+                if line.startswith("#EXTINF"):
+                    if channel_index < len(self.channels):
+                        ch = self.channels[channel_index]
+
+                        # Log para verificar se estamos atualizando o canal corretamente
+                        logging.debug(f"Atualizando canal: {ch['name']} com URL: {ch['url']}")
+
+                        updated_lines.append(ch["original_line"])  # Linha original
+                        updated_lines.append(ch["url"])  # URL do canal
+                        channel_index += 1
+
+                        # Adiciona #EXTVLCOPT apenas uma vez
+                        if ch["url"] not in vlc_opts_added:
+                            updated_lines.append("#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160")
+                            vlc_opts_added.add(ch["url"])
+
+                else:
+                    # Mantém cabeçalho e comentários
+                    if not line.startswith("http"):
+                        updated_lines.append(line)
+
+            # Se não encontramos canais, log de erro
+            if channel_index == 0:
+                logging.error(f"Nenhum canal encontrado para atualizar no arquivo M3U!")
+
+            # Sobrescreve o arquivo original apenas se houver atualizações
+            if updated_lines:
+                with open(self.m3u_path, "w", encoding="utf-8") as f:
+                    f.write("\n".join(updated_lines) + "\n")
+                logging.info(f"✅ Arquivo M3U atualizado com sucesso: {self.m3u_path}")
+                return True
+            else:
+                logging.warning(f"Nenhuma atualização foi feita no arquivo M3U.")
+                return False
+
+        except Exception as e:
+            logging.error(f"Erro ao atualizar o arquivo M3U: {e}")
+            return False
+
+
+# =========================================================
 # CLASSE EPGProcessor – baixa, descomprime e parseia EPGs XML
 # =========================================================
 class EPGProcessor:
@@ -76,7 +137,7 @@ class EPGProcessor:
         self.temp_dir = temp_dir
         os.makedirs(self.temp_dir, exist_ok=True)
 
-    def download_and_parse_epgs(self, epg_urls: Set[str]) -> Dict[str, str]:
+    def download_and_parse_epgs(self, epg_urls: set[str]) -> Dict[str, str]:
         all_epg_data = {}
         for url in epg_urls:
             filename = os.path.basename(url).split('?')[0]
@@ -145,96 +206,12 @@ class EPGProcessor:
         try:
             tree = ET.parse(epg_path)
             root = tree.getroot()
-            for channel_elem in root.findall('channel'):
-                channel_id = channel_elem.get('id')
-                display_name_elem = channel_elem.find('display-name')
-                if display_name_elem is not None and display_name_elem.text:
-                    display_name = display_name_elem.text.lower()
-                    epg_data[display_name] = channel_id
-            logging.info(f"EPG {epg_path} parseado com sucesso. Canais: {len(epg_data)}")
-        except ET.ParseError as e:
-            logging.error(f"Erro ao parsear EPG {epg_path}: {e}")
+
+            for channel_elem in root.findall(".//channel"):
+                tvg_id = channel_elem.get("id")
+                if tvg_id:
+                    epg_data[tvg_id] = channel_elem
+            logging.info(f"EPG parseado com sucesso: {epg_path}")
         except Exception as e:
-            logging.error(f"Erro inesperado ao parsear EPG {epg_path}: {e}")
+            logging.error(f"Erro ao parsear o EPG {epg_path}: {e}")
         return epg_data
-
-
-# =========================================================
-# CLASSE TVGIDCorrector – corrige tvg-id ausentes ou inválidos
-# =========================================================
-class TVGIDCorrector:
-    def __init__(self, channels: List[Dict], all_epg_data: Dict[str, str]):
-        self.channels = channels
-        self.all_epg_data = all_epg_data
-
-    def correct_tvg_ids(self) -> List[Dict]:
-        corrected_channels = []
-        for channel in self.channels:
-            current_tvg_id = channel.get('tvg-id', '')
-            channel_name = channel.get('name', '').lower()
-
-            needs_correction = (
-                not current_tvg_id
-                or current_tvg_id.lower() in ["n/a", "undefined"]
-                or current_tvg_id not in self.all_epg_data.values()
-            )
-
-            if needs_correction and channel_name in self.all_epg_data:
-                new_tvg_id = self.all_epg_data[channel_name]
-                updated_line = re.sub(
-                    r'tvg-id="([^"]*)"', f'tvg-id="{new_tvg_id}"', channel['original_line']
-                )
-                if updated_line == channel['original_line']:
-                    if 'tvg-id="' not in channel['original_line']:
-                        updated_line = channel['original_line'].replace(
-                            'tvg-name=', f'tvg-id="{new_tvg_id}" tvg-name='
-                        )
-                channel['original_line'] = updated_line
-                channel['tvg-id'] = new_tvg_id
-                logging.info(f"Corrigido: {channel.get('name', '')} -> tvg-id: {new_tvg_id}")
-            corrected_channels.append(channel)
-        return corrected_channels
-
-
-# =========================================================
-# CLASSE M3UUpdater – atualiza o arquivo M3U ORIGINAL
-# =========================================================
-class M3UUpdater:
-    def __init__(self, m3u_path: str, channels: List[Dict]):
-        self.m3u_path = m3u_path
-        self.channels = channels
-
-    def update_m3u_file(self, original_m3u_content: str) -> bool:
-        try:
-            updated_lines = []
-            m3u_lines = original_m3u_content.splitlines()
-            channel_index = 0
-            vlc_opts_added = set()  # Para controlar se já adicionamos os #EXTVLCOPT
-
-            for i, line in enumerate(m3u_lines):
-                if line.startswith("#EXTINF"):
-                    if channel_index < len(self.channels):
-                        ch = self.channels[channel_index]
-                        updated_lines.append(ch["original_line"])
-                        updated_lines.append(ch["url"])
-                        channel_index += 1
-
-                        # Adiciona #EXTVLCOPT apenas uma vez
-                        if ch["url"] not in vlc_opts_added:
-                            updated_lines.append("#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160")
-                            vlc_opts_added.add(ch["url"])
-
-                else:
-                    # Mantém cabeçalho e comentários
-                    if not line.startswith("http"):
-                        updated_lines.append(line)
-
-            # Sobrescreve o arquivo original
-            with open(self.m3u_path, "w", encoding="utf-8") as f:
-                f.write("\n".join(updated_lines) + "\n")
-
-            logging.info(f"✅ Arquivo M3U atualizado com sucesso: {self.m3u_path}")
-            return True
-        except Exception as e:
-            logging.error(f"Erro ao atualizar o arquivo M3U: {e}")
-            return False
