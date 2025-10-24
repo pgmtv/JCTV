@@ -1,316 +1,44 @@
-#EXTM3U
-#EXTM3U url-tvg="https://epgshare01.online/epgshare01/epg_ripper_ES1.xml.gz"
-
-
-
-#EXTINF:-1 group-title="ESPANHA" tvg-logo="https://statics.atresmedia.com/atresplayer/assets/web/images/channels/antena-3-logo.svg",ANTENA 3 (COM VPN)
-https://directo.atresmedia.com/2e1074e3833f6b8d5d237f37de397b10c1f3cb66_1682773131/antena3/master.m3u8
-
-#EXTINF:-1 group-title="ESPANHA" tvg-logo="https://statics.atresmedia.com/atresplayer/assets/web/images/channels/lasexta-logo.svg",LA SEXTA (COM VPN)
-https://atres-live.atresmedia.com/416f09f5f2945d4a4761b12a66f9e6e2b63eb0fb_ES_1682741292_1682770032/h264/live/lasexta/master.m3u8
-
-
-
-
-
-
-
-
-
-#EXTM3U
-#EXTINF:-1 group-title="ESPANHA" tvg-id="RMTV.TV" tvg-logo="https://graph.facebook.com/RealMadrid/picture?width=200&height=200",Deportivos: RealMadrid TV
-https://rmtv.akamaized.net/hls/live/2043153/rmtv-es-web/master.m3u8
-#EXTINF:-1 group-title="ESPANHA" tvg-id="Undefined" tvg-logo="https://graph.facebook.com/Pequeradio/picture?width=200&height=200",Infantiles: Pequeradio TV
-https://canadaremar2.todostreaming.es/live/peque-pequetv.m3u8
-#EXTINF:-1 group-title="ESPANHA" tvg-id="Undefined" tvg-logo="https://graph.facebook.com/canalsurradioytv/picture?width=200&height=200",Andalucía: Canal Sur 2 Andalucía
-https://cdnlive.codev8.net/rtvalive/smil:channel22.smil/playlist.m3u8
-#EXTINF:-1 group-title="ESPANHA" tvg-id="Negocios.TV" tvg-logo="https://pbs.twimg.com/profile_images/1321367703731523584/bNMmbetI_200x200.jpg",Informativos: Negocios TV
-https://streaming013.gestec-video.com/hls/negociostv.m3u8
-#EXTINF:-1 group-title="ESPANHA" tvg-id="ETBD.TV" tvg-logo="https://graph.facebook.com/deportes.eitb.kirolak/picture?width=200&height=200",Deportivos: ETB Deportes
-https://multimedia.eitb.eus/live-content/oka3hd-hls/master.m3u8
-#EXTINF:-1 group-title="ESPANHA" tvg-id="RMTV.TV" tvg-logo="https://graph.facebook.com/RealMadrid/picture?width=200&height=200",Deportivos: RealMadrid TV
-https://rmtv.akamaized.net/hls/live/2043153/rmtv-es-web/master.m3u8
-#EXTINF:-1 group-title="ESPANHA" tvg-id="Undefined" tvg-logo="https://img.rtve.es/imagenes/multisenal-24/1361962728583.png",Eventuales: +24
-https://rtvehlslivestream.akamaized.net/hls/live/2041587/IRTVE04_AKA_HLS_GL0/master.m3u8
-#EXTINF:-1 group-title="ESPANHA" tvg-id="Undefined" tvg-logo="https://graph.facebook.com/CongresodelosDiputados/picture?width=200&height=200",Eventuales: Canal Parlamento
-https://congresodirecto.akamaized.net/hls/live/2037973/canalparlamento/master.m3u8
-#EXTINF:-1 group-title="ESPANHA" tvg-id="Undefined" tvg-logo="https://graph.facebook.com/del40al1/picture?width=200&height=200",Eventuales: Del 40 al 1
-https://prisaradio-live.prisasd.com/live-content/directo40al1/master.m3u8
-#EXTINF:-1 group-title="ESPANHA" tvg-id="Undefined" tvg-logo="https://graph.facebook.com/canalsurradioytv/picture?width=200&height=200",Andalucía: Canal Sur 2 Andalucía
-https://cdnlive.codev8.net/rtvalive/smil:channel22.smil/playlist.m3u8
-#EXTINF:-1 group-title="ESPANHA" tvg-id="Undefined" tvg-logo="https://graph.facebook.com/m95tvmarbella/picture?width=200&height=200",Andalucía: M95 Marbella
-https://limited2.todostreaming.es/live/m95-livestream.m3u8
-#EXTINF:-1 group-title="ESPANHA" tvg-id="HuelvaTV.TV" tvg-logo="https://graph.facebook.com/Huelvatv/picture?width=200&height=200",Andalucía: Huelva TV
-https://5d8d85cf2c308.streamlock.net:1936/huelvatv/htvdirecto/playlist.m3u8
-#EXTINF:-1 group-title="ESPANHA" tvg-id="Condavision.TV" tvg-logo="https://graph.facebook.com/condavision/picture?width=200&height=200",Andalucía: Condavisión
-https://5d8d85cf2c308.streamlock.net:1936/Condavision/endirecto/playlist.m3u8
-#EXTINF:-1 group-title="ESPANHA" tvg-id="Undefined" tvg-logo="https://graph.facebook.com/tuyalajandatv/picture?width=200&height=200",Andalucía: Tuya La Janda TV
-https://cloudvideo.servers10.com:8081/8144/index.m3u8
-#EXTINF:-1 group-title="ESPANHA" tvg-id="OndaAlgeciras.TV" tvg-logo="https://graph.facebook.com/ondaalgecirastv/picture?width=200&height=200",Andalucía: Onda Algeciras TV
-https://cloudtv.provideo.es/live/algecirastv-livestream.m3u8
-#EXTINF:-1 group-title="ESPANHA" tvg-id="Undefined" tvg-logo="https://graph.facebook.com/esteponatelevision/picture?width=200&height=200",Andalucía: Estepona TV
-https://cloudvideo.servers10.com:8081/8022/index.m3u8
-#EXTINF:-1 group-title="ESPANHA" tvg-id="DiezTV.TV" tvg-logo="https://graph.facebook.com/dieztv/picture?width=200&height=200",Andalucía: Diez TV
-https://streaming.cloud.innovasur.es/mmj/index.m3u8
-#EXTINF:-1 group-title="ESPANHA" tvg-id="Undefined" tvg-logo="https://graph.facebook.com/costadelsoltv/picture?width=200&height=200",Andalucía: CostadelSol TV
-https://limited11.todostreaming.es/live/benalmadena-livestream.m3u8
-#EXTINF:-1 group-title="ESPANHA" tvg-id="Undefined" tvg-logo="https://graph.facebook.com/SalTelevision/picture?width=200&height=200",Andalucía: Sal TV
-https://cloudvideo.servers10.com:8081/8182/index.m3u8
-#EXTINF:-1 group-title="ESPANHA" tvg-id="Undefined" tvg-logo="https://graph.facebook.com/VivamovilTV/picture?width=200&height=200",Andalucía: Vivamóvil TV
-https://5d8d85cf2c308.streamlock.net:1936/AlcalaTV/endirecto/playlist.m3u8
-#EXTINF:-1 group-title="ESPANHA" tvg-id="CanalMalaga.TV" tvg-logo="https://graph.facebook.com/CanalMalagaRTVMunicipal/picture?width=200&height=200",Andalucía: Canal Málaga
-https://canalmalaga-tv-live.flumotion.com/playlist.m3u8
-#EXTINF:-1 group-title="ESPANHA" tvg-id="Undefined" tvg-logo="https://graph.facebook.com/TVM.Cordoba/picture?width=200&height=200",Andalucía: TVM Córdoba
-https://5924d3ad0efcf.streamlock.net/cordoba/cordobalive/playlist.m3u8
-#EXTINF:-1 group-title="ESPANHA" tvg-id="Undefined" tvg-logo="https://graph.facebook.com/8tvcadiz/picture?width=200&height=200",Andalucía: 8 TV Cádiz
-https://5940924978228.streamlock.net/8289/smil:8289.smil/master.m3u8
-#EXTINF:-1 group-title="ESPANHA" tvg-id="MirameTV.TV" tvg-logo="https://graph.facebook.com/MirameTVCanarias/picture?width=200&height=200",Canarias: Mírame TV
-https://bit.controlstreams.com:5443/LiveApp/streams/mirametv.m3u8
-#EXTINF:-1 group-title="ESPANHA" tvg-id="Undefined" tvg-logo="https://graph.facebook.com/radiotelevisionmogan/picture?width=200&height=200",Canarias: RTV Mogán
-https://cloudvideo.servers10.com:8081/8028/index.m3u8
-#EXTINF:-1 group-title="ESPANHA" tvg-id="Undefined" tvg-logo="https://graph.facebook.com/288850935035196/picture?width=200&height=200",Canarias: Lancelot TV
-https://5c0956165db0b.streamlock.net:8090/directo/_definst_/lancelot.television/master.m3u8
-#EXTINF:-1 group-title="ESPANHA" tvg-id="Undefined" tvg-logo="https://graph.facebook.com/estecanaltv/picture?width=200&height=200",Canarias: Este Canal TV
-http://synclosdragos1.syncsolutions.es:8008/live3/emision/index.m3u8
-#EXTINF:-1 group-title="ESPANHA" tvg-id="Undefined" tvg-logo="https://graph.facebook.com/afortunadastv/picture?width=200&height=200",Canarias: Afortunadas TV
-https://cloudvideo.servers10.com:8081/8108/index.m3u8
-#EXTINF:-1 group-title="ESPANHA" tvg-id="PopularTV_S.TV" tvg-logo="https://graph.facebook.com/populartvcantabria/picture?width=200&height=200",Cantabria: Popular TV Cantabria
-https://limited12.todostreaming.es/live/ptvcantabria-livestream.m3u8
-#EXTINF:-1 group-title="ESPANHA" tvg-id="Undefined" tvg-logo="https://graph.facebook.com/GuadaTV.TV/picture?width=200&height=200",Castilla-La Mancha: Guada TV Media
-https://cloud.streamingconnect.tv/hls/guadatv/guadatv.m3u8
-#EXTINF:-1 group-title="ESPANHA" tvg-id="Undefined" tvg-logo="https://graph.facebook.com/television.imas/picture?width=200&height=200",Castilla-La Mancha: Imás TV
-https://secure3.todostreaming.es/live/imastv-livestream.m3u8
-#EXTINF:-1 group-title="ESPANHA" tvg-id="Undefined" tvg-logo="https://graph.facebook.com/AlcarriaTV/picture?width=200&height=200",Castilla-La Mancha: Alcarria TV
-https://cls.alcarria.tv/live/alcarriatv-livestream.m3u8
-#EXTINF:-1 group-title="ESPANHA" tvg-id="Undefined" tvg-logo="https://graph.facebook.com/AlcarriaTV/picture?width=200&height=200",Castilla-La Mancha: Alcarria TV
-http://217.182.77.27/live/alcarriatv-livestream.m3u8
-#EXTINF:-1 group-title="ESPANHA" tvg-id="Undefined" tvg-logo="https://graph.facebook.com/canal4villarrobledo/picture?width=200&height=200",Castilla-La Mancha: Canal 4 Mancha Centro
-https://5924d3ad0efcf.streamlock.net/canal4/canal4live/playlist.m3u8
-#EXTINF:-1 group-title="ESPANHA" tvg-id="Undefined" tvg-logo="https://graph.facebook.com/canal2000/picture?width=200&height=200",Castilla-La Mancha: Canal 2000
-http://canal2000.berkano-systems.net/streaming/streams/canal2000-720p.m3u8
-#EXTINF:-1 group-title="ESPANHA" tvg-id="Undefined" tvg-logo="https://graph.facebook.com/575943555801687/picture?width=200&height=200",Castilla y León: TV Aranda
-https://cloud.streamingconnect.tv/hls/telearanda/telearanda.m3u8
-#EXTINF:-1 group-title="ESPANHA" tvg-id="BTV.TV" tvg-logo="https://graph.facebook.com/betevecat/picture?width=200&height=200",Cataluña: betevé
-https://cdnapisec.kaltura.com/p/2346171/sp/234617100/playManifest/entryId/1_n6442jz0/format/applehttp/.m3u8?referrer=aHR0cHM6Ly9iZXRldmUuY2F0
-#EXTINF:-1 group-title="ESPANHA" tvg-id="Undefined" tvg-logo="https://yt3.ggpht.com/WtsIUXtvmo0QQFYhj9qbxpttucZF0ZElx8oju9r7ISrKfn9GHBuRR7s9JN4YRnzvbLr6GiUtWQ=s200",Cataluña: Piera TV
-http://51.254.47.72:1935/piera/smil:piera.smil/master.m3u8
-#EXTINF:-1 group-title="ESPANHA" tvg-id="Undefined" tvg-logo="https://graph.facebook.com/martelevisio/picture?width=200&height=200",Cataluña: Mar TV
-http://iptv.services.everywan.net:8080/martv-web/video.m3u8
-#EXTINF:-1 group-title="ESPANHA" tvg-id="Undefined" tvg-logo="https://graph.facebook.com/Intercomarcal.Television/picture?width=200&height=200",C. Valenciana: Intercomarcal TV
-https://streamingtvi.gestec-video.com/hls/tvixa.m3u8
-#EXTINF:-1 group-title="ESPANHA" tvg-id="Undefined" tvg-logo="https://graph.facebook.com/Intercomarcal.Television/picture?width=200&height=200",C. Valenciana: Intercomarcal TV
-https://streamingtvi.gestec-video.com/hls/tvixa1.m3u8
-#EXTINF:-1 group-title="ESPANHA" tvg-id="Undefined" tvg-logo="https://graph.facebook.com/Intercomarcal.Television/picture?width=200&height=200",C. Valenciana: Intercomarcal TV
-https://streamingtvi.gestec-video.com/hls/tvixa3.m3u8
-#EXTINF:-1 group-title="ESPANHA" tvg-id="Undefined" tvg-logo="https://graph.facebook.com/alacantitv/picture?width=200&height=200",C. Valenciana: Alacantí TV
-https://streaming01.gestec-video.com/hls/artequatreAlacanti.m3u8
-#EXTINF:-1 group-title="ESPANHA" tvg-id="Undefined" tvg-logo="https://graph.facebook.com/burrianateve/picture?width=200&height=200",C. Valenciana: Burriana TV
-https://www.burrianateve.com/hls/btv.m3u8
-#EXTINF:-1 group-title="ESPANHA" tvg-id="Undefined" tvg-logo="https://graph.facebook.com/elche7hd/picture?width=200&height=200",C. Valenciana: Elche 7 TV
-https://elche7tv.gestec-video.com/hls/canal2.m3u8
-#EXTINF:-1 group-title="ESPANHA" tvg-id="Undefined" tvg-logo="https://graph.facebook.com/canal56televisio/picture?width=200&height=200",C. Valenciana: Canal 56
-https://videos.canal56.com/directe/stream/index.m3u8
-#EXTINF:-1 group-title="ESPANHA" tvg-id="Undefined" tvg-logo="https://graph.facebook.com/Punt3Television/picture?width=200&height=200",C. Valenciana: Punt 3 Vall Uixó
-https://bit.controlstreams.com:5443/LiveApp/streams/punt3.m3u8
-#EXTINF:-1 group-title="ESPANHA" tvg-id="Undefined" tvg-logo="https://graph.facebook.com/CiudadesDelOcioTV/picture?width=200&height=200",C. Valenciana: Ciudades Del Ocio TV
-https://cloudvideo.servers10.com:8081/8024/index.m3u8
-#EXTINF:-1 group-title="ESPANHA" tvg-id="Undefined" tvg-logo="https://graph.facebook.com/ondavalenciatv/picture?width=200&height=200",C. Valenciana: Onda Valencia
-https://cloudvideo.servers10.com:8081/8116/index.m3u8
-#EXTINF:-1 group-title="ESPANHA" tvg-id="MelillaTV.TV" tvg-logo="https://graph.facebook.com/TelevisionMelilla/picture?width=200&height=200",Melilla: Melilla TV
-https://tvmelilla-hls-rm-lw.flumotion.com/playlist.m3u8
-#EXTINF:-1 group-title="ESPANHA" tvg-id="Undefined" tvg-logo="https://graph.facebook.com/populartvml/picture?width=200&height=200",Melilla: Popular TV Melilla
-https://5940924978228.streamlock.net/8009/8009/master.m3u8
-#EXTINF:-1 group-title="ESPANHA" tvg-id="ETB1.TV" tvg-logo="https://graph.facebook.com/eitb/picture?width=200&height=200",País Vasco: ETB 1
-https://multimedia.eitb.eus/live-content/etb1hd-hls/master.m3u8
-#EXTINF:-1 group-title="ESPANHA" tvg-id="ETB2.TV" tvg-logo="https://graph.facebook.com/eitb/picture?width=200&height=200",País Vasco: ETB 2
-https://multimedia.eitb.eus/live-content/etb2hd-hls/master.m3u8
-#EXTINF:-1 group-title="ESPANHA" tvg-id="Undefined" tvg-logo="https://graph.facebook.com/eitb/picture?width=200&height=200",País Vasco: ETB Eventos 1
-https://multimedia.eitb.eus/live-content/oka1hd-hls/master.m3u8
-#EXTINF:-1 group-title="ESPANHA" tvg-id="Undefined" tvg-logo="https://graph.facebook.com/eitb/picture?width=200&height=200",País Vasco: ETB Eventos 2 GEO
-https://multimedia.eitb.eus/live-content/oka2hd-hls/master.m3u8
-#EXTINF:-1 group-title="ESPANHA" tvg-id="Undefined" tvg-logo="https://graph.facebook.com/HamaikaTb/picture?width=200&height=200",País Vasco: Hamaika TV
-https://cdn3.wowza.com/1/RERMR282dnU5eE5Z/OHY0dVFs/hls/live/playlist.m3u8
-#EXTINF:-1 group-title="ESPANHA" tvg-id="Undefined" tvg-logo="https://graph.facebook.com/goiena.eus/picture?width=200&height=200",País Vasco: Goiena Eus
-https://zuzenean.goienamedia.eus/goiena-telebista.m3u8
-#EXTINF:-1 group-title="ESPANHA" tvg-id="Undefined" tvg-logo="https://graph.facebook.com/urolatelebista/picture?width=200&height=200",País Vasco: Urola TV
-https://5940924978228.streamlock.net/j_Directo2/mp4:j_Directo2/playlist.m3u8
-#EXTINF:-1 group-title="ESPANHA" tvg-id="ETBSAT.TV" tvg-logo="https://graph.facebook.com/eitb/picture?width=200&height=200",Int. Europa: EITB Basque
-https://multimedia.eitb.eus/live-content/eitbbasque-hls/master.m3u8
-#EXTINF:-1 group-title="ESPANHA" tvg-id="Bloom.TV" tvg-logo="https://pbs.twimg.com/profile_images/991792042094354432/DG1Ruupb_200x200.jpg",Int. Europa: Bloomberg Europe EN
-https://www.bloomberg.com/media-manifest/streams/eu.m3u8
-#EXTINF:-1 group-title="ESPANHA" tvg-id="DW.TV" tvg-logo="https://graph.facebook.com/dw.espanol/picture?width=200&height=200",Int. Europa: DW Alemania
-https://dwamdstream104.akamaized.net/hls/live/2015530/dwstream104/index.m3u8
-#EXTINF:-1 group-title="ESPANHA" tvg-id="DW.TV" tvg-logo="https://graph.facebook.com/dw.espanol/picture?width=200&height=200",Int. Europa: DW Alemania EN
-https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/index.m3u8
-#EXTINF:-1 group-title="ESPANHA" tvg-id="Undefined" tvg-logo="https://graph.facebook.com/WDR/picture?width=200&height=200",Int. Europa: WDR Alemania DE
-https://wdrfsww247.akamaized.net/hls/live/2009628/wdr_msl4_fs247ww/master.m3u8
-#EXTINF:-1 group-title="ESPANHA" tvg-id="Undefined" tvg-logo="https://graph.facebook.com/ndrniedersachsen/picture?width=200&height=200",Int. Europa: NDR Niedersachsen Alemania DE
-https://ndrint.akamaized.net/hls/live/2020766/ndr_int/master.m3u8
-#EXTINF:-1 group-title="ESPANHA" tvg-id="Undefined" tvg-logo="https://graph.facebook.com/trthaber/picture?width=200&height=200",Int. Europa: TRT Haber Turquía
-https://tv-trthaber.medya.trt.com.tr/master.m3u8
-#EXTINF:-1 group-title="ESPANHA" tvg-id="Undefined" tvg-logo="https://graph.facebook.com/RUVohf/picture?width=200&height=200",Int. Europa: RÚV Islandia
-https://ruv-web-live.akamaized.net/streymi/ruverl/ruverl.m3u8
-#EXTINF:-1 group-title="ESPANHA" tvg-id="Undefined" tvg-logo="https://graph.facebook.com/RUVohf/picture?width=200&height=200",Int. Europa: RÚV Islandia
-https://ruvlive.akamaized.net/out/v1/2ff7673de40f419fa5164498fae89089/index.m3u8
-#EXTINF:-1 group-title="ESPANHA" tvg-id="Undefined" tvg-logo="https://graph.facebook.com/SanMarinoRTV/picture?width=200&height=200",Int. Europa: San Marino RTV IT
-https://d2hrvno5bw6tg2.cloudfront.net/smrtv-ch01/_definst_/smil:ch-01.smil/master.m3u8
-#EXTINF:-1 group-title="ESPANHA" tvg-id="Undefined" tvg-logo="https://graph.facebook.com/SanMarinoRTV/picture?width=200&height=200",Int. Europa: San Marino RTV IT
-https://d2hrvno5bw6tg2.cloudfront.net/smrtv-ch02/_definst_/smil:ch-02.smil/master.m3u8
-#EXTINF:-1 group-title="ESPANHA" tvg-id="Undefined" tvg-logo="https://graph.facebook.com/currenttimetv/picture?width=200&height=200",Int. Europa: Current Time TV
-https://rfe-ingest.akamaized.net/hls/live/2033043/tvmc05/master.m3u8
-#EXTINF:-1 group-title="ESPANHA" tvg-id="Undefined" tvg-logo="https://graph.facebook.com/courttv/picture?width=200&height=200",Int. América: CourtTV USA EN
-https://content.uplynk.com/channel/6c0bd0f94b1d4526a98676e9699a10ef.m3u8
-#EXTINF:-1 group-title="ESPANHA" tvg-id="Undefined" tvg-logo="https://graph.facebook.com/NASA/picture?width=200&height=200",Int. América: NASA TV Public
-https://ntv1.akamaized.net/hls/live/2014075/NASA-NTV1-HLS/master.m3u8
-#EXTINF:-1 group-title="ESPANHA" tvg-id="Undefined" tvg-logo="https://graph.facebook.com/NASA/picture?width=200&height=200",Int. América: NASA TV Media
-https://ntv2.akamaized.net/hls/live/2013923/NASA-NTV2-HLS/master.m3u8
-#EXTINF:-1 group-title="ESPANHA" tvg-id="Undefined" tvg-logo="https://graph.facebook.com/RealAmericasVoice/picture?width=200&height=200",Int. América: America's Voice USA EN
-https://content.uplynk.com/channel/26bd482ffe364a1282bc3df28bd3c21f.m3u8
-#EXTINF:-1 group-title="ESPANHA" tvg-id="Undefined" tvg-logo="https://graph.facebook.com/newsmax/picture?width=200&height=200",Int. América: Newsmax TV USA EN
-https://nmxlive.akamaized.net/hls/live/529965/Live_1/master.m3u8
-#EXTINF:-1 group-title="ESPANHA" tvg-id="Undefined" tvg-logo="https://graph.facebook.com/ElFinancieroMx/picture?width=200&height=200",Int. América: El Financiero Mexico
-https://d19vc4shchm9pr.cloudfront.net/out/v1/a67ad47be66f4c3ea4a14c8f22984fa7/index.m3u8
-#EXTINF:-1 group-title="ESPANHA" tvg-id="Undefined" tvg-logo="https://graph.facebook.com/CANALONCETV/picture?width=200&height=200",Int. América: Canal Once Mexico
-https://vivo.canaloncelive.tv/alivepkgr3/ngrp:cepro_all/playlist.m3u8
-#EXTINF:-1 group-title="ESPANHA" tvg-id="Undefined" tvg-logo="https://graph.facebook.com/BoliviatvOficial/picture?width=200&height=200",Int. América: Bolivia 7.2 TV
-https://video1.getstreamhosting.com:1936/8224/8224/playlist.m3u8
-#EXTINF:-1 group-title="ESPANHA" tvg-id="Undefined" tvg-logo="https://graph.facebook.com/ABCTVpy/picture?width=200&height=200",Int. América: ABC TV Paraguay
-https://d2e809bgs49c6y.cloudfront.net/live/d87c2b7b-9ecf-4e6e-b63b-b32772bd7851/live.isml/d87c2b7b-9ecf-4e6e-b63b-b32772bd7851.m3u8
-#EXTINF:-1 group-title="ESPANHA" tvg-id="Undefined" tvg-logo="https://graph.facebook.com/WtvNuevaGuinea/picture?width=200&height=200",Int. América: WTV Nicaragua
-https://cloudvideo.servers10.com:8081/8130/index.m3u8
-#EXTINF:-1 group-title="ESPANHA" tvg-id="Undefined" tvg-logo="https://graph.facebook.com/MultimediosCR/picture?width=200&height=200",Int. América: TeleDiario Costa Rica
-https://mdstrm.com/live-stream-playlist/5a7b1e63a8da282c34d65445.m3u8
-#EXTINF:-1 group-title="ESPANHA" tvg-id="CGTN.TV" tvg-logo="https://graph.facebook.com/cgtnenespanol/picture?width=200&height=200",Int. Asia: CGTN
-https://news.cgtn.com/resource/live/espanol/cgtn-e.m3u8
-#EXTINF:-1 group-title="ESPANHA" tvg-id="CGTNN.TV" tvg-logo="https://graph.facebook.com/ChinaGlobalTVNetwork/picture?width=200&height=200",Int. Asia: CGTN News EN
-https://news.cgtn.com/resource/live/english/cgtn-news.m3u8
-#EXTINF:-1 group-title="ESPANHA" tvg-id="CGTNDoc.TV" tvg-logo="https://graph.facebook.com/ChinaGlobalTVNetwork/picture?width=200&height=200",Int. Asia: CGTN Documentary EN
-https://news.cgtn.com/resource/live/document/cgtn-doc.m3u8
-#EXTINF:-1 group-title="ESPANHA" tvg-id="AlJQ.TV" tvg-logo="https://graph.facebook.com/aljazeera/picture?width=200&height=200",Int. Asia: Al Jazeera Qatar EN
-https://live-hls-web-aje.getaj.net/AJE/index.m3u8
-#EXTINF:-1 group-title="ESPANHA" tvg-id="AlJQ.TV" tvg-logo="https://graph.facebook.com/aljazeera/picture?width=200&height=200",Int. Asia: Al Jazeera Qatar AR
-https://live-hls-web-aja.getaj.net/AJA/index.m3u8
-#EXTINF:-1 group-title="ESPANHA" tvg-id="Undefined" tvg-logo="https://graph.facebook.com/ntvnews24/picture?width=200&height=200",Int. Asia: Nippon News TV Japan
-https://n24-cdn-live.ntv.co.jp/ch01/index.m3u8
-#EXTINF:-1 group-title="ESPANHA" tvg-id="Arirang.TV" tvg-logo="https://graph.facebook.com/arirangtv/picture?width=200&height=200",Int. Asia: Arirang TV Korea EN
-https://amdlive-ch01-ctnd-com.akamaized.net/arirang_1ch/smil:arirang_1ch.smil/playlist.m3u8
-#EXTINF:-1 group-title="ESPANHA" tvg-id="Undefined" tvg-logo="https://graph.facebook.com/AlArabiya/picture?width=200&height=200",Int. Asia: Al Arabiya Emiratos Árabes AR
-https://live.alarabiya.net/alarabiapublish/alarabiya.smil/playlist.m3u8
-#EXTINF:-1 group-title="ESPANHA" tvg-id="Undefined" tvg-logo="https://graph.facebook.com/IndiaToday/picture?width=200&height=200",Int. Asia: India Today EN
-https://indiatodaylive.akamaized.net/hls/live/2014320/indiatoday/indiatodaylive/playlist.m3u8
-#EXTINF:-1 group-title="ESPANHA" tvg-id="Undefined" tvg-logo="https://graph.facebook.com/IndiaToday/picture?width=200&height=200",Int. Asia: India Today
-https://feeds.intoday.in/aajtak/api/master.m3u8
-#EXTINF:-1 group-title="ESPANHA" tvg-id="Undefined" tvg-logo="https://graph.facebook.com/ndtv/picture?width=200&height=200",Int. Asia: New Delhi TV 24x7 India EN
-https://ndtv24x7elemarchana.akamaized.net/hls/live/2003678/ndtv24x7/ndtv24x7master.m3u8
-#EXTINF:-1 group-title="ESPANHA" tvg-id="Undefined" tvg-logo="https://graph.facebook.com/ChannelNewsAsia/picture?width=200&height=200",Int. Asia: Channel NewsAsia EN
-https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index.m3u8
-#EXTINF:-1 group-title="ESPANHA" tvg-id="Undefined" tvg-logo="https://graph.facebook.com/RTHK.HK/picture?width=200&height=200",Int. Asia: RTHK 31 32 Hong Kong
-https://www.rthk.hk/feeds/dtt/rthktv31_https.m3u8
-#EXTINF:-1 group-title="ESPANHA" tvg-id="Undefined" tvg-logo="https://graph.facebook.com/RTHK.HK/picture?width=200&height=200",Int. Asia: RTHK 31 32 Hong Kong
-https://www.rthk.hk/feeds/dtt/rthktv32_https.m3u8
-#EXTINF:-1 group-title="ESPANHA" tvg-id="Undefined" tvg-logo="http://www.tvgelive.gq/images/logo-dark.png",Int. África: TVGE 1 Guinea Ecuatorial
-http://rtmp.ott.mx1.com/tvge1/tvge1multi.smil/master.m3u8
-#EXTINF:-1 group-title="ESPANHA" tvg-id="Undefined" tvg-logo="https://graph.facebook.com/televisionsaharaui/picture?width=200&height=200",Int. África: RASD TV
-https://cloud.streamingconnect.tv/hls/rasdtv/rasdtv.m3u8
-#EXTINF:-1 group-title="ESPANHA" tvg-id="Undefined" tvg-logo="https://graph.facebook.com/quicktake/picture?width=200&height=200",Int. Otros: Bloomberg Quicktake EN
-https://www.bloomberg.com/media-manifest/streams/qt.m3u8
-#EXTINF:-1 group-title="ESPANHA" tvg-id="Undefined" tvg-logo="https://graph.facebook.com/miamitv/picture?width=200&height=200",Int. Otros: Miami TV
-https://59ec5453559f0.streamlock.net/JennyLive/JennyLive/playlist.m3u8
-#EXTINF:-1 group-title="ESPANHA" tvg-id="Undefined" tvg-logo="https://pbs.twimg.com/profile_images/956583141245775872/2en3-8Ag_200x200.jpg",Int. Otros: Classic Arts Showcase EN
-https://classicarts.akamaized.net/hls/live/1024257/CAS/master.m3u8
-#EXTINF:-1 group-title="ESPANHA" tvg-id="Undefined" tvg-logo="https://graph.facebook.com/RedBull/picture?width=200&height=200",Deportivos Int.: Redbull TV EN
-https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master.m3u8
-#EXTINF:-1 group-title="ESPANHA" tvg-id="Undefined" tvg-logo="https://graph.facebook.com/activafm.radiomusical/picture?width=200&height=200",Musicales: Activa TV España
-https://streamtv.mediasector.es/hls/activatv/index.m3u8
-#EXTINF:-1 group-title="ESPANHA" tvg-id="Undefined" tvg-logo="https://graph.facebook.com/cadena.elitegranada/picture?width=200&height=200",Musicales: Cadena Elite España
-https://cloudvideo.servers10.com:8081/8004/index.m3u8
-#EXTINF:-1 group-title="ESPANHA" tvg-id="Undefined" tvg-logo="https://graph.facebook.com/fmurban/picture?width=200&height=200",Musicales: La Urban TV España
-https://urbanrevolution.es:8443/live/TV/master.m3u8
-#EXTINF:-1 group-title="ESPANHA" tvg-id="Undefined" tvg-logo="https://graph.facebook.com/ProduccionesAudiovisuales.CV/picture?width=200&height=200",Musicales: VIVA RTV España
-https://app.viloud.tv/hls/channel/c0d91440f0b445407e7b7a4e414f64ca.m3u8
-#EXTINF:-1 group-title="ESPANHA" tvg-id="Undefined" tvg-logo="https://graph.facebook.com/kronehit/picture?width=200&height=200",Musicales: Kronehit Austria
-https://bitcdn-kronehit.bitmovin.com/v2/hls/playlist.m3u8
-#EXTINF:-1 group-title="ESPANHA" tvg-id="Undefined" tvg-logo="https://graph.facebook.com/QmusicNL/picture?width=200&height=200",Musicales: QMusic Holanda NL
-https://dpp-qmusicnl-live.akamaized.net/streamx/QmusicNL.m3u8
-#EXTINF:-1 group-title="ESPANHA" tvg-id="Undefined" tvg-logo="https://graph.facebook.com/4FUN.TV/picture?width=200&height=200",Musicales: 4FUN TV Polonia PL
-https://stream.4fun.tv:8888/hls/4f_high/index.m3u8
-#EXTINF:-1 group-title="ESPANHA" tvg-id="Undefined" tvg-logo="https://graph.facebook.com/radioitalia/picture?width=200&height=200",Musicales: Radio Italia TV IT
-https://radioitaliatv.akamaized.net/hls/live/2093117/RadioitaliaTV/master.m3u8
-#EXTINF:-1 group-title="ESPANHA" tvg-id="Undefined" tvg-logo="https://graph.facebook.com/tvocko/picture?width=200&height=200",Musicales: Ocko Chequia CZ
-https://ocko-live.ssl.cdn.cra.cz/channels/ocko/playlist/cze/live_hq.m3u8
-#EXTINF:-1 group-title="ESPANHA" tvg-id="Undefined" tvg-logo="https://graph.facebook.com/ockostar/picture?width=200&height=200",Musicales: Ocko Star Chequia CZ
-https://ocko-live.ssl.cdn.cra.cz/channels/ocko_gold/playlist/cze/live_hq.m3u8
-#EXTINF:-1 group-title="ESPANHA" tvg-id="Undefined" tvg-logo="https://graph.facebook.com/OckoExpres/picture?width=200&height=200",Musicales: Ocko Expres Chequia CZ
-https://ocko-live.ssl.cdn.cra.cz/channels/ocko_expres/playlist/cze/live_hq.m3u8
-#EXTINF:-1 group-title="ESPANHA" tvg-id="Undefined" tvg-logo="https://graph.facebook.com/ONFM93.8/picture?width=200&height=200",Musicales: ON TV Portugal
-https://5ce9406b73c33.streamlock.net/ONFM/livestream/master.m3u8
-#EXTINF:-1 group-title="ESPANHA" tvg-id="Undefined" tvg-logo="https://graph.facebook.com/NRG91/picture?width=200&height=200",Musicales: NRG91 Grecia
-https://5c389faa13be3.streamlock.net:9553/onweb/live/playlist.m3u8
-#EXTINF:-1 group-title="ESPANHA" tvg-id="Undefined" tvg-logo="https://graph.facebook.com/vtwobeat/picture?width=200&height=200",Musicales: V2Beat TV EN
-https://abr.de1se01.v2beat.live/playlist.m3u8
-#EXTINF:-1 group-title="ESPANHA" tvg-id="Undefined" tvg-logo="https://graph.facebook.com/powerapp/picture?width=200&height=200",Musicales: Power TV Turquía
-https://livetv.powerapp.com.tr/powerTV/powerhd.smil/playlists.m3u8
-#EXTINF:-1 group-title="ESPANHA" tvg-id="Undefined" tvg-logo="https://graph.facebook.com/onemusicchannel/picture?width=200&height=200",Musicales: First Music Channel Bielorrusia
-http://hz1.teleport.cc/HLS/HD.m3u8
-#EXTINF:-1 group-title="ESPANHA" tvg-id="Undefined" tvg-logo="https://graph.facebook.com/onemusicchannel/picture?width=200&height=200",Musicales: First Music Channel Bielorrusia
-http://hz1.teleport.cc/HLS/SD.m3u8
-#EXTINF:-1 group-title="ESPANHA" tvg-id="Undefined" tvg-logo="https://graph.facebook.com/Ottotivu/picture?width=200&height=200",Musicales: Otto FM Italia IT
-http://streaming.bitonlive.net:8080/hls/ottofm2/index.m3u8
-#EXTINF:-1 group-title="ESPANHA" tvg-id="Undefined" tvg-logo="https://graph.facebook.com/sonusfmpage/picture?width=200&height=200",Musicales: Sonus FM Alemania
-#EXTVLCOPT:http-referrer=http://www.sonus.fm
-#EXTVLCOPT:http-referrer=http://www.sonus.fm
-#EXTINF:-1 group-title="ESPANHA" tvg-id="Undefined" tvg-logo="https://graph.facebook.com/30atv/picture?width=200&height=200",Musicales: 30A Music USA EN
-https://30a-tv.com/music.m3u8
-#EXTINF:-1 group-title="ESPANHA" tvg-id="Undefined" tvg-logo="https://graph.facebook.com/retromusic/picture?width=200&height=200",Musicales: Retro Music TV Chequia EN
-http://stream.mediawork.cz/retrotv/retrotvHQ1/playlist.m3u8
-#EXTINF:-1 group-title="ESPANHA" tvg-id="Undefined" tvg-logo="https://graph.facebook.com/muzzik.television/picture?width=200&height=200",Musicales: Muzzik TV Serbia
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160
-#EXTINF:-1 group-title="ESPANHA" tvg-id="Undefined" tvg-logo="https://graph.facebook.com/muzzik.television/picture?width=200&height=200",Musicales: Muzzik Rock&Roll Serbia
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160
-#EXTINF:-1 group-title="ESPANHA" tvg-id="Undefined" tvg-logo="https://graph.facebook.com/muzzik.television/picture?width=200&height=200",Musicales: Muzzik Cafe&Club Serbia
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160
-#EXTINF:-1 group-title="ESPANHA" tvg-id="Undefined" tvg-logo="https://graph.facebook.com/muzzik.television/picture?width=200&height=200",Musicales: Muzzik Worldwide Serbia
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160
-#EXTINF:-1 group-title="ESPANHA" tvg-id="Undefined" tvg-logo="https://graph.facebook.com/muzzik.television/picture?width=200&height=200",Musicales: Muzzik Rivijera Serbia
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160
-#EXTINF:-1 group-title="ESPANHA" tvg-id="Undefined" tvg-logo="https://graph.facebook.com/muzzik.television/picture?width=200&height=200",Musicales: Muzzik Jeka Serbia
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160
-#EXTINF:-1 group-title="ESPANHA" tvg-id="Undefined" tvg-logo="https://graph.facebook.com/muzzik.television/picture?width=200&height=200",Musicales: Muzzik ZZ TV Serbia
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160
-#EXTINF:-1 group-title="ESPANHA" tvg-id="Undefined" tvg-logo="https://graph.facebook.com/muzzik.television/picture?width=200&height=200",Musicales: Muzzik Sense Serbia
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160
-#EXTINF:-1 group-title="ESPANHA" tvg-id="Undefined" tvg-logo="https://graph.facebook.com/muzzik.television/picture?width=200&height=200",Musicales: Muzzik Glazzba Serbia
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160
-#EXTINF:-1 group-title="ESPANHA" tvg-id="Undefined" tvg-logo="https://graph.facebook.com/muzzik.television/picture?width=200&height=200",Musicales: Muzzik Flashback Serbia
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160
-#EXTINF:-1 group-title="ESPANHA" tvg-id="Undefined" tvg-logo="https://graph.facebook.com/muzzik.television/picture?width=200&height=200",Musicales: Muzzik OKK Serbia
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36 CrKey/1.44.191160
-#EXTINF:-1 group-title="ESPANHA" tvg-id="Undefined" tvg-logo="https://pbs.twimg.com/profile_images/825104000341012480/ip1tcW4n_200x200.jpg",Musicales: Spirit TV USA EN
-https://cdnlive.myspirit.tv/LS-ATL-43240-2/index.m3u8
-#EXTINF:-1 group-title="ESPANHA" tvg-id="Undefined" tvg-logo="https://graph.facebook.com/ewtnespanol/picture?width=200&height=200",Religiosos: EWTN España
-https://cdn3.wowza.com/1/SmVrQmZCUXZhVDgz/b3J3MFJv/hls/live/playlist.m3u8
-#EXTINF:-1 group-title="ESPANHA" tvg-id="Undefined" tvg-logo="https://graph.facebook.com/ewtnespanol/picture?width=200&height=200",Religiosos: EWTN España EN
-https://cdn3.wowza.com/1/YW5wSWZiRGd2eFlU/bGV0aVBq/hls/live/playlist.m3u8
-#EXTINF:-1 group-title="ESPANHA" tvg-id="Undefined" tvg-logo="https://graph.facebook.com/ecclesiacope/picture?width=200&height=200",Religiosos: Ecclesia COPE España
-https://cope-religion-video.flumotion.com/playlist.m3u8
-#EXTINF:-1 group-title="ESPANHA" tvg-id="Undefined" tvg-logo="https://pbs.twimg.com/profile_images/1359486927406321664/WZXLfd2h_200x200.jpg",Religiosos: RTV Vida España
-https://vidartv2.todostreaming.es/live/radiovida-emisiontvhd.m3u8
-#EXTINF:-1 group-title="ESPANHA" tvg-id="Undefined" tvg-logo="https://graph.facebook.com/solidariatv/picture?width=200&height=200",Religiosos: Solidaria TV España
-https://canadaremar2.todostreaming.es/live/solidariatv-webhd.m3u8
-#EXTINF:-1 group-title="ESPANHA" tvg-id="Undefined" tvg-logo="https://graph.facebook.com/TBNEspana/picture?width=200&height=200",Religiosos: TBN España
-https://edge.xn--tbnespaa-j3a.es/LiveApp/streams/tbnlive.m3u8
-#EXTINF:-1 group-title="ESPANHA" tvg-id="Undefined" tvg-logo="https://graph.facebook.com/cetelmon.television/picture?width=200&height=200",Religiosos: Cetelmon TV España
-http://player.cetelmon.tv/protecteddfd43c2f3a8b41f3f28582bf8993aca6/992_high.m3u8
-#EXTINF:-1 group-title="ESPANHA" tvg-id="Undefined" tvg-logo="https://graph.facebook.com/cbnonline/picture?width=200&height=200",Religiosos: CBN USA
-https://bcovlive-a.akamaihd.net/r21fb8503a4a74d098b798f16922b2a36/us-east-1/734546207001/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://s03.video.glbimg.com/x720/7689934.jpg" group-title="GLOBO AO VIVO", sportv ao vivo no ge.globo - monitoração FIFA Copa do Mundo de Clubes | Assista ao vivo pelo Globoplay
+https://live-as-02-22.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJVUyIsImRvbWFpbiI6ImxpdmUtYXMtMDItMjIudmlkZW8uZ2xvYm8uY29tIiwiZXhwIjoxNzYxMjk3MTAyLCJpYXQiOjE3NjEyNzU1MDIsImlzcyI6InBsYXliYWNrLWFwaS1wcm9kLWdjcCIsIm93bmVyIjoiIiwicGF0aCI6Ii9saXZlL2YoaT0yKS9zcG8xMjRoYS9wbGF5bGlzdC5tM3U4In0.nd1r_q-B6-S6iU8andjKolgMbrTID-7Vgn65w3ORvfrlxmM1QoVHu054Kwd0XheOp-TsH0eBgyocEiPnDNobIz-KgrM2tw4kwfDBkDvY12A-YO5mRy6dYuPyUGKaTxF0474MQRog-53YgFGaQ-wpV15_afY3IrEo159tcHuCe79NUk23sxddHFfY-zda_G2E9I3JUu4ng4ggP_0ND5PJwquu0JZzAziJrz0VKiHEZ2_lVnR-8b0_X5L2BM6c3pMMAdsPEziXeYSh610N7a2qXnGu4eZjCZ0n7BCqedJYIguHIt-n4LR2uIgdPThW43jcpFswathDi-QldL5D0t-qyA/live/f(i=2)/spo124ha/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://s02.video.glbimg.com/x720/7690141.jpg" group-title="GLOBO AO VIVO", sportv 2 ao vivo no ge.globo - FIFA Monitoração | Assista ao vivo pelo Globoplay
+https://live-as-09-14.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJVUyIsImRvbWFpbiI6ImxpdmUtYXMtMDktMTQudmlkZW8uZ2xvYm8uY29tIiwiZXhwIjoxNzYxMjk3MTM0LCJpYXQiOjE3NjEyNzU1MzQsImlzcyI6InBsYXliYWNrLWFwaS1wcm9kLWdjcCIsIm93bmVyIjoiIiwicGF0aCI6Ii9saXZlL2YoaT0yKS9zcG8yMjRoYS9wbGF5bGlzdC5tM3U4In0.wNO7QUss56L5oYZ9JD5GOnnoNV1pQcnOfmtrtrui4pxrrQ8p94_Z4uj_uWyOrEet3fTVaPnkwfKFNoQDgzsdARUf_odzg0ndK42A0NZfWA3NWuGfpaRSozw8C-9rloKe8t7ZkxbyKNtrVourT4I0OdJLyX4K2b89AdHTXpVzAm4TUMgFoZdXMKxXfB2C7H8_oBab8ad4yHD4dnXo8ZHn9tIIcT09wRPC5UZV2XDfJ9kZ1znsyemWtc5VfEzz3eDtOgAZP-vnMCyvvXsPCUXS46PgWuR33UN0hPs57j8rt0K5LfTrm3P7o05PUCMQqX4NibWuv7xV1gKL3DILJkncIw/live/f(i=2)/spo224ha/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://s04.video.glbimg.com/x720/12749215.jpg" group-title="GLOBO AO VIVO", Assistir Copa do Mundo de Clubes da FIFA 2025 - sportv 3 no ge.globo online | Globoplay
+https://live-as-03-08.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJVUyIsImRvbWFpbiI6ImxpdmUtYXMtMDMtMDgudmlkZW8uZ2xvYm8uY29tIiwiZXhwIjoxNzYxMjk3MTM3LCJpYXQiOjE3NjEyNzU1MzcsImlzcyI6InBsYXliYWNrLWFwaS1wcm9kLWdjcCIsIm93bmVyIjoiIiwicGF0aCI6Ii9saXZlL2YoaT0yKS9zcG8zMjRoYS9wbGF5bGlzdC5tM3U4In0.VA00I8MEkHGS8I__EHvODXiFGfRLtnPfR6vW-hcNU9zmrPps7CB2pfRkW4Sx6vbDzgwN6h-FL-s0HmjufGer1QuOih3SBdZvjA9bRQYJQKw4oLM70rHBlSnPd4nFMkpwc9gCXIFOwHpwVw7CkY6Zq-xGO9IGcn5lg63oF7lkXbtJQIHKTatSL3C85RsvrsiFCqYSHtE-pO2npV7r8dEpNdPegSbCSjsliSyQK0XFmYmjhPnUT7sIKRYQkxyllOV_cpxCiNpv6ZiXT-G2jWexQdjVrumUYcSdRNXip57aWWUZBaL6yvfvNspwXjT3RB9xaUtJSGissAyF4nNO363AJg/live/f(i=2)/spo324ha/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://s03.video.glbimg.com/x720/1328766.jpg" group-title="GLOBO AO VIVO", Assistir G1 ao vivo - g1 ao vivo: Transmissão ao vivo online | Globoplay
+https://live-as-03-30.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJVUyIsImRvbWFpbiI6ImxpdmUtYXMtMDMtMzAudmlkZW8uZ2xvYm8uY29tIiwiZXhwIjoxNzYxMjk3MjY5LCJpYXQiOjE3NjEyNzU2NjksImlzcyI6InBsYXliYWNrLWFwaS1wcm9kLWdjcCIsIm93bmVyIjoiIiwicGF0aCI6Ii9saXZlL2YoaT0yKS9nMXJqMS9wbGF5bGlzdC5tM3U4In0.r0zUKDpnO6X6vvBIIenQrzvQ8-1gJVtYcelYHcjaNuu9pbhM061lCxA3EaRFHOhplBDll7wWMBM-T3qftVcmy0EW-sV0QuzeRMy_dDudRA3_OChOgZf-fa6o47mK-qF1kEU0i5N1gFSfB0eSQ9m6JCXIxSwj7S91NKlQxN_QvcoT6l30rBHqmuinV1T-2pjhJW40Ifa2rzMab2HnYftFkKahxYK-UEVOliP38igEMlOSMq0z1p_TFINWnoNf7tJCoBrE0uechMr6K0HURVi_zVM9YrWYAYcsbS0P2RfaaKRKLD-eHMbbt4NWVmEBMRsInK1HxTXDoME3SvYmLfXldg/live/f(i=2)/g1rj1/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://s02.video.glbimg.com/x720/1467373.jpg" group-title="GLOBO AO VIVO", Assistir ge.globo - Transmissão ao vivo online | Globoplay
+https://live-as-02-03.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJVUyIsImRvbWFpbiI6ImxpdmUtYXMtMDItMDMudmlkZW8uZ2xvYm8uY29tIiwiZXhwIjoxNzYxMjk3Mjc1LCJpYXQiOjE3NjEyNzU2NzUsImlzcyI6InBsYXliYWNrLWFwaS1wcm9kLWdjcCIsIm93bmVyIjoiIiwicGF0aCI6Ii9saXZlL2YoaT0yKS9iZXIxL3BsYXlsaXN0Lm0zdTgifQ.AqXH59dM1gcmTiWPA_KwLEE3Qwwwq886_rHPZpNqfWEOjnCPXt9PLh-BGDQjXqYdNlDzaeFbIdFUM8Mc6FLAjBN-lgihzkehC3vRSdh-CCr9XY678Ijtd6C5bcUPQYXKdDMeIs3JOB-k1RLc2Ey_Q0spa6gEOwxaCk9-vUKUStYtI3mm52jyhDFOa_HOz1xCRUW2VWBiivm3uOxWKl_RixZFBoMA8Ao65RI3Ypu-yYPgxSL7w2Ys4yo49YLHxyOiLL_flvP6dEIqv8-a7HaWox6SxbNkKUkDzLIH8de6KBCaIgfE1w8DzPZjy70s5TO-eS-NOvCbE61QrktMvrSb-g/live/f(i=2)/ber1/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://s04.video.glbimg.com/x720/4064559.jpg" group-title="GLOBO AO VIVO", Assistir G1 ao vivo - g1 ao vivo: Primeira Turma do STF retoma julgamento do núcleo 4 da tentativa de golpe online | Globoplay
+https://live-as-03-35.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJVUyIsImRvbWFpbiI6ImxpdmUtYXMtMDMtMzUudmlkZW8uZ2xvYm8uY29tIiwiZXhwIjoxNzYxMjk3MzA0LCJpYXQiOjE3NjEyNzU3MDQsImlzcyI6InBsYXliYWNrLWFwaS1wcm9kLWdjcCIsIm93bmVyIjoiIiwicGF0aCI6Ii9saXZlL2YoaT0yKS9qYjEvcGxheWxpc3QubTN1OCJ9.KqA-_nleCc-KW0ptnPDHRA-A3BC7V-4rWa3H5OxcwQcIbSNCRjX2EsIaqE3foXmyndynhPfKeIkvCvgj9dP0BZ7F8YGF5A8cMWrjkMPs1wA7jcYIJvztecgw7YJ9Us7tE2V2fSzVaLl7K6HvrrvhQmyXmGkh6MOUQAXbZdPNzKdybVwVecIXIg1syHsyfvZSWzUUO-iXJ1VBcXZSfUQnEA1I580GFK1h4Oc26V0dP1LTcCFf27SDGVXgwpZJJQbMA-25edR0JsuXXkM04KvgWRC0TAI72K0gcqb2gHaUFnXdBbsg_l3la6CMwv2m6Ppe7ukgppceKpaqt-AfVzQytQ/live/f(i=2)/jb1/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://s04.video.glbimg.com/x720/5472979.jpg" group-title="GLOBO AO VIVO", Assistir G1 Caruaru - Transmissão ao vivo do ABTV online | Globoplay
+https://live-as-02-17.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJVUyIsImRvbWFpbiI6ImxpdmUtYXMtMDItMTcudmlkZW8uZ2xvYm8uY29tIiwiZXhwIjoxNzYxMjk3MzEwLCJpYXQiOjE3NjEyNzU3MTAsImlzcyI6InBsYXliYWNrLWFwaS1wcm9kLWdjcCIsIm93bmVyIjoiIiwicGF0aCI6Ii9saXZlL2YoaT0yKS9nMWNhcnVhcnUvcGxheWxpc3QubTN1OCJ9.n3UNffJNLjBXtgdVkwDfm3E9uDhB76_eRNIdYK-EFvGyZZU8OYuMi3Lcdn8lbq0-EPKX0q2zMbxetH-e6jxZgzb1sQyvlsJXZKHK6e6F-TW2RJdmkcGeP1wEL6pjinkkHaMMpvJUgsQp-6E6rHyAOxYFjiY-9fWGc3Y84gSKht-3tI5GfoiFIbsV8BqvQq04BGay4daXcdvcd2vu3GR_Uj69WubQyFFwAABABXi8YOB4zZi5fDWg1cixox-4po3l0nN3_u04TJe-qzK2EgMKCqIU_0TiFEuHirI3YXQld4MiQEnytFNQ9Ryns7AluQWUR1q-B6QQ31k2j5sAyvLbPA/live/f(i=2)/g1caruaru/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://s04.video.glbimg.com/x720/2135579.jpg" group-title="GLOBO AO VIVO", Assistir G1 RS - Assista aos telejornais da RBS TV online | Globoplay
+https://live-as-08-17.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJVUyIsImRvbWFpbiI6ImxpdmUtYXMtMDgtMTcudmlkZW8uZ2xvYm8uY29tIiwiZXhwIjoxNzYxMjk3MzQwLCJpYXQiOjE3NjEyNzU3NDAsImlzcyI6InBsYXliYWNrLWFwaS1wcm9kLWdjcCIsIm93bmVyIjoiIiwicGF0aCI6Ii9saXZlL2YoZHZyPTEyMCxpPTIpL2dsb2JvLXJzMS9wbGF5bGlzdC5tM3U4In0.m07yW57m8S5ftfKGqBV5SxFcZRDJFIzqSWX3frDGIRrNAXWPnAyLm6u-o0pzwOZKQohVFPUSdve_b6LhqVlch3vAzC-E-kPj7J8kIf04XrKkzlNIU4u4OMOfNIIP6PJ1msStd7Mh43oeRuY-Omzw9sUjgJD3C6OaxWaUuA8D-X36lRAxYF4pqq9Dy_h0L5oc6ap3JJiUEh38VUWvCykNfmV326XTPci6iswqfUdBJbrUTxsCnkaJLSzh_KLbryNEVjRqw-q9wqOXy4vaHep-dj8eptXoN5LAnJbwKVhck_UmA9opWM821I3lwJgu49htgvY18CfyGFkuo5ONC-Xn-Q/live/f(dvr=120,i=2)/globo-rs1/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://s04.video.glbimg.com/x720/5472979.jpg" group-title="GLOBO AO VIVO", Transmissão ao vivo do ABTV | Assista ao vivo pelo Globoplay
+https://live-as-02-17.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJVUyIsImRvbWFpbiI6ImxpdmUtYXMtMDItMTcudmlkZW8uZ2xvYm8uY29tIiwiZXhwIjoxNzYxMjk3MzQ3LCJpYXQiOjE3NjEyNzU3NDcsImlzcyI6InBsYXliYWNrLWFwaS1wcm9kLWdjcCIsIm93bmVyIjoiIiwicGF0aCI6Ii9saXZlL2YoaT0yKS9nMWNhcnVhcnUvcGxheWxpc3QubTN1OCJ9.hqA0vAB7eUuLxvUzPcHZQQAuhLlj36_vfVCey-ZI0LnH_AJOuS8tdVu_n8xiIBoXH5rDn3m9ZDDxHX00HkFeXtAP7qhMXaCarXsDRrgaAqp0WT64xCMofJiL_fTpPpkAFsA00_WMfdTMtUGlrvhGaIAPl64sJ79qCSRuWZtVn3mk2-aglb5-ynJt-vUTeKOguJj7hWSQ3Vzp_hygSNPagdfgAuha4z7ioMz_V68nH38Am8NcKJwZFk7oJzHRfuqgNjFYRWcjO94lqRILFjH-AXyUMVx4P-k47YUGlUsmpO0Eb3iukss_F5tWeJY_E6V0IaAhcBKBd78C3d8XrYGaSQ/live/f(i=2)/g1caruaru/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://s01.video.glbimg.com/x720/2145544.jpg" group-title="GLOBO AO VIVO", Assistir G1 SC - AO VIVO: Assista aos telejornais da NSC TV online | Globoplay
+https://live-as-08-15.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJVUyIsImRvbWFpbiI6ImxpdmUtYXMtMDgtMTUudmlkZW8uZ2xvYm8uY29tIiwiZXhwIjoxNzYxMjk3MzgzLCJpYXQiOjE3NjEyNzU3ODMsImlzcyI6InBsYXliYWNrLWFwaS1wcm9kLWdjcCIsIm93bmVyIjoiIiwicGF0aCI6Ii9saXZlL2YoYk1pbj01NTg5NzYpL25zY3NjYXRhcmluYS9wbGF5bGlzdC5tM3U4In0.u6kQE2-SybGL9YMvWfxURa1ELgf16Qd06tGNEbcf0Axi1Frh43ONbz_3yTwEv1xtY2cuog8u-H4WmAGuf8xBqfiUjj9tkQMDsFURvmf2wTu7HEU7apSlAGKL6N30YURqLXAk4bpKLacC2xYYK48UqDbqiRQNY8aLd-3-edXKrNT6ObNylOEz58903b5q6r-FDIbNlfQrnlI-sPLHDRS5BpFAGDtEtyKHKZW7FpIB7-TC1pXy16LpNg8uGb2B9HIZ11MgoeVBmT9-8oi-bstKZnojvuGXjp3UP-tzBEN70Hbkp7lhv67noYZIJCvGW6I7_MUNczy24KOaL-UJ2re7_A/live/f(bMin=558976)/nscscatarina/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://s01.video.glbimg.com/x720/4039160.jpg" group-title="GLOBO AO VIVO", Assistir G1 CE - Assista à TV Verdes Mares ao vivo online | Globoplay
+https://live-as-01-01.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJVUyIsImRvbWFpbiI6ImxpdmUtYXMtMDEtMDEudmlkZW8uZ2xvYm8uY29tIiwiZXhwIjoxNzYxMjk3NDExLCJpYXQiOjE3NjEyNzU4MTEsImlzcyI6InBsYXliYWNrLWFwaS1wcm9kLWdjcCIsIm93bmVyIjoiIiwicGF0aCI6Ii9saXZlL2YoYk1pbj01NTg5NzYpL3R2dm1jZWZvcjIvcGxheWxpc3QubTN1OCJ9.VnNV-bM-PSETlYfSbXHQt1NIS3CIyYkZ331kCoIO5lW3bsgmAtEkr8Bfr_la7toCAR3xxOD0hIqElX_sfGRDyzyABzjeeJJVFvXNIOgxHtW_Yc-n1gD_RtdL1L5R_DaBhPrhPP9_Fm-6EBvylPZf-yZkS6svZr8DhksCBLJRlj8no60mVCPVmVnOSny0ILxFfOucKBwIdW0N7nIOUwOUslpfkiZLbIc_FrYrpp-8FN0ZEz7Enh_6JPiQ72oJ-EK1B0Sw3IMtWLwzASOobDpXlIknKN78UStyOdFxPERiF-aS84PynH7iJ7Sgsa5J9Srq0pXz50F_s6IwtqMcRLexWw/live/f(bMin=558976)/tvvmcefor2/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://s01.video.glbimg.com/x720/11999480.jpg" group-title="GLOBO AO VIVO", Assistir G1 ES - Transmissão ao vivo do jornal Regional no g1 ES online | Globoplay
+https://live-as-02-17.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJVUyIsImRvbWFpbiI6ImxpdmUtYXMtMDItMTcudmlkZW8uZ2xvYm8uY29tIiwiZXhwIjoxNzYxMjk3NDQ1LCJpYXQiOjE3NjEyNzU4NDUsImlzcyI6InBsYXliYWNrLWFwaS1wcm9kLWdjcCIsIm93bmVyIjoiIiwicGF0aCI6Ii9saXZlL2YoaT0yKS9nMXR2Z2F6ZXRhZXMvcGxheWxpc3QubTN1OCJ9.zCrpQ9iLEh3i_AuSxMc3KAC5rmu2lbOK1g77Dk2vE7sKqPrzu2QVP4v-P65CiRohyB6e0m50Hb9d49AD0MQPQUmfFYF7ZZsxxTD1PpoQCUCkrPJVDvjX2QId3fff1Slf6RHm1lCIegCvb5C9ZXMiy35QAgbwYe6vSQEB6wylOFbmX74Jl9JT73I1REm8BkQlsGeX6m1oZBOAR_xDJa1o7mTOm52_bbsmL2LjmhSIdVeADllCRK1nYTh2y8PvXUTzpIEkghwzds34jNSlwDT5xcHV6WgwQQFCA4hPaDHRsakv8O2GdgsH7XFmXVhvU6p9JgVTg0QlzEYWrGscHyI3EQ/live/f(i=2)/g1tvgazetaes/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://s04.video.glbimg.com/x720/3667427.jpg" group-title="GLOBO AO VIVO", TV Integração Juiz de Fora - Transmissão ao vivo | Assista ao vivo pelo Globoplay
+https://live-as-10-03.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJVUyIsImRvbWFpbiI6ImxpdmUtYXMtMTAtMDMudmlkZW8uZ2xvYm8uY29tIiwiZXhwIjoxNzYxMjk3NDgyLCJpYXQiOjE3NjEyNzU4ODIsImlzcyI6InBsYXliYWNrLWFwaS1wcm9kLWdjcCIsIm93bmVyIjoiIiwicGF0aCI6Ii9saXZlL2YoaT0yKS9nMWludGVncmFtZ2pkZi9wbGF5bGlzdC5tM3U4In0.EKxMUqCu9DkKuROMzzuCfjGn1x_4ziKhx4XN_8wLy7Fexz5nnRws5xnRp5oUspa0izCcpEXqxg_zbGWe8NNpsfDjRzhnKMLmq4PUUJZRu23b46Fs4Ryyy_YoY9DcNm6XmbosFB6ice1MsjAJWeaQNdf7MKVbLYLATzuyu3QK7WGuMmiNec5TxEKwXzAS-PAK1Y-WKOj9Or7NDhCPW34Kq2wL5eIxgLEMTKr55kKaBMl762a7P3QLfQ_FmklSexmVvOsG4TNJBd5mYC3-tE-JXch4nBAGzlhyasNDqcKqoyGE9tIQ8B9dmSDBa10scNmw162L7jaVPAk8fjL38lDEWw/live/f(i=2)/g1integramgjdf/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://s02.video.glbimg.com/x720/4218681.jpg" group-title="GLOBO AO VIVO", Assistir G1 Triângulo Mineiro - TV Integração Uberlândia - Transmissão ao vivo online | Globoplay
+https://live-as-08-05.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJVUyIsImRvbWFpbiI6ImxpdmUtYXMtMDgtMDUudmlkZW8uZ2xvYm8uY29tIiwiZXhwIjoxNzYxMjk3NDg1LCJpYXQiOjE3NjEyNzU4ODUsImlzcyI6InBsYXliYWNrLWFwaS1wcm9kLWdjcCIsIm93bmVyIjoiIiwicGF0aCI6Ii9saXZlL2YoaT0yKS9nMWludGVncmFtZ3ViZS9wbGF5bGlzdC5tM3U4In0.NI5uoUSy6ue-9rqIIQYWaq2H40DenAISuQx_pJcCjuYwzuAZQz-WIlv2tYu1XQ7BAJl8ph6kj6PiChmXde95uTI9be9Dl4nlU7wp4czPYWeNZbROgPAZ2nyTa_TzmK8_FEACKhOdsYxhazwVM2KU7OPhEYYqVROqpJ45WMFwo0QYruKODydPkySUzTNv--dxn1BuDGyv1bSVcRXt1c-M13PVIl21UsTxuGBkZz1_l_Imd5OR6Xx4mL4oGqSaYHQxCWIznte-pLhg4g9-QBV2S2VV265FroTi_T6B-RQ-TkvMFXyTpPqv5a303GutqQg3y2lrLpoScRCt82lvkUBUBg/live/f(i=2)/g1integramgube/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://s02.video.glbimg.com/x720/12945385.jpg" group-title="GLOBO AO VIVO", Assistir G1 Triângulo Mineiro - TV Integração Uberaba - Transmissão ao vivo online | Globoplay
+https://live-as-08-05.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJVUyIsImRvbWFpbiI6ImxpdmUtYXMtMDgtMDUudmlkZW8uZ2xvYm8uY29tIiwiZXhwIjoxNzYxMjk3NTE2LCJpYXQiOjE3NjEyNzU5MTYsImlzcyI6InBsYXliYWNrLWFwaS1wcm9kLWdjcCIsIm93bmVyIjoiIiwicGF0aCI6Ii9saXZlL2YoaT0yKS9nMWludGVncmFtZ3ViYS9wbGF5bGlzdC5tM3U4In0.MGQADruD5L_CuvMnh62TBM7GEasWhDUQXzN2I1hx4oNj39qFkna4rFnrAOriA4x2m4H4nXotQa87QqThqzvP_CRyub5C4KY6285ex_0E6W6WwcRwmmbd4tYwaSyzt2cvGk1LDlWhoXhNmz9ertT8Go-_rF8FvPtnt1az0vMbCIECrgtN9VEHgtNhPFyltNhBiOG2uoabqCIM-UBrLolNnG8GY2HffyU2US6jW1-2Fqbm9jq_ETzHSl4Ygs6UGolPq2sz2UsQkbRUqvAPd63mGz86eTksDVDji645bNe83HuffpaSIXCdLbNaPYgJH_MysT7rLh_DG_OfofQ9P98dtA/live/f(i=2)/g1integramguba/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://s04.video.glbimg.com/x720/2923579.jpg" group-title="GLOBO AO VIVO", Assistir G1 AP - Assista ao vivo aos telejornais da Rede Amazônica online | Globoplay
+https://live-as-09-09.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJVUyIsImRvbWFpbiI6ImxpdmUtYXMtMDktMDkudmlkZW8uZ2xvYm8uY29tIiwiZXhwIjoxNzYxMjk3NTUxLCJpYXQiOjE3NjEyNzU5NTEsImlzcyI6InBsYXliYWNrLWFwaS1wcm9kLWdjcCIsIm93bmVyIjoiIiwicGF0aCI6Ii9saXZlL2YoaT0yKS9yZWRlYXAvcGxheWxpc3QubTN1OCJ9.AfNYio3Xe-lM77JHASknhTOTj1YO7YspMjiMA2TXKeVf8pQW23MesDUd2mLN4_7c83ARHtH7b4A3qx-MeFNWvMHSZrqCIK0UZY6FCngBRnR1bM0uU0I_nrqRz4GOf0hFLBp65IOKE8scrW8dkzQW1WkXQcX_qcvuxrvlCPIpd8pNXWeySdnbbRI04daAD7anFQ5rQ6orAoxruSWHVqnNDm-0nwnhpLRsD2honpBy1QniKLBMerWhbDeRD7rvufrui53JEzJcLdHZDZiAQ8waBYIgNxBcMfewsTyT_6d9tiQDHCEVrEft6jB7x6AKdWrqvzQ9PxWgIekMiPhoCNroKQ/live/f(i=2)/redeap/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://s03.video.glbimg.com/x720/2923546.jpg" group-title="GLOBO AO VIVO", Assistir G1 AC - Assista aos jornais da Rede Amazônica online | Globoplay
+https://live-as-10-02.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJVUyIsImRvbWFpbiI6ImxpdmUtYXMtMTAtMDIudmlkZW8uZ2xvYm8uY29tIiwiZXhwIjoxNzYxMjk3NTg0LCJpYXQiOjE3NjEyNzU5ODQsImlzcyI6InBsYXliYWNrLWFwaS1wcm9kLWdjcCIsIm93bmVyIjoiIiwicGF0aCI6Ii9saXZlL2YoaT0yKS9yZWRlYWMvcGxheWxpc3QubTN1OCJ9.Kzvl_ozVPrxXeeppqEWOpIxcKIFAAGH4DlljC_PV58LV7v-vEIcnUmZmhaDq_z_sNUNEhyZNNtpHRHUNtV1y65407AOr5VInhxv9iVnNN6i-a1OFfQBeY518kuaryxXNagupyZsyp2QUCHMzRupdd0FPyr_hZcPc7_3XiE_aVKrPrSAaMUNPZ-mVGXSIczu0uFSpjglFxS1CHzqs0ez72X6aGg1SWEqA-vJa_OPR80SIsQNelyvslGqxyc1ox08lYV-GV7ShNua6anlt5Lf8GPPUSIGqUBzvIWB_plvhBELIT8ypL9BlUSGPcUbAy6DETQUxd6soz3PbpoHzYMotJg/live/f(i=2)/redeac/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://s02.video.glbimg.com/x720/2168377.jpg" group-title="GLOBO AO VIVO", Assistir G1 PA - Assista aos telejornais da TV Liberal online | Globoplay
+https://live-as-02-22.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJVUyIsImRvbWFpbiI6ImxpdmUtYXMtMDItMjIudmlkZW8uZ2xvYm8uY29tIiwiZXhwIjoxNzYxMjk3NjAyLCJpYXQiOjE3NjEyNzYwMDIsImlzcyI6InBsYXliYWNrLWFwaS1wcm9kLWdjcCIsIm93bmVyIjoiIiwicGF0aCI6Ii9saXZlL2YoYk1pbj01NTg5NzYpL3R2bGliZXJhbC9wbGF5bGlzdC5tM3U4In0.G-0Gbf1wJkSU6xt3AnSqXzRGuuhYFUtWgIJFAA-deO53gfGMgQ-IvHrNS7JvlC8xnQAwILlPPk-H9IXrCoy6hMYtVmrS9_GwzX8kkTigCQDEuCWyvdugJH7EDDmsj4qNz5EO6I49wVmESA5jBXXJtQCmJ3b205fz7NMrVwVprFAs7RuEdJgTE3sxH7ZZA-xWF4IbufL5-U4nWh0CfgYhGfNdfJgYeCfUZnQYP69Stoz0Fvc6HABnoE2YbMu67KX6D6DNQOfjQHwRvKCT5OMnSPMdDhamxdmIgKFjJqu1rsSnX47S62QX50CRVh_URW6MyF5JuhDwZyiMjGJ4GFUCSQ/live/f(bMin=558976)/tvliberal/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://s04.video.glbimg.com/x720/992055.jpg" group-title="GLOBO AO VIVO", Assistir G1 ao vivo - Veja os vídeos que estão em alta no g1 online | Globoplay
+https://live-as-04-13.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJVUyIsImRvbWFpbiI6ImxpdmUtYXMtMDQtMTMudmlkZW8uZ2xvYm8uY29tIiwiZXhwIjoxNzYxMjk3NjIxLCJpYXQiOjE3NjEyNzYwMjEsImlzcyI6InBsYXliYWNrLWFwaS1wcm9kLWdjcCIsIm93bmVyIjoiIiwicGF0aCI6Ii9saXZlL2YoaT0yKS9nZWhkL3BsYXlsaXN0Lm0zdTgifQ.qJdXbIqIXKzdrWC7R38NNFc3FWkHanGzq7ORrCNxNshH7bYMJlzxoHXuJDtx_OwcC9rb52nxvwbYyDaEvNbJXEvBXS4nXlOMhMOGr33Zommzz1O6sJQ_OlVheGaUuy9HGrkeKHZmlnXClnStE4PQDrCV2Frfzkeov07-UCOK39v72jhNwZRILwy1NlSK8lomc7QISPsbH8nOqtz_uKHfMo1uMMoQi3iwFWrZZ2_BSYtRFtlZos5_kYTS25rVlldjbh4AmlhkRgmHAub5uDvUXxPaIOabdzxnQN5GKKNeYowoeYJeg0iUmrnX1ilFLXT0ij9NaDSz8l2o5aC-sc1cfA/live/f(i=2)/gehd/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://s02.video.glbimg.com/x720/602497.jpg" group-title="GLOBO AO VIVO", Assistir ge.globo - Transmissão ao vivo online | Globoplay
+https://live-as-04-13.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJVUyIsImRvbWFpbiI6ImxpdmUtYXMtMDQtMTMudmlkZW8uZ2xvYm8uY29tIiwiZXhwIjoxNzYxMjk3NjM4LCJpYXQiOjE3NjEyNzYwMzgsImlzcyI6InBsYXliYWNrLWFwaS1wcm9kLWdjcCIsIm93bmVyIjoiIiwicGF0aCI6Ii9saXZlL2YoaT0yKS9nZWhkL3BsYXlsaXN0Lm0zdTgifQ.A5BDYiBmZIm7Oyd_qfHZDg81V3rKlcSfgmgG2qNIOfG_u5ANc3pGpMInps5vQj_yz8YTnWR0EheBOgHydUgDUmkantX5CwbYlJAkSu__z9EzqpAxljudy000VHip6pjdNSaD3q8UKKMtbypaxRTXyR5Pt-qoxNATCPWExK47rV9UN3SpFu2n081VmUBbdZnWu_hbsArgKmwJLSHKLDBMaQrLdm3rdH62qmos6xgblW0wCb14krpwtey2ViT8zmvl8TvuozelmhIIWHZQ1zG9t5cNdzhdJsdoUHzGYinQtSQGppZVk5VV0Ua_H3zWobMxamsrSicVKYHljvy3Bew3Bw/live/f(i=2)/gehd/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://s01.video.glbimg.com/x720/10747444.jpg" group-title="GLOBO AO VIVO", Assistir CBN - CBN SP online | Globoplay
+https://live-as-02-01.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJVUyIsImRvbWFpbiI6ImxpdmUtYXMtMDItMDEudmlkZW8uZ2xvYm8uY29tIiwiZXhwIjoxNzYxMjk3Njc1LCJpYXQiOjE3NjEyNzYwNzUsImlzcyI6InBsYXliYWNrLWFwaS1wcm9kLWdjcCIsIm93bmVyIjoiIiwicGF0aCI6Ii9saXZlL2YoYk1pbj01NTg5NzYsZHZyPTEyMCkvY2Juc3AyNGhhL3BsYXlsaXN0Lm0zdTgifQ.PF6YVxJR5YEbnRHVxhUoBgmKX2l7O6nkQ53PXPusw0IVR-IzK6mKuAU9gnPrigT0XeMZV8G2Q-rJN5t_CD3J6Kr5eMorIsa5MYAC85cn0Ve82OqfoYaxAsw8Wo3_Kg5JV2SlrFZPxJ8qKssL2FWklSG9l-7GUT6dODdwf1xdNcXZ4qPJRMRzulhwXXkkaJGCjLaqtb2WCUR9wqvSIBpsxwCFZgHijr4U8W3rNeWe3OOMTrn3vjeavXagUKvOyAITFXoFxFs_x3VRn30E-Shova9OpBVLbPWlzqU8_0d4yVlMG92l6XYKGJXenu2c_V75lyBJIKcs8rV3yMq7WkXcUw/live/f(bMin=558976,dvr=120)/cbnsp24ha/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://s01.video.glbimg.com/x720/10740500.jpg" group-title="GLOBO AO VIVO", Assistir CBN - CBN RJ online | Globoplay
+https://live-as-09-15.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJVUyIsImRvbWFpbiI6ImxpdmUtYXMtMDktMTUudmlkZW8uZ2xvYm8uY29tIiwiZXhwIjoxNzYxMjk3NjkwLCJpYXQiOjE3NjEyNzYwOTAsImlzcyI6InBsYXliYWNrLWFwaS1wcm9kLWdjcCIsIm93bmVyIjoiIiwicGF0aCI6Ii9saXZlL2YoYk1pbj01NTg5NzYsZHZyPTEyMCkvY2JucmoyNGhhL3BsYXlsaXN0Lm0zdTgifQ.aKwATMw7K_LWXL_NRwkUXpmuGLT-2zNlscbXIPB-eBQtYqhhhM_zDDlcc3UYMU4WxFTnLCHnpV3Iu9_eRDEkTeSTb1ubgugA1RLeBSZE3FG0ul--KZkmc29JwmdNJNoldjBIvAdEIj_RWdLHu9lM26yHEp2tgcxDJFS_ISaozklWchr1BLuejYfBuftudeXs35LHG3-pY6BwrJF_YeiBjwPDnQiiOYgfIOTwPnhcy5tGS5GVynTckp1sLY01EQGVXS1Frk9IiQMvMXCJIF0T8ux3pKNmbuz7Dh7ekHU1yuUJdbclDpTBM24qf5zqX1Lub2_QUQ5ieeVkTkrjJjQQKw/live/f(bMin=558976,dvr=120)/cbnrj24ha/playlist.m3u8
