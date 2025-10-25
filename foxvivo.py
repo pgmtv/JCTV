@@ -194,9 +194,9 @@ def extract_m3u8_from_source(driver):
             r"\'(https?://[^\\]+?\.m3u8[^\\]*)\'",
             r"src=\"(https?://[^\"]+?\.m3u8[^\"]*)\"",
             r"src=\\'(https?://[^\\]+?\.m3u8[^\\]*)\\'",
-            r"url:\s*[\"'](https?://[^\"']+?\.m3u8[^\"']*)["']",
-            r"source:\s*[\"'](https?://[^\"']+?\.m3u8[^\"']*)["']",
-            r"file:\s*[\"'](https?://[^\"']+?\.m3u8[^\"']*)["']"
+            r"url:\s*['\"](https?://[^'\"]+?\.m3u8[^'\"]*)['\"]",
+            r"source:\s*['\"](https?://[^'\"]+?\.m3u8[^'\"]*)['\"]",
+            r"file:\s*['\"](https?://[^'\"]+?\.m3u8[^'\"]*)['\"]"
         ]
 
         for pattern in m3u8_patterns:
