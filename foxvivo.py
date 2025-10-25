@@ -178,19 +178,31 @@ def extract_m3u8_from_network(driver):
             if any(x in u.lower() for x in ["master", "playlist", "index"]):
                 return u
         if urls:
-            return u        html = driver.page_source
+            return urls[0]
+    except Exception as e:
+        print(f"Erro ao extrair m3u8 dos logs: {e}")
+    return None
+
+
+def extract_m3u8_from_source(driver):
+    """Extrai URLs .m3u8 do código-fonte."""
+    try:
+        html = driver.page_source
         m3u8_patterns = [
-            r"https?://[^\s"'<>]+?\.m3u8[^\s"'<>]*",
-            r"(https?://[^"]+?\.m3u8[^"]*)",
-            r"(https?://[^\]+?\.m3u8[^\]*)",
-            r"src=(https?://[^"]+?\.m3u8[^"]*)",
-            r"src=(https?://[^\]+?\.m3u8[^\]*)",
-            r"url:\s*["'](https?://[^"]+?\.m3u8[^"]*)["']",
-            r"source:\s*["'](https?://[^"]+?\.m3u8[^"]*)["']",
-            r"file:\s*["'](https?://[^"]+?\.m3u8[^"]*)["']"
+            r"https?://[^\s\"\'<>]+?\.m3u8[^\s\"\'<>]*",
+            r"\"(https?://[^\"]+?\.m3u8[^\"]*)\"",
+            r"\'(https?://[^\\]+?\.m3u8[^\\]*)\'",
+            r"src=\"(https?://[^\"]+?\.m3u8[^\"]*)\"",
+            r"src=\\'(https?://[^\\]+?\.m3u8[^\\]*)\\'",
+            r"url:\s*[\"'](https?://[^\"']+?\.m3u8[^\"']*)["']",
+            r"source:\s*[\"'](https?://[^\"']+?\.m3u8[^\"']*)["']",
+            r"file:\s*[\"'](https?://[^\"']+?\.m3u8[^\"']*)["']"
         ]
 
-        for pattern in m3u8_patterns:              if isinstance(matches[0], tuple):
+        for pattern in m3u8_patterns:
+            matches = re.findall(pattern, html, re.IGNORECASE)
+            if matches:
+                if isinstance(matches[0], tuple):
                     return matches[0][0] if matches[0][0] else matches[0]
                 return matches[0]
     except Exception as e:
