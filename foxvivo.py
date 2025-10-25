@@ -189,19 +189,29 @@ def extract_m3u8_from_source(driver):
     try:
         html = driver.page_source
         m3u8_patterns = [
+            # Padrão 1: URL .m3u8 simples
             r"https?://[^\s\"\'<>]+?\.m3u8[^\s\"\'<>]*",
+            # Padrão 2: URL .m3u8 entre aspas duplas
             r"\"(https?://[^\"]+?\.m3u8[^\"]*)\"",
+            # Padrão 3: URL .m3u8 entre aspas simples
             r"\'(https?://[^\\]+?\.m3u8[^\\]*)\'",
+            # Padrão 4: URL .m3u8 em atributo src com aspas duplas
             r"src=\"(https?://[^\"]+?\.m3u8[^\"]*)\"",
+            # Padrão 5: URL .m3u8 em atributo src com aspas simples escapadas
             r"src=\\'(https?://[^\\]+?\.m3u8[^\\]*)\\'",
+            # Padrão 6: URL .m3u8 em JSON/JS com 'url'
             r"url:\s*['\"](https?://[^'\"]+?\.m3u8[^'\"]*)['\"]",
+            # Padrão 7: URL .m3u8 em JSON/JS com 'source'
             r"source:\s*['\"](https?://[^'\"]+?\.m3u8[^'\"]*)['\"]",
+            # Padrão 8: URL .m3u8 em JSON/JS com 'file'
             r"file:\s*['\"](https?://[^'\"]+?\.m3u8[^'\"]*)['\"]"
         ]
 
         for pattern in m3u8_patterns:
             matches = re.findall(pattern, html, re.IGNORECASE)
             if matches:
+                # O re.findall pode retornar uma lista de tuplas se houver grupos de captura
+                # Tentamos pegar o primeiro grupo, que é o URL
                 if isinstance(matches[0], tuple):
                     return matches[0][0] if matches[0][0] else matches[0]
                 return matches[0]
@@ -346,7 +356,7 @@ def main():
 
             if m3u8_url:
                 thumb = thumb or ""
-                f.write(f\'#EXTINF:-1 tvg-logo="{thumb}" group-title="FOX NEWS VIDEO", {title}\n\')
+                f.write(f'#EXTINF:-1 tvg-logo="{thumb}" group-title="FOX NEWS VIDEO", {title}\n')
                 f.write(f"{m3u8_url}\n")
                 print(f"✅ Sucesso: {title}")
             else:
