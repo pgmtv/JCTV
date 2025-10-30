@@ -290,8 +290,50 @@ def get_foxnews_live_streams(driver):
         except Exception as e:
             print(f"Erro ao processar URL de live {url}: {e}")
 
-    return list(final_filtered_urls)
+    # Retornar uma lista de tuplas (url_stream, url_pagina)
+    return list(set([(u, url) for u in live_urls for url in potential_live_pages if u in final_filtered_urls]))
 
+
+def extract_logo_from_page(driver):
+    """Extrai o URL do logo do canal ou thumbnail da página."""
+    logo = None
+    # Seletores comuns para logo/thumbnail em páginas de vídeo
+    logo_selectors = [
+        "meta[property='og:image']", # Imagem principal da página
+        "meta[name='twitter:image']",
+        "meta[name='thumbnail']",
+        "img[alt*='logo']",
+        "img[src*='logo']",
+        "img[src*='thumbnail']",
+        "img[class*='logo']"
+    ]
+    
+    for selector in logo_selectors:
+        try:
+            element = driver.find_element(By.CSS_SELECTOR, selector)
+            if element.tag_name == "meta":
+                logo = element.get_attribute("content")
+            else:
+                logo = element.get_attribute("src")
+            
+            if logo and logo.startswith("http"):
+                print(f"Logo/Thumbnail encontrado via seletor {selector}: {logo}")
+                return logo
+        except Exception:
+            continue
+            
+    # Tentar extrair de logs de rede (menos confiável para logo)
+    try:
+        logs = driver.execute_script("return window.performance.getEntriesByType(\'resource\');")
+        for entry in logs:
+            name = entry.get("name", "")
+            if any(ext in name.lower() for ext in [".jpg", ".png", ".webp"]) and ("logo" in name.lower() or "thumb" in name.lower()):
+                print(f"Logo/Thumbnail encontrado via log: {name}")
+                return name
+    except Exception:
+        pass
+        
+    return None
 
 def extract_foxnews_data(url):
     """Extrai título, .m3u8 e thumbnail de um vídeo Fox News."""
@@ -311,14 +353,9 @@ def extract_foxnews_data(url):
 
         m3u8 = extract_m3u8_from_network(driver) or extract_m3u8_from_source(driver)
         title = driver.title
-
-        thumb = None
-        logs = driver.execute_script("return window.performance.getEntriesByType(\'resource\');")
-        for entry in logs:
-            name = entry.get("name", "")
-            if any(ext in name.lower() for ext in [".jpg", ".png", ".webp"]) and "thumb" in name.lower():
-                thumb = name
-                break
+        
+        # Chamada para a nova função de extração de logo
+        thumb = extract_logo_from_page(driver)
 
         return title, m3u8, thumb
     except Exception as e:
@@ -336,38 +373,74 @@ def main():
     print("Iniciando extração de streams ao vivo da Fox News...")
 
     driver_main = webdriver.Chrome(options=options)
-    live_stream_urls = get_foxnews_live_streams(driver_main)
+    live_stream_data = get_foxnews_live_streams(driver_main) # Retorna (url_stream, url_pagina)
     driver_main.quit()
 
-    print(f"Foram encontrados {len(live_stream_urls)} streams ao vivo.")
+    print(f"Foram encontrados {len(live_stream_data)} potenciais streams ao vivo.")
+
+    # Usar um set para armazenar os dados finais e evitar duplicatas
+    final_stream_data = set() 
+
+    # URLs a serem filtrados
+    invalid_url_keywords = ["ping.chartbeat.net", "iframe/vod.html"]
+
+    for m3u8_url, page_url in live_stream_data:
+        # Filtrar URLs inválidos
+        if any(keyword in m3u8_url for keyword in invalid_url_keywords):
+            print(f"❌ Ignorando URL inválido/de rastreamento: {m3u8_url}")
+            continue
+
+        print("=" * 60)
+        print(f"Processando stream: {m3u8_url} (Página: {page_url})")
+        print("=" * 60)
+        
+        # Reutilizar a função extract_foxnews_data para obter o logo/thumbnail da página
+        # Nota: A função extract_foxnews_data agora espera o URL da página, não o URL do stream
+        # Como a função original extrai o m3u8, vamos adaptar a lógica
+
+        # Criar um driver temporário para extrair o logo/thumbnail da página
+        driver_temp = None
+        try:
+            driver_temp = webdriver.Chrome(options=options)
+            driver_temp.execute_script("Object.defineProperty(navigator, \'webdriver\', {get: () => undefined})")
+            driver_temp.get(page_url)
+            time.sleep(5)
+            handle_cookie_consent(driver_temp)
+            
+            # Extrair logo/thumbnail
+            thumb = extract_logo_from_page(driver_temp)
+            title = driver_temp.title
+            
+        except Exception as e:
+            print(f"Erro ao extrair dados da página {page_url}: {e}")
+            thumb = None
+            title = f"Fox News Live Stream - {page_url.split('/')[-1]}"
+        finally:
+            if driver_temp:
+                driver_temp.quit()
+
+        if m3u8_url:
+            thumb = thumb or ""
+            # O título pode ser muito longo, vamos tentar pegar o que está em "On Air Now" se possível,
+            # mas por enquanto, usamos o título da página.
+            final_stream_data.add((m3u8_url, title, thumb))
+            print(f"✅ Sucesso: {title} | Logo: {thumb}")
+        else:
+            print(f"❌ M3U8 não encontrado para {page_url}")
+
+        time.sleep(5)
 
     with open("lista_foxnews.m3u", "w", encoding="utf-8") as f:
         f.write("#EXTM3U\n")
+        
+        for m3u8_url, title, thumb in final_stream_data:
+            f.write(f'#EXTINF:-1 tvg-logo="{thumb}" group-title="FOX NEWS VIDEO", {title}\n')
+            f.write(f"{m3u8_url}\n")
 
-        for url in live_stream_urls:
-            print("=" * 60)
-            print(f"Processando: {url}")
-            print("=" * 60)
-            # Para streams ao vivo, o título pode ser genérico, e o m3u8_url já é o próprio url
-            # Vamos tentar obter um título melhor se possível, mas o foco é o URL do stream
-            title = f"Fox News Live Stream {live_stream_urls.index(url) + 1}"
-            m3u8_url = url
-            thumb = None # Pode ser difícil obter um thumbnail específico para streams ao vivo sem uma API
-
-            if m3u8_url:
-                thumb = thumb or ""
-                f.write(f'#EXTINF:-1 tvg-logo="{thumb}" group-title="FOX NEWS VIDEO", {title}\n')
-                f.write(f"{m3u8_url}\n")
-                print(f"✅ Sucesso: {title}")
-            else:
-                print(f"❌ M3U8 não encontrado para {url}")
-
-            time.sleep(5)
 
     print("\n" + "=" * 60)
-    print("✅ Processamento concluído! Arquivo salvo como: lista_foxnews.m3u")
+    print(f"✅ Processamento concluído! {len(final_stream_data)} streams válidos salvos em: lista_foxnews.m3u")
     print("=" * 60)
-
 
 if __name__ == "__main__":
     main()
