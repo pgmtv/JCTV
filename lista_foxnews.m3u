@@ -1,7 +1,7 @@
 #EXTM3U
-#EXTINF:-1 tvg-logo="https://a57.foxnews.com/static.foxnews.com/static/orion/styles/img/fox-news/og/1024/512/og-fox-news.png?ve=1&tl=1" group-title="FOX NEWS VIDEO", Latest Breaking News Videos | Fox News Video
-https://247.foxnews.com/hls/live/2003586/FNCHLSv3/master.m3u8
 #EXTINF:-1 tvg-logo="https://static.foxnews.com/static/orion/styles/img/fox-news/og/og-fox-news.png" group-title="FOX NEWS VIDEO", Fox News Go | Watch Fox News Live Online
+https://247.foxnews.com/hls/live/2003586/FNCHLSv3/master.m3u8
+#EXTINF:-1 tvg-logo="https://a57.foxnews.com/static.foxnews.com/static/orion/styles/img/fox-news/og/1024/512/og-fox-news.png?ve=1&tl=1" group-title="FOX NEWS VIDEO", Latest Breaking News Videos | Fox News Video
 https://247.foxnews.com/hls/live/2003586/FNCHLSv3/master.m3u8
 #EXTINF:-1 tvg-logo="https://static.foxnews.com/foxnews.com/content/uploads/2022/09/Fox-News-Live.png" group-title="FOX NEWS VIDEO", FOX News Live | Fox News
 https://247.foxnews.com/hls/live/2003586/FNCHLSv3/master.m3u8
